@@ -1,0 +1,88 @@
+// @import '../../../../constants/Styles.scss';
+@import '../../../../constants/Colors.scss';
+
+.game-card {
+    margin-bottom: 25px;
+
+    .version {
+        color: $grey;
+        font-size: 1rem;
+    }
+
+    /*** Buttons ***/
+    .browser.btn-outline-primary {
+        border-color: $browser;
+        color: $browser;
+    }
+    .browser.btn-outline-primary:hover {
+        border-color: $browser;
+        background-color: $browser;
+        color: $white-impossible;
+    }
+    .browser.btn-outline-primary:active {
+        border-color: $browser !important;
+        background-color: darken($browser, 5) !important;
+    }
+
+    .windows.btn-outline-primary {
+        border-color: $windows;
+        color: $windows;
+    }
+    .windows.btn-outline-primary:hover {
+        border-color: $windows;
+        background-color: $windows;
+        color: $white-impossible;
+    }
+    .windows.btn-outline-primary:active {
+        border-color: $windows !important;
+        background-color: darken($windows, 5) !important;
+    }
+
+    .mac.btn-outline-primary {
+        border-color: $mac;
+        color: $mac;
+    }
+    .mac.btn-outline-primary:hover {
+        border-color: $mac;
+        background-color: $mac;
+        color: $white-impossible;
+    }
+    .mac.btn-outline-primary:active {
+        border-color: $mac !important;
+        background-color: darken($mac, 5) !important;
+    }
+
+    .android.btn-outline-primary {
+        border-color: $android;
+        color: $android;
+    }
+    .android.btn-outline-primary:hover {
+        border-color: $android;
+        background-color: $android;
+        color: $white-impossible;
+    }
+    .android.btn-outline-primary:active {
+        border-color: $android !important;
+        background-color: darken($android, 5) !important;
+    }
+    .android.btn-outline-primary:focus {
+        box-shadow: 0 0 0 0 !important;
+    }
+
+    .ios.btn-outline-primary {
+        border-color: $ios;
+        color: $ios;
+    }
+    .ios.btn-outline-primary:hover {
+        border-color: $ios;
+        background-color: $ios;
+        color: $white-impossible;
+    }
+    .ios.btn-outline-primary:active {
+        border-color: $ios !important;
+        background-color: $ios2 !important;
+    }
+    .ios.btn-outline-primary:focus {
+        box-shadow: 0 0 0 0 !important;
+    }
+}

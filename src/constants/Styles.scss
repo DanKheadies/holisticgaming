@@ -1,0 +1,26 @@
+@import './Colors.scss';
+
+.center-content { 
+    text-align: center;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.primary-link {
+    color: $black;
+    text-decoration: underline;
+}
+.primary-link:hover {
+    color: $black-darkest;
+    text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+
+    @media screen and (prefers-reduced-motion: reduce) {
+        scroll-behavior: auto;
+    }
+}

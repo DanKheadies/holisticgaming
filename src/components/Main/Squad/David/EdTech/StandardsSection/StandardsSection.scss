@@ -1,0 +1,27 @@
+// @import '../../../../../../constants/Styles.scss';
+@import '../../../../../../constants/Colors.scss';
+
+.standards-section {
+    .header {
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .image {
+        border: 1px solid $grey;
+        margin: 0 0 20px 0;
+        width: 80%;
+    }
+
+    .image-link:hover .image {
+        border: 1px solid $black-darkest;
+    }
+
+    .indicator-text {
+        margin: 0;
+    }
+
+    .title {
+        font-weight: 600;
+    }
+}

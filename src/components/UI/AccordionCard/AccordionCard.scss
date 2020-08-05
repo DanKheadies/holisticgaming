@@ -1,0 +1,30 @@
+// @import '../../../constants/Styles.scss';
+@import '../../../constants/Colors.scss';
+
+.accordion-card {
+    .card-header {
+        align-items: center;
+        background-color: $black;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .chevron {
+        transform: rotateX(0deg);
+        transition: transform 0.333s linear;
+    }
+    .chevron.open{
+        transform: rotateX(180deg);
+        transition: transform 0.333s linear;
+    }
+
+    h5 {
+        color: $white;
+        margin: 0.333rem 0;
+    }
+
+    .icon {
+        color: $white;
+    }
+}

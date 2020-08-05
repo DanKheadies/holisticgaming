@@ -1,0 +1,13 @@
+@import '../../constants/Colors.scss';
+
+.logo {
+    background-image: radial-gradient($white-lightest 45%, $black-darkest 75%);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 5px;
+    
+    img {
+        height: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+
+.scrollTop {
+    animation: fadeIn 0.3s;
+    bottom: 55px;
+    cursor: pointer;
+    position: fixed; 
+    height: 20px;
+    opacity: 0.5;
+    right: 15px;
+    transition: opacity 0.4s;
+    width: 50px;
+    z-index: 1000;
+}
+    
+.scrollTop:hover{
+    opacity: 1;
+}
+    
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}

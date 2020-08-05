@@ -1,0 +1,19 @@
+@import '../../constants/Colors.scss';
+
+.section-content {
+    padding: 10px;
+}
+
+.section-header {
+    background: $black;
+    border-radius: 8px;
+    color: $white-lightest;
+    font-weight: 500;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.section-spacer {
+    height: 20px;
+}

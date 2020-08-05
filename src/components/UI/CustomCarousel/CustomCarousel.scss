@@ -1,0 +1,22 @@
+@import '../../../constants/Colors.scss';
+
+.custom-carousel {
+    .carousel-caption {
+        bottom: 0px;
+    }
+    .carousel-caption-spacer {
+        height: 75px;
+    }
+
+    .carousel-header {
+        color: $black;
+    }
+}
+
+.custom-carousel.carousel {
+    padding-bottom: 50px;
+}
+
+.custom-carousel.last-carousel {
+    padding-bottom: 0px;
+}

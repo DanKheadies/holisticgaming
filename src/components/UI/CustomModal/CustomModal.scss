@@ -1,0 +1,23 @@
+@import '../../../constants/Colors.scss';
+
+.custom-modal {
+    background-color: $white-lightest;
+    border: 1px solid $grey;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px $black;
+    box-sizing: border-box;
+    height: 50%;
+    left: 15%;
+    overflow-y: scroll;
+    padding: 30px;
+    position: fixed;
+    top: 25%;
+    transition: all 0.3s ease-out;
+    width: 70%;
+    z-index: 500;
+
+    @media (min-width: 600px) {
+        left: calc(50% - 250px);
+        width: 500px;
+    }
+}

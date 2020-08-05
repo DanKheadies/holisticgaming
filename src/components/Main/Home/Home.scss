@@ -1,0 +1,30 @@
+.carousel-inner {
+    .carousel-item {
+        display: block;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        transition: opacity 1s ease-in-out;
+        width: 100%;
+
+        &:first-of-type {
+            position: relative;
+        }
+    }
+  
+    .active {
+        opacity: 1;
+    }
+
+    .carousel-image {
+        max-width: 475px;
+        width: 100%;
+    }
+}
+
+.home-section {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

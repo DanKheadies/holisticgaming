@@ -1,0 +1,62 @@
+@import '../../../constants/Colors.scss';
+
+.side-drawer {
+    background-color: $black-darkest;
+    box-sizing: border-box;
+    height: 100%;
+    max-width: 70%;
+    padding: 16px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s ease-out;
+    width: 280px;
+    z-index: 200;
+
+    @media (min-width: 500px) {
+        display: none;
+    }
+
+    .logo-side-drawer {
+        height: 10%;
+        margin-bottom: 24px;
+    
+        .logo {
+            margin: 0 auto;
+            width: 70px;
+            height: 90%;
+        }
+    }    
+
+    .navigation-items {
+        text-align: center;
+        
+        .navigation-item {
+            border: 1px solid $white;
+            border-radius: .2rem;
+
+            :hover {
+                background-color: $white;
+                color: $black;
+            }
+
+            :active {
+                background-color: $white-lightest;
+                color: $black-darkest;
+            }
+
+            a {
+                line-height: 2rem;
+                text-decoration: none;
+            }   
+        }
+    }
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.close {
+    transform: translateX(100%);
+}

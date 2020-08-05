@@ -1,0 +1,19 @@
+@import '~video-react/styles/scss/video-react';
+
+.pixatool {
+    .media-container {
+        padding-bottom: 50px;
+        text-align: center;
+    
+        .pixatool-gif {
+            margin: 0 auto;
+            max-height: 550px;
+            max-width: 100%;
+            padding-bottom: 15px;
+        }
+    
+        .pixatool-media {
+            margin-bottom: 15px;
+        }
+    }
+}

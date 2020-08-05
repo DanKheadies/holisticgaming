@@ -1,0 +1,27 @@
+@import '../../../constants/Colors.scss';
+
+.sub-navigation {
+    align-items: center;
+    background-color: $white-lightest;
+    box-sizing: border-box;
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    padding: 0 20px;
+    position: relative;
+    top: -16px;
+    width: 100%;
+
+    a {
+        padding: 16px 20px;
+    }
+    a:hover {
+        background-color: $white;
+    }
+    a:active,
+    a.active {
+        color: $black-darkest;
+        text-decoration: none;
+        
+    }
+}
