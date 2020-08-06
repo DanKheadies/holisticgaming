@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Accessibility thru Games</title>
+
+  
+<!-- David Corso. corsod@email.sc.edu. 4/21/14 -->
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="projectCSS.css">
+
+  
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  
+  <script type="text/javascript">
+// Many thanks to Nathan Rohler at http://www.dwuser.com/education/content/creating-a-floating-navigation-menu/ for his help with the floating navigation bar
+$(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#navigation-bar');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+// Many thanks to Phillip Schmidt at http://stackoverflow.com/questions/14915653/refresh-page-on-resize-with-javascript for his help with resizing navigation bar, i.e. refreshing the browser window after a resize-->
+$(window).on('resize',function(){location.reload();});
+  </script>
+</head><body>
+<div style="padding: 15px; text-align: center;"><a href="#skipNavigation" style="color: white; font-size: 1px;">skip
+navigation</a>
+<a href="https://www.holisticgaming.com/ET735/"> <img src="images/immunis.png" alt="Immunis"></a></div>
+
+<div style="height: 50px;">
+<div id="navigation-bar">
+<table>
+  <tbody>
+    <tr style="text-align: center;">
+      <td>
+      <div id="navigation">
+      <ul>
+        <li><a href="https://www.holisticgaming.com/ET735/">Home</a></li>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#cognition">Cognition</a></li>
+        <li><a href="#immunis">Immunis</a></li>
+      </ul>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<div id="mainContent">
+<div id="abstract"><br>
+<h3><a name="skipNavigation">Abstract</a></h3>
+<p style="padding-left: 4.2%;">Video games are media-rich tools that
+make learning more accessible for individuals with cognitive
+disabilities.</p>
+</div>
+<div><a name="overview" style="position: relative; top: -50px;"></a>
+</div>
+<br>
+<br>
+<div id="main">
+<h3>Overview</h3>
+Video games and video game play make learning more accessible by<sup>1</sup>:
+<ul>
+  <li>Presenting information in a variety of ways</li>
+  <li>Providing several ways to plan and perform tasks</li>
+  <li>And by motivating and engaging players</li>
+</ul>
+This style
+of learning facilitates all types of learners, and it is
+especially helpful for individuals dealing with physical and cognitive
+disabilities. A person with a cognitive disability has
+difficulty using mental abilities to execute mental tasks, such as
+sustaining attention, remembering information, comprehending text, and
+so on. Cognitive disabilities range in severity and diagnosis, and in
+order to be effective, treatment needs to affect both neurological
+structures as well as psychological behaviors<sup>2</sup>.
+Fortunately,
+video games affect physical and cognitive domains, and they are
+flexible and sophisticated enough to accommodate an array of cognitive
+disabilities. I am designing a video game, Immunis, that trains various
+mental abilities.
+<div><a name="design" style="position: relative; top: -50px;"></a></div>
+<br>
+<br>
+<h3>Naturally Designed for Universal Learning</h3>
+Games and play are naturally designed for learners of any age,
+ethnicity, or intelligence. Games contain goals, rules, challenges,
+feedback, voluntary participation, and result in a quantifiable
+outcome<sup>3,4,5</sup>. Video games are a complex form of
+digital
+media that incorporates these gamic properties, and as a media-rich
+tool, video games provide equal opportunities for players to train and
+develop mental abilities. Video games present information in a number
+of ways:
+<ul>
+  <li>Visual and auditory cues</li>
+  <li>Repeatable experiences</li>
+  <li>Logs and menus</li>
+  <li>Short-term objectives and long-term goals</li>
+  <li>Stories and adventures</li>
+  <li>Real-time action vs. turn-based strategy</li>
+  <li>Scalable difficulty</li>
+  <li>Individual and multiplayer game play</li>
+  <li>Competition and cooperation</li>
+  <li>And in other various ways</li>
+</ul>
+Video games and video game play make information interactive, which
+allows a player to recognize and understand that information in a
+personal way (Figure 1 - Column 1). Players learn, plan, and execute
+physical and mental tasks in order to achieve goals and objectives.
+Each action in a video game is coupled with immediate feedback, and
+this feedback promotes deliberate learning and mastery towards the task
+at hand<sup>6</sup> (Figure 1 - Column 2). Video game
+play is naturally challenging and rewarding, and video games engage and
+motivate players to invest time and energy in that video game play
+experience<sup>7,8,9,10</sup> (Figure 1 - Column 3). By using
+these
+innate characteristics of video games, we can entice players to
+exercise and train cognitive skills, which can help treat a number of
+cognitive disabilities<sup>1</sup>.
+<br>
+<br>
+<div class="images">
+<img src="images/UDL.png" alt="Universal Design for Learning Guidelines" class="image"></div>
+<div class="imageText"><i>Figure 1: The Universal Design for Learning
+Guidelines depict three main principles: Respresentation, Action, and
+Engagement.</i><a name="cognition" style="position: relative; top: -50px;"></a>
+</div>
+<br>
+<br>
+<h3>Cognition</h3>
+Cognition is defined as the mental processes associated with memory,
+language, perception, attention, problem solving, decision-making,
+and reasoning<sup>11</sup>. Cognition develops through bottom-up and
+top-down processes (Figure 2). The bottom-up process is input and data
+driven, which
+involves perceiving the world, remembering features and characteristics
+about it, and navigating the environment. The top-down process applies
+previously learned knowledge to affect perception, memory, problem
+solving, decision-making, and the like<sup>11</sup>. Video game play
+challenges these processes and drives cognitive development. Through a
+cyclical flow
+of bottom-up and top-down processing, a player perceives and interacts
+with the video game environment--processing bottom-up--and in order to
+succeed in the game, s/he must solve problems and use several cognitive
+skills to overcome obstacles and challenges--processing top-down.
+<br>
+<br>
+<div class="images"><img src="images/BottomTop.png" alt="Bottom Up and Top Down Processing" class="image"><br>
+<div class="imageText"><i>Figure 2: Sensory information activates
+neurons (bottom circles) that 'talk' to more neurons. Information is
+stored between these connections. Thinking (top circles) activates and
+controls that information.</i>
+</div>
+</div>
+<br>
+According to the CHC theory of cognitive abilities, human cognition
+exists on three levels or stratum<sup>12,13</sup>. The largest,
+most
+encompassing level is the General stratum, or <i>g</i>, which
+represents a person's general intelligence. The next level down is the
+Broad stratum, which includes 9+ clusters of cognitive abilities. The
+lowest level is the Narrow stratum, which includes 70+ cognitive
+abilities. Different theories and psychometeric tests identify Broad
+and Narrow abilities differently<sup>7,14,15,16</sup>.
+Following the
+Woodcock-Johnson III - Tests of Cognitive Abilities, there are 7 Broad
+clusters and a number of Narrow abilities that can be tested and
+analyzed. They include<sup>15,16</sup>:
+<br>
+<ol>
+  <li><b>Crystallized Intelligence</b> or <b>Comprehension-Knowledge</b>
+(<i>Gc</i>): the breadth and depth of one's acquired knowledge; how
+well one reasons and communicates that knowledge</li>
+  <ul>
+    <li>Declarative knowledge</li>
+    <ul>
+      <li>Factual information</li>
+      <li>Comprehension</li>
+      <li>Rules</li>
+    </ul>
+    <li>Procedural knowledge</li>
+    <ul>
+      <li>Operational skills</li>
+    </ul>
+  </ul>
+  <li><b>Fluid Reasoning</b> (<i>Gf</i>): the ability to reason, form
+concepts, and solve problems using novel information and procedures</li>
+  <ul>
+    <li>Inductive reasoning</li>
+    <li>Deductive reasoning</li>
+    <li>Identifying relationships</li>
+    <li>Drawing inferences</li>
+  </ul>
+  <li><b>Short-Term Memory</b> (<i>Gsm</i>): the ability to
+perceive and hold information in immediate awarness and use it within a
+few seconds</li>
+  <ul>
+    <li>Memory span</li>
+    <li>Working memory</li>
+  </ul>
+  <li><b>Long-Term Retrieval</b> (<i>Glm</i>): the ability
+to store information as well as retrieve and use that information while
+thinking</li>
+  <ul>
+    <li>Associative memory</li>
+    <li>Meaningful memory</li>
+    <li>Associative fluency</li>
+    <li>Naming facility</li>
+  </ul>
+  <li><b>Visual-Spatial Thinking</b> or <b>Visual
+Processing</b> (<i>Gv</i>): the ability to perceive, analyze,
+synthesize, and discriminate visual patterns as well as store and
+recall visual representations</li>
+  <ul>
+    <li>Mentally manipulate objects and patterns</li>
+    <li>Identify obscure or vague representations</li>
+    <li>Visual memory</li>
+  </ul>
+  <li><b>Auditory Processing</b> (<i>Ga</i>): the
+ability to analyze, synthesize, and discriminate auditory stimuli as
+well as discern speech sounds</li>
+  <ul>
+    <li>Discriminate speech sounds</li>
+    <li>Discriminate tones</li>
+    <li>Temporally track auditory events</li>
+  </ul>
+  <li><b>Processing Speed</b> (<i>Gs</i>): the
+ability to perform automatic cognitive tasks (for ~2-3 minutes) while
+sustaining focused attention</li>
+  <ul>
+    <li>Perceptual speed</li>
+    <li>Rate-of-test-taking</li>
+    <li>Associative fluency</li>
+    <li>Naming facility</li>
+  </ul>
+</ol>
+There are more Broad and Narrow abilities, and this list provides an
+example of various cognitive domains that can be tested, analyzed, and
+understood. <br>
+<br>
+By nature and by nurture, some individuals possess limited or severely
+limited cognitive abilities. A number of neurological and behavior
+factors contribute to clinical conditions such as attention deficit
+disorder (ADD), severe clinical conditions like traumatic brain injury
+(TBI), and functional disabilities that deal with specific cognitive
+domains such as memory deficits<sup>1</sup>. These individuals are
+mentally limited in specific ways, and their treatment typically ranges
+from pharmalogical medication to behavioral therapy. By affecting both
+physical and psychological processes, video games and video game play
+act as a form of prevention and treatment for cognitive growth.
+Multiple observations report
+cognitive and physical changes from video game play<sup>9,17,18,19,20,21,22,23,24,25</sup>,
+and
+supports the idea that video games train and develop cognitive
+abilities, and video game play provides a treatment as well as
+prevention option to cognitive disabilities. As researchers and
+designers learn how video game
+elements and architectures train Broad and Narrow cognitive abilities,
+individuals with cognitive disabilities will be able to receive
+treatment through video game play.
+<div><a name="immunis" style="position: relative; top: -50px;"></a></div>
+<br>
+<br>
+<h3>Immunis - a Holistic Game</h3>
+I purpose that we can study the affect of video game play on cognitive
+domains, and through extensive research, we can design video game
+systems to accommodate cognitive needs at an individual level. In order
+to do that, I will investigate and experiment with a <a href="http://66.147.244.111/%7Eimmunisg/ET703/VideoGames/HolisticGaming.html" title="Holistic Gaming definition">holistic game</a>:
+Immunis. Immunis is a strategy game where in a player
+experiences and directs an immune response. The player controls several
+leukocytes, i.e. white blood cells with unique abilities, and defends
+the body from an infection. This is a video of Immunis:
+<br>
+<br>
+<div class="video">
+<object height="420" width="315"><iframe src="//www.youtube.com/embed/G2pQn5tZk-M?rel=0" allowfullscreen="" frameborder="0" height="315" width="420"></iframe></object></div>
+<div class="imageText">
+<i>Video 1: Immunis 0.0 Stage 1</i>
+</div>
+<br>
+<br>
+As a holistic game, Immunis will:
+<ol>
+  <li>Provide educational value and pedagogical support for immunology
+specific information</li>
+  <li>Help prevent illnesses, e.g. lung cancer, by making the player
+cognizant of how these illnesses arise as well as the damage they cause</li>
+  <li>Assess cognitive growth and development</li>
+</ol>
+<br>
+<br>
+<h3>References:</h3>
+<ol>
+  <li>About UDL.
+(n.d.). In CAST. Retrieved from<a href="http://www.cast.org/udl/" target="_blank">
+http://www.cast.org/udl/</a></li>
+  <li>Cognitive Disabilities. (2013). In
+WebAIM. Retrieved from <a href="http://webaim.org/articles/cognitive/" target="_blank">http://webaim.org/articles/cognitive/</a></li>
+  <li>Game. (n.d.). In Oxford Dictionaries. Retrieved from <a class="break-word" href="http://oxforddictionaries.com/definition/english/game?q=game">http://oxforddictionaries.com/definition/english/game?q=game</a></li>
+  <li>McGonigal, J. (2011). Reality is broken: Why games make us
+better and how they can change the world. New York, NY: The Penguin
+Group. </li>
+  <li>Salen, K., &amp; Zimmerman, E. (2004). Rules of play: Game
+design fundamentals. Cambridge, MA: The MIT Press. </li>
+  <li>Ericsson, K.,
+Krampe, R., &amp; Tesch-Romer, C. (1993). The role
+of deliberate practice in the acquisition of expert performance.
+Psychological Review, 100(3), 363-406.</li>
+  <li>Dignan, A.
+(2011). Game frame: Using games as a strategy for
+success. New York, NY: FREE PRESS.</li>
+  <li>Gazzaniga, M.,
+Ivry, R., &amp; Mangun, G. (2009). Cognitive
+neuroscience: The biology of the mind. New York, NY: W. W. Norton &amp;
+Company, Inc.</li>
+  <li>Kalat, J. (2013).
+Biological Psychology (11th ed.). Belmont, CA:
+Wadsworth Cengage Learning.</li>
+  <li>Linden, D.
+(2011). The compass of pleasure: How our brains make
+fatty foods, orgasm, exercise, marijuana, generosity, vodka, learning,
+and gambling feel so good. New York, NY: the Penguin Group.</li>
+  <li>Goldstein, E.
+(2011). Cognitive psychology: Connecting mind,
+research, and everyday experience. Belmont, CA: Wadsworth, Cengage
+Learning.</li>
+  <li>Cattel-Horn-Carroll theory. (n.d.). In <i>Wikipedia: The
+free
+encyclopedia</i>. Retrieved from <a href="http://en.wikipedia.org/wiki/Cattell-Horn-Carroll_theory">http://en.wikipedia.org/wiki/Cattell-Horn-Carroll_theory</a></li>
+  <li>Three stratum theory. (n.d.). In <i>Wikipedia: The free
+encyclopedia</i>. Retrieved from <a class="break-word" href="http://en.wikipedia.org/wiki/Three_Stratum_Theory">http://en.wikipedia.org/wiki/Three_Stratum_Theory</a></li>
+  <li>Carrol, J. B. (1993). <i>Human cognitive abilities: A
+survey
+of factor-analytic studies</i>.
+New York, NY: Cambridge University Press.</li>
+  <li>Mather, N. &amp; Woodcock, R. W. (2001). <i>Woodcock-Johnson
+III: Tests of cognitive abilities</i>. Itasca, IL: The Riverside
+Publishing Company.</li>
+  <li>McGrew, K. (2009). <i>Cattell-Horn-Carroll (CHC) Broad and
+Narrow Cognitive Ability Definitions</i>. Retreived from <a class="break-word" href="http://www.ibapnet.org.br/congresso2009/material/chcdefs.pdf">http://www.ibapnet.org.br/congresso2009/material/chcdefs.pdf</a></li>
+  <li>Aart, J., Klaver, E., Bartneck, C., Feijs, L., &amp; Petters,
+P. (2007). Neurofeedback gaming for wellbeing. Proceedings of the
+International Conference on Advances in Computer Entertainment
+Technology: Brainplay 2007 Playing with Your Brain-Computer Interfaces
+and Games Workshop at Advances in Computer Entertainment. Retrieved
+from <a class="break-word" href="http://www.tue.nl/en/publication/ep/p/d/ep-uid/211045/?no_cache=1">
+http://www.tue.nl/en/publication/ep/p/d/ep-uid/211045/?no_cache=1</a></li>
+  <ul>
+    <li>Aart et al. report a number of problems that video game
+neurofeedback can be applied to as medication. These include:
+alleviating attention and hyperactivity disorders, muscular tonicity
+recovery for cardiovascular patients, relaxation and mediation to cope
+with mental stress, and improvements in weight loss and overall fitness.</li>
+  </ul>
+  <li>Astle, A., Webb, B., &amp; McGraw, P. (2011). Can perceptual
+learning be used to treat amblyopia beyond the critical period of
+visual development? Ophthalmic &amp; Physiological Optics, 31(6),
+564-573. doi: 10.1111/j.1475-1313.2011.00873.x </li>
+  <ul>
+    <li>Video games provide an effective treatment option to patients
+with amblyopia, aka lazy eye. Amblyopia is a visual problem that
+results in reduced vision during early development, and it uses a
+process--perceptual--learning to help correct neurological problems.
+Perceptual learning is the "permanent and consistent improvements in
+performance on sensory tasks as a result of experience or practice, and
+this parallels video game play.</li>
+  </ul>
+  <li>Boyan A., Sherry,
+J. (2011). The challenge in creating games for
+education: Aligning mental models with game models. Child Development
+Perspectives, 5(2), 82-87.</li>
+  <li>Croisile, B.,
+Miner, D., Belier, S., Noir, M., &amp;
+Tarpin-Bernard, F. (2007). Online cognitive training improves cognitive
+performance. Retrieved from <a class="break-word" href="http://www.happy-neuron.com/rsc/hn_vital/docs/French%20Geratrics%20Journal%20-%20Dr.%20B%20Croisile%20Publication.pdf" target="_blank">http://www.happy-neuron.com/rsc/hn_vital/docs/French%20Geratrics%20Journal%20-%20Dr.%20B%20Croisile%20Publication.pdf</a></li>
+  <li>Erickson, K., Boot, W., Basak, C., Neider, M., Prakash, R.,
+Voss, M., &#8230; Kramer, A. (2010). Striatal volume predicts level of video
+game skill acquisition. Cerebral Cortex, 20(11), 2522-2530. doi:
+10.1093/cercor/bhp293 </li>
+  <ul>
+    <li>Erickson et al. found a connection between striatal volume,
+video game play acquisition, and video game improvement. The striatum
+relays information from the cortex to the basal ganglia, which plays a
+role in the initiation of actions as well as shifting between actions
+that offer the greatest reward. After playing a video game, Space
+Fortress, for several weeks, two groups were measured, and they showed
+larger striatal volumes after playing the video game. Space Fortress.</li>
+  </ul>
+  <li>Green, C. S.,
+&amp; Bavelier, D. (2012). Learning, attentional
+control, and action video games. Current Biology, 22: 197-206. doi:
+10.1016/j.cub.2012.02.012</li>
+  <li>Green, C. S.,
+&amp; Bavelier, D. (2006). The cognitive
+neuroscience of video games. In P. Messaris &amp; L. Humphreys (Eds).
+Digital Media: Transformations in Human Communication. New York: Peter
+Lang. Retrieved from <a class="break-word" href="http://vision.psych.umn.edu/users/csgreen/Publications/publications.html" target="_blank">http://vision.psych.umn.edu/users/csgreen/Publications/publications.html</a></li>
+  <li>Green, C. S., &amp; Bavelier, D. (2003). Action video game
+modifies visual selective attention. Letters to Nature, 423, 534-537.
+Retrieved from <a class="break-word" href="www.dtso.org/jclub/20030825/Green_03.pdf">www.dtso.org/jclub/20030825/Green_03.pdf</a></li>
+  <ul>
+    <li>Green and Bavelier conducted five experiments: four
+demonstrated greater improvements in different aspects of visual
+attention, i.e. the rapid and accurate processing of visual
+information, in habitual video game players compared to non-video game
+players, and the fifth experiment, which tested only non-video game
+players, revealed attentional improvement over time through video game
+play. In all four instances, video game players out performed non-video
+game players.</li>
+  </ul>
+  <li>Saposnik, G., &amp; Levin, M. (2011). Virtual reality in
+stroke rehabilitation : A meta-
+analysis and implications for clinicians. Stroke, 1380-1385. doi:
+10.1161/STROKEAHA.110.605451 </li>
+  <li>Staiano, A., &amp; Calvert, S. (2011). Exergames for physical
+education courses: Physical, social, and cognitive benefits. Child
+Development Perspectives, 5, 93-98. </li>
+  <ul>
+    <li>Staiano and Calvert reveal that physically intense video games
+like exergames, e.g. Dance Dance Revolution and Wii Sports, are being
+used as health tools to increase caloric expenditure and heart rate.
+Also, using video games as a form of aerobic exercise affects the
+structure and function of the brain in a number of ways: It increases
+cerebral circulation via enhanced cardiorespiratory functioning, and it
+also decreases the risk of disease by providing an enriched environment
+of increased neurotransmitters, enhanced physiological and neurological
+mechanisms, and healthy molecular and neurochemical changes.
+Collectively, these changes can lead to improved physical and cognitive
+performance, social interaction, and academic performance.</li>
+  </ul>
+</ol>
+<br>
+</div>
+<hr width="50%">
+<p style="text-align: center;">5/8/14</p>
+</div>
+
+</body></html>

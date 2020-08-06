@@ -17,7 +17,7 @@ const footer = () => {
                     NonCommerical
                 </li>
                 <li>
-                    Attribution&mdash;<Link to="/research" className="footer-link">DTFun LLC</Link>
+                    Attribution&mdash;<Link to="/contact" className="footer-link">DTFun LLC</Link>
                 </li>
             </ul>
         </Tooltip>
@@ -35,7 +35,7 @@ const footer = () => {
                         >
                             <a href="https://creativecommons.org/licenses/" alt="CC Attribution" className="footer-link">CC SA NC BY</a>
                         </OverlayTrigger> &nbsp;
-                        <Link to="/research" className="footer-link">DTFun LLC</Link>
+                        <Link to="/contact" className="footer-link">DTFun LLC</Link>
                     </Col>
                     <Col className="footer-right">
                         Powered by love and <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P8HU4RD3W2XQY&source=url" alt="Support HG" className="footer-link">support</a>.

@@ -1,0 +1,44 @@
+@import '../../../constants/Colors.scss';
+
+.research-container {
+    .image-notes {
+        font-weight: 500;
+        margin-bottom: 2rem;
+        margin-top: 0.5rem;
+
+        .figure-credits {
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    .nav-link {
+        color: $black;
+        text-decoration: underline;
+    }
+    
+    .nav-pills .nav-link.active {
+        background-color: $black;
+        color: $white;
+        text-decoration: none;
+    }
+
+    .sub-heading {
+        font-weight: 500;
+    }
+
+    h6 {
+        margin-top: 2rem;
+    }
+
+    li {
+        margin: 2px 0 4px;
+    }
+
+    @media (max-width: 768px) {
+        .nav-pills {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+    }
+}

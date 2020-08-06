@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Ode to Me</title>
+	
+	<style>
+		body {
+			overflow: hidden;
+		}
+		#video {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/VeNGqKTKZ4k?rel=0" frameborder="0" allowfullscreen></iframe>
+		
+	<script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	<script src="jquery-1.11.1.js" type="text/javascript"></script>	
+		
+	<script>
+	$(function(){
+  		$('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+		$(window).resize(function(){
+    		$('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  		});
+	});
+	</script>
+
+</body>
+</html>

@@ -70,7 +70,7 @@ const Contact = () => {
                     />
                 </div>
                 
-                <div className="button-container">
+                <div className="center-content">
                     <Button variant="outline-dark" type="submit">
                         Submit
                     </Button>

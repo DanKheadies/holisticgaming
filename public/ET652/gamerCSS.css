@@ -1,0 +1,276 @@
+body {
+	background: #131313;
+}
+
+#player {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#player2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.jumbotron {
+  background-image:url('images/frisbee.jpg');
+  height: 551px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:333px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h3 {
+  color: #fff;
+  font-size: 36px;  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+
+.generalInfo {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.generalInfo .row {
+	text-align: center;
+	color:#131313;
+}
+
+.generalInfo .row .col-md-4 {
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.generalInfo h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.generalInfo h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.typesOfGames {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.typesOfGames .row {
+	text-align: center;
+	color:#131313;
+}
+
+.typesOfGames h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.typesOfGames h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.systemsOwned {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.systemsOwned .row {
+	text-align: center;
+	color:#131313;
+}
+
+.systemsOwned h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.systemsOwned h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.habits {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.habits .row {
+	text-align: center;
+	color:#131313;
+	padding-top: 10px;
+}
+
+.habits .row .col-md-4 {
+	padding-top: 6.9px;
+	padding-bottom: 6.9px;
+}
+
+.habits h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.habits h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.preferences {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.preferences .row {
+	text-align: center;
+	color:#131313;
+	padding-top: 10px;
+}
+
+.preferences .row .col-md-3 {
+	padding-bottom: 20px;
+}
+
+.preferences h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.preferences h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.preferences h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+
+
+.lessonsLearned {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.lessonsLearned .row {
+	text-align: center;
+	color:#131313;
+	padding-top: 10px;
+}
+
+.lessonsLearned .row .col-md-4 {
+	padding-bottom: 20px;
+}
+
+.lessonsLearned h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.lessonsLearned h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.lessonsLearned h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.lessonsLearned h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+
+
+.nextLevel {
+  background-color: #f9f9f9;
+  position: relative;
+  top: 69px;
+  padding-bottom: 24px;
+  margin-bottom: 100px;
+}
+
+.nextLevel .row {
+	text-align: center;
+	color:#131313;
+	padding-top: 10px;
+}
+
+.nextLevel h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.nextLevel h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-bottom: 4px;
+}

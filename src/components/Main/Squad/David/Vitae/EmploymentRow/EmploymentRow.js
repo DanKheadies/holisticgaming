@@ -8,7 +8,7 @@ const EmploymentRow = props => {
         let jobsArray = [];
         for (const key in jobs) {
             jobsArray.push(
-                <li>{jobs[key]}</li>
+                <li key={[key]}>{jobs[key]}</li>
             )
         }
         return jobsArray;

@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 
+# dc
+/public/games
+/public/videos
+
 env_private.js
 
 npm-debug.log*

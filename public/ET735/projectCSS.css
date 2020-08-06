@@ -1,0 +1,157 @@
+<!-- David Corso. corsod@email.sc.edu. 4/21/14 -->
+
+#navigation-bar{
+	display: none;
+	box-sizing:border-box;
+	height:50px;
+}
+
+#navigation-bar table{
+	overflow: hidden;
+	border-top:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+	background-color: white;
+	width:100%;
+}
+
+#navigation {
+	font-family: 'Optima', sans-serif;
+	font-size: 16px;
+	font-weight:700;
+	line-height:22px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	height:auto;
+	overflow:show;
+}
+
+#navigation ul li{
+	display: inline;
+	list-style: none;
+	position: relative;
+	left: -13px;
+}
+#navigation ul li a{
+        color: #5e5e5e;
+        text-decoration: none;
+	border:0;
+	box-sizing:border-box;
+	padding:16px 10px;
+}
+
+#navigation a:hover{
+	color: #2e2e2e;
+        text-decoration: none;
+	border:0;
+	box-sizing:border-box;
+	padding:16px 10px;
+	list-style-type:none;
+	border-bottom:2px solid #608ecc;
+}
+
+
+body {
+	font-family: 'Optima', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: normal;
+	background-color: white;
+}
+
+a:link {
+	color: #3a96b8;
+}
+a:hover {
+	color: #24678d;
+}
+a:visited {
+	color: #3a96b8;
+}
+
+
+
+#mainContent {
+	padding-left: 4.2%;
+	padding-right: 4.2%;
+	margin: 0 auto;
+}
+
+
+#abstract {
+	color: #1a1a1a;
+}
+
+
+#main {
+	color: #2a2a2a;
+}
+
+.images {
+	text-align: center;	
+}
+.imageText {
+	text-align: left;
+	width: 83%;
+	margin: 0 auto;
+}
+.image {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.video {
+	text-align: center;
+	height= 420px; 
+	width= 315px;
+}
+
+
+.break-word {
+  -ms-word-break: break-all;
+
+     /* Be VERY careful with this, breaks normal words wh_erever */
+     word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+
+
+
+@media all and (min-width: 1024px) {
+	#mainContent {
+		width: 960px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 481px) {
+	#mainContent {
+		width: 93%;
+		margin: 0 auto;
+	}
+	#navigation-bar table{
+		width:130%;
+	}
+	#navigation ul li{
+		font-size: 14px;
+		left: -17%;
+	}
+	#bottomTopText {
+		width: 93%;
+	}
+	#UDLtext {
+		width: 93%;
+	}
+	.video {
+		position: relative;
+		left: -3%;
+	}
+}
+

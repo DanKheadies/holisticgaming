@@ -6,7 +6,7 @@ import Android from '../../../../assets/images/games/android.png';
 import Aux from '../../../../hoc/Aux/Aux';
 import Browser from '../../../../assets/images/games/browsers.png';
 import GameCard from '../GameCard/GameCard';
-import ImageFader from '../../../ImageFader/ImageFader';
+import ImageFader from '../../../UI/ImageFader/ImageFader';
 import iOS from '../../../../assets/images/games/ios.png';
 import Mac from '../../../../assets/images/games/mac.png';
 import TSoDKImage1 from '../../../../assets/images/games/TSoDKImage1.png';
@@ -18,7 +18,7 @@ const TSoDK = () => {
     const downloadWindowsHandler = () => { window.open('https://immunisgame.com', "_blank"); };
     const goToAppStoreHandler = () => { window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1449564719', "_blank"); };
     const goToGooglePlayHandler = () => { window.open('https://play.google.com/store/apps/details?id=com.HolisticGaming.TheStoryOfDanKheadies', "_blank"); };
-    const playBrowserHandler = () => { window.open('https://holisticgaming.com/games/tsodk/index.html', "_blank"); };
+    const playBrowserHandler = () => { window.open('/games/uwebgl_tsodk/index.html', "_blank"); };
 
     return (
         <Aux>
@@ -74,7 +74,7 @@ const TSoDK = () => {
                             title="Mac"
                             version="v4.0"
                         >
-                            <a alt="WineBottler" className="primary-link" href="https://winebottler.kronenberg.org/" _blank>Download and install WineBottler</a>.<br />
+                            <a alt="WineBottler" className="primary-link" href="https://winebottler.kronenberg.org/" target="_blank" rel="noopener noreferrer">Download and install WineBottler</a>.<br />
                             Download this ZIP file.<br /> 
                             Open the ZIP file.<br />
                             Run .EXE with WineBottler.<br />

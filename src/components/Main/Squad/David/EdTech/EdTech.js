@@ -109,9 +109,8 @@ const EdTech = () => (
                                         id="standards-1a"
                                         title="Artifact - Accessibility Project 2.0 for EDET 735"
                                         image={S1aImage}
-                                        imageLink="http://66.147.244.111/~immunisg/ET735/"
+                                        imageLink="https://www.holisticgaming.com/ET735/"
                                         linkText="Link to Accessibility Project 2.0 for EDET 735"
-                                        linkIsRetired
                                         context="I created this webpage in the Spring of 2014 for EDET 735 - Technology for Diverse Populations. This project advocates the relationship between Universal Design for Learning (UDL) and video games, and how this relationship facilitates learning complex content, such as immunology."
                                         conditions="Over the course of 6 weeks, I researched UDL and video game play, designed a website, and developed my HTML, CSS, and Javascript skills."
                                         scope="The project is retired."
@@ -137,9 +136,8 @@ const EdTech = () => (
                                         id="standards-1b"
                                         title="Artifact - Hearthstone (COTS Game) for EDET 652"
                                         image={S1bImage}
-                                        imageLink="http://66.147.244.111/~immunisg/ET652/COTSHearthstone/cotsHearthstone.html"
+                                        imageLink="https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html"
                                         linkText="Link to Hearthstone (COTS Game) for EDET 652"
-                                        linkIsRetired
                                         context="I created this training course in the Spring of 2015 for EDET 652 - Design and Evaluation of Games and Simulations. For this project, I used a commercial-off-the-shelf (COTS) game to facilitate educational content—specifically metacognitive learning."
                                         conditions="Over the course of 2 weeks, I analyzed, designed, and created an integration plan that incorporated Hearthstone into classrooms. The biggest constraint has been the time needed to create the additional lessons and media."
                                         scope="The project is retired. There were 7 more webpages that need to be developed; however, the content is listed in the integration plan."
@@ -450,6 +448,9 @@ const EdTech = () => (
                                 <p>
                                     Class Website: http://corso793.wikispaces.com/home [<a className="primary-link" href="https://www.wikispaces.com/" alt="WikiSpaces Closed">RETIRED</a>]
                                 </p>
+                                <p>
+                                    Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET793/ReviewActivity.html" alt="ET793">https://www.holisticgaming.com/ET793/ReviewActivity.html</a>
+                                </p>
                             </Accordion>
                         </AccordionCard>
                         <AccordionCard
@@ -467,7 +468,7 @@ const EdTech = () => (
                             title="EDET 709 - Applications of Learning Principles"
                         >
                             <p>
-                                Class Paper: <a className="primary-link" href="https://holisticgaming.com/docs/CorsoResearchPaper.pdf" alt="Corso Research Paper">https://holisticgaming.com/docs/CorsoResearchPaper.pdf</a>
+                                Class Paper: <a className="primary-link" href="/docs/CorsoResearchPaper.pdf" alt="Corso Research Paper">https://holisticgaming.com/docs/CorsoResearchPaper.pdf</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard
@@ -476,6 +477,12 @@ const EdTech = () => (
                         >
                             <p>
                                 Class projects: <a className="primary-link" href="http://immunisgame.weebly.com/et652.html" alt="EDET 652 Class Projects">http://immunisgame.weebly.com/et652.html</a>
+                            </p>
+                            <p>
+                                Class project: <a className="primary-link" href="https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html" alt="EDET 652 Class Project">https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html</a>
+                            </p>
+                            <p>
+                                Class project: <a className="primary-link" href="https://www.holisticgaming.com/ET652/gamerInterview.html" alt="EDET 652 Class Project">https://www.holisticgaming.com/ET652/gamerInterview.html</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard
@@ -515,7 +522,16 @@ const EdTech = () => (
                             title="EDET 735 - Technological Application for Diverse Populations"
                         >
                             <p>
-                                Class Projects: <a className="primary-link" href="http://immunisgame.weebly.com/et735.html" alt="ET735">http://www.immunisgame.weebly.com/et735.html</a>
+                                Class Projects: <a className="primary-link" href="http://immunisgame.weebly.com/et735.html" alt="ET735 Class Projects">http://www.immunisgame.weebly.com/et735.html</a>
+                            </p>
+                            <p>
+                                Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET735/" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/</a>
+                            </p>
+                            <p>
+                                Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET735/newsletter.html" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/newsletter.html</a>
+                            </p>
+                            <p>
+                                Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET735/overview.html" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/overview.html</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard
@@ -523,7 +539,7 @@ const EdTech = () => (
                             title="EDET 703 - Design and Development Tools (II)"
                         >
                             <p>
-                                Class Website: http://66.147.244.111/~immunisg/ET703/index.html [RETIRED]
+                                Class Website: <a className="primary-link" href="https://www.holisticgaming.com/ET703/" alt="ET703 Class Website">https://www.holisticgaming.com/ET703/</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard

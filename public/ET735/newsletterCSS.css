@@ -1,0 +1,168 @@
+<!-- David Corso. corsod@email.sc.edu. 4/27/14 -->
+
+body {
+	
+}
+
+a:link {
+	color: black;
+}
+a:hover {
+	color: black;
+	text-decoration:none;
+}
+a:visited {
+	color: black;
+}
+
+.all {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+.title {
+	color: white;
+	background-color: black;
+	vertical-align: bottom;
+	padding-left: 4.2%;
+	padding-top: 4.2%;
+}
+
+#small {
+	font-size: 28px;
+	position: relative;
+	top: 13px;
+}
+#medium {
+	font-size: 36px;
+	position: relative;
+	top: 16px;
+}
+#large {
+	font-size: 56px;
+	position: relative;
+	top: 13px;
+}
+
+.abstract {
+	padding-left: 4.2%;
+	padding-right: 4.2%;
+	padding-top: 10px;
+}
+
+.columns {
+	-webkit-column-count:3;
+	-moz-column-count:3;
+	column-count:3;
+
+	-webkit-column-gap:42px;
+	-moz-column-gap:42px;
+	column-gap:42px;
+
+	line-height:130%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.bullets {
+	position: relative;
+	left: -20px;
+}
+
+.images {
+	width:100%;
+	padding-top:5%;
+}
+
+
+.imageColumns {
+	-webkit-column-count:3;
+	-moz-column-count:3;
+	column-count:3;
+
+	-webkit-column-gap:42px;
+	-moz-column-gap:42px;
+	column-gap:42px;
+
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 20px;
+}
+
+
+.references {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height:130%;
+	float: left;
+	margin: 0 auto;
+}
+
+
+
+@media all and (min-width: 1040px) {
+	.all {
+		width: 1024px;
+		margin: 0 auto;
+	}
+}
+@media all and (max-width: 481px) {
+	.all {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.abstract {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.columns {	
+		-webkit-column-count:1;
+		-moz-column-count:1;
+		column-count:1;
+
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+
+	.imageColumns {	
+		-webkit-column-count:1;
+		-moz-column-count:1;
+		column-count:1;
+
+		padding-left: 10%;
+		padding-right: 10%;
+	}	
+}
+
+@media print {
+	.all {
+		font-size: 12px;
+	}
+
+	.title {
+		color: black;	
+		background-color: white;
+		vertical-align: none;
+		padding-left: 0%;
+		padding-top: 0%;
+		position: none;
+	}
+
+	.images {
+		width:0%;
+	}
+
+	.imageColumns {
+		font-size: 1px;
+		visibility: hidden;
+	}
+	
+	.references {
+		font-size: 12px;
+	}
+}
+

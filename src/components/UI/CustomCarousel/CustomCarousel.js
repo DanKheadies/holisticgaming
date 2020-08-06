@@ -6,18 +6,10 @@ import './CustomCarousel.scss';
 
 const CustomCarousel = props => {
     const carouselItemsHandler = carouselItems => {
-
-        // items={{
-        //     "Tsar Wars": {
-        //         imageSrc: PicTsarWars,
-        //         caption: "Alleman's Jedi Templar Knight",
-        //         link: "https://www.deviantart.com/alleman/art/Jedi-Templar-Knight-161108356"
-        //     }
-        // }}
         let itemArray = [];
         for (const key in carouselItems) {
             itemArray.push(
-                <Carousel.Item>
+                <Carousel.Item key={[key]}>
                     <img
                         className="d-block w-100"
                         src={carouselItems[key]['image']}

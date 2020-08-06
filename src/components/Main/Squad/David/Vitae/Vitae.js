@@ -5,6 +5,7 @@ import './Vitae.scss';
 import Aux from '../../../../../hoc/Aux/Aux';
 import DavidNavigation from '../../../../Navigation/SubNavigation/DavidNavigation';
 import EmploymentRow from './EmploymentRow/EmploymentRow';
+import ScrollArrow from '../../../../UI/ScrollArrow/ScrollArrow';
 import Section from '../../../../Section/Section';
 
 const Vitae = () => (
@@ -372,10 +373,10 @@ const Vitae = () => (
                     <Section header="Projects, Publications &amp; Presentations">
                         <ul>
                             <li>
-                                Holistic Gaming (<a className="primary-link" href="https://holisticgaming.com" alt="Holistic Gaming">https://holisticgaming.com</a>)
+                                Holistic Gaming (<a className="primary-link" href="/" alt="Holistic Gaming">https://holisticgaming.com</a>)
                             </li>
                             <li>
-                                The Story of Dan Kheadies (<a className="primary-link" href="https://holisticgaming.com/games/tsodk" alt="The Story of Dan Kheadies">https://holisticgaming.com/games/tsodk</a>)
+                                The Story of Dan Kheadies (<a className="primary-link" href="/games/tsodk" alt="The Story of Dan Kheadies">https://holisticgaming.com/games/tsodk</a>)
                             </li>
                             <li>
                                 Guess Who Colluded (<a className="primary-link" href="https://guesswhocolluded.com" alt="Guess Who Colluded">https://guesswhocolluded.com</a>)
@@ -390,7 +391,7 @@ const Vitae = () => (
                                 Truth or Elaborate Lie (<a className="primary-link" href="https://truthorelaboratelie.com" alt="Truth or Elaborate Lie">https://truthorelaboratelie.com</a>)
                             </li>
                             <li>
-                                PixaTool Gallery (<a className="primary-link" href="https://holisticgaming.com/pixatool" alt="PixaTool Gallery">https://holisticgaming.com/pixatool</a>)
+                                PixaTool Gallery (<a className="primary-link" href="/pixatool" alt="PixaTool Gallery">https://holisticgaming.com/pixatool</a>)
                             </li>
                             <li>
                                 Immunis (<a className="primary-link" href="https://immunisgame.com" alt="Immunis">https://immunisgame.com</a>)
@@ -413,6 +414,7 @@ const Vitae = () => (
                 <Col lg={1} md={0}></Col>
             </Row>
         </Container>
+        <ScrollArrow />
     </Aux>
 );
 

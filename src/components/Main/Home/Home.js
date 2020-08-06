@@ -6,7 +6,7 @@ import Aux from '../../../hoc/Aux/Aux';
 import CustomModal from '../../UI/CustomModal/CustomModal';
 import HGConn from '../../../assets/images/HGConn.png';
 import HGConnGames from '../../../assets/images/HGConnGames.png';
-import ImageFader from '../../ImageFader/ImageFader';
+import ImageFader from '../../UI/ImageFader/ImageFader';
 import Jumbo from './Jumbo/Jumbo';
 import ModalMessage from './ModalMessage/ModalMessage';
 import Section from '../../Section/Section';

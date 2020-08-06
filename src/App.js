@@ -13,6 +13,8 @@ import Readings from './components/Main/Squad/David/Readings/Readings';
 import Research from './components/Main/Research/Research';
 import Squad from './components/Main/Squad/Squad';
 import TDSBF from './components/Main/Games/TDSBF/TDSBF';
+import Thanks from './components/Main/Thanks/Thanks';
+import ThanksKinda from './components/Main/Thanks/ThanksKinda';
 import TSoDK from './components/Main/Games/TSoDK/TSoDK';
 import Vitae from './components/Main/Squad/David/Vitae/Vitae';
 
@@ -33,6 +35,8 @@ class App extends Component {
             <Route path="/squad/david/vitae" component={Vitae} />
             <Route path="/squad/david" component={David} />
             <Route path="/squad" component={Squad} />
+            <Route path="/thanks" component={Thanks} />
+            <Route path="/thanks-kinda" component={ThanksKinda} />
             <Route path="/" exact component={Home} />
           </Switch>
         </Layout>

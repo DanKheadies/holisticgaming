@@ -5,7 +5,7 @@ import './TDSBF.scss';
 import Aux from '../../../../hoc/Aux/Aux';
 import Browser from '../../../../assets/images/games/browsers.png';
 import GameCard from '../GameCard/GameCard';
-import ImageFader from '../../../ImageFader/ImageFader';
+import ImageFader from '../../../UI/ImageFader/ImageFader';
 import Mac from '../../../../assets/images/games/mac.png';
 import TDSBFImage1 from '../../../../assets/images/games/TDSBFImage1.png';
 import TDSBFImage2 from '../../../../assets/images/games/TDSBFImage2.png';
@@ -14,7 +14,7 @@ import Windows from '../../../../assets/images/games/windows.png';
 const TDSBF = () => {
     const downloadMacHandler = () => { window.open('https://immunisgame.com', "_blank"); };
     const downloadWindowsHandler = () => { window.open('https://immunisgame.com', "_blank"); };
-    const playBrowserHandler = () => { window.open('https://holisticgaming.com/games/tdsbf/index.html', "_blank"); };
+    const playBrowserHandler = () => { window.open('/games/uwebgl_tdsbf/index.html', "_blank"); };
 
     return (
         <Aux>
@@ -70,7 +70,7 @@ const TDSBF = () => {
                             title="Mac"
                             version="v1.0"
                         >
-                            <a alt="WineBottler" className="primary-link" href="https://winebottler.kronenberg.org/" _blank>Download and install WineBottler</a>.<br />
+                            <a alt="WineBottler" className="primary-link" href="https://winebottler.kronenberg.org/"  target="_blank" rel="noopener noreferrer">Download and install WineBottler</a>.<br />
                             Download this ZIP file.<br /> 
                             Open the ZIP file.<br />
                             Run .EXE with WineBottler.<br />

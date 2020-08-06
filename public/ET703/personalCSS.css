@@ -1,0 +1,75 @@
+<!-- David Corso. corsod@email.sc.edu. 3/6/14 -->
+
+#menu {
+	width: 1024 px;
+	height: 35 px;
+	font-family: Optima, sans-serif;
+	font-size: 16pt;
+	text-align: left;
+	padding-left: 10px;
+	background-color: black;
+}
+
+#menu ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#menu li {
+	display: inline;
+	padding: 20px;
+}
+
+#menu a {
+	text-decoration: none;
+	padding: 8px 8px 8px 8px;
+	font-weight: bold;
+	color:#fff
+}
+
+#menu a:visited {
+	color:#d0d0d0
+}
+
+#menu a:active {
+	color:#d0d0d0
+}
+
+#menu a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+
+#table-menu {
+	width: 100%;
+	height: 53px;
+}
+
+body {
+	font-family: Optima, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: normal;
+	background-color: black;
+}
+
+
+#header-container {
+	padding: 0px 50px;
+}
+
+#header-content {
+	color: white;
+	text-align: center;
+	background-color: #801517;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#main-content {
+	color: white;
+	padding: 25px 50px;
+}
+

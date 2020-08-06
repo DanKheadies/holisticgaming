@@ -98,7 +98,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterBotw}
-                                    src="https://holisticgaming.com/pixatool/botw-8bit.mp4"
+                                    src="/videos/botw-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=zw47_q9wbBE" alt="The Legend of Zelda: Breath of the Wild">The Legend of Zelda: Breath of the Wild</a>
                             </div>
@@ -107,7 +107,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterWotLK1}
-                                    src="https://holisticgaming.com/pixatool/WotLK-OG-8bit.mp4"
+                                    src="/videos/WotLK-OG-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=BCr7y4SLhck" alt="World of Warcraft: Wrath of the Lich King">World of Warcraft: Wrath of the Lich King</a>
                             </div>
@@ -116,7 +116,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterWotLK2}
-                                    src="https://holisticgaming.com/pixatool/wotlk-8bit.mp4"
+                                    src="/videos/wotlk-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=BCr7y4SLhck" alt="World of Warcraft: Wrath of the Lich King">World of Warcraft: Wrath of the Lich King</a>
                             </div>
@@ -125,7 +125,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterDragonHouse}
-                                    src="https://holisticgaming.com/pixatool/DragonHouse-8bit.mp4"
+                                    src="/videos/DragonHouse-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=Yr4g0jdaSC0" alt="The Tonight Show ft. Dragon House - Chuck E. Cheese Challenge">The Tonight Show ft. Dragon House - Chuck E. Cheese Challenge</a>
                             </div>
@@ -134,7 +134,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterMarvel}
-                                    src="https://holisticgaming.com/pixatool/MarvelMashup-8bit.mp4"
+                                    src="/videos/MarvelMashup-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=kVZSdyZ7Ft4" alt="BattleScones's Marvel Homage">BattleScones's Marvel Homage</a>
                             </div>
@@ -143,7 +143,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterMajora}
-                                    src="https://holisticgaming.com/pixatool/MajorasMask-8bit.mp4"
+                                    src="/videos/MajorasMask-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=vbMQfaG6lo8" alt="EmberLab's Majora's Mask - Terrible Fate">EmberLab's Majora's Mask - Terrible Fate</a>
                             </div>
@@ -152,7 +152,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterWest}
-                                    src="https://holisticgaming.com/pixatool/WesterosWorld-8bit.mp4"
+                                    src="/videos/WesterosWorld-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.reddit.com/r/freefolk/comments/brm3ky/what_is_the_point_of_it_get_a_couple_of_cheap/" alt="EvilPlottingDinosaur's Westeros World">EvilPlottingDinosaur's Westeros World</a>
                             </div>
@@ -161,7 +161,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterSmash}
-                                    src="https://holisticgaming.com/pixatool/SmashWars-8bit.mp4"
+                                    src="/videos/SmashWars-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=YKL5tviGvIc" alt="PushingButtons's Super Smash Bros: Infinity War">PushingButtons's Super Smash Bros: Infinity War</a>
                             </div>
@@ -170,7 +170,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterHalo}
-                                    src="https://holisticgaming.com/pixatool/Halo-8bit.mp4"
+                                    src="/videos/Halo-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=wuSu6q7fuq4" alt="Halo's Main Menu">Halo's Main Menu</a>
                             </div>
@@ -179,7 +179,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterWaterwave}
-                                    src="https://holisticgaming.com/pixatool/Waterwave-8bit.mp4"
+                                    src="/videos/Waterwave-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=cZmJalYNLc0" alt="Akira the Don's What the Hell is Water? ft. David Foster Wallace">Akira the Don's What the Hell is Water? ft. David Foster Wallace</a>
                             </div>
@@ -188,7 +188,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterAdventure}
-                                    src="https://holisticgaming.com/pixatool/AdventureWave-8bit.mp4"
+                                    src="/videos/AdventureWave-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=CW0tx_Ok63k&t=680s" alt="Akira the Don's AdventureWave">Akira the Don's AdventureWave</a>
                             </div>
@@ -197,7 +197,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterSacrifice}
-                                    src="https://holisticgaming.com/pixatool/Sacrifice-8bit.mp4"
+                                    src="/videos/Sacrifice-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=Ll2gdKHXOYc" alt="Akira the Don's Sacrifice ft. Jordan Peterson">Akira the Don's Sacrifice ft. Jordan Peterson</a>
                             </div>
@@ -206,7 +206,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterEgg}
-                                    src="https://holisticgaming.com/pixatool/TheEgg-8bit.mp4"
+                                    src="/videos/TheEgg-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=h6fcK_fRYaI" alt="Kurzgesagt's The Egg by Andy Weir">Kurzgesagt's The Egg by Andy Weir</a>
                             </div>
@@ -215,7 +215,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPoster2020}
-                                    src="https://holisticgaming.com/pixatool/2020TheGame-8bit.mp4"
+                                    src="/videos/2020TheGame-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.reddit.com/r/NatureIsFuckingLit/comments/f7v2at/puddle_that_looks_like_earth_from_space/" alt="Prob MrCheapCheap via Reddit">Prob MrCheapCheap via Reddit</a>
                             </div>
@@ -224,7 +224,7 @@ const PixaTool = () => (
                                     className="pixatool-media"
                                     playsInline
                                     poster={VidPosterSUCCredits}
-                                    src="https://holisticgaming.com/pixatool/SUCCredits-8bit.mp4"
+                                    src="/videos/SUCCredits-8bit.mp4"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=UMoxeTVQgCs" alt="Steven Universe Car Credits by annapantsu">Steven Universe Car Credits by annapantsu</a>
                             </div>
