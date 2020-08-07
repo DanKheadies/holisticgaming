@@ -1,10 +1,12 @@
 import React from 'react';
-import { Accordion, Col, Container, Row } from 'react-bootstrap';
+import { Accordion, Col, Container, Image, Row } from 'react-bootstrap';
 // import YouTube from 'react-youtube';
 
 import './EdTech.scss';
 import AccordionCard from '../../../../UI/AccordionCard/AccordionCard';
 import Aux from '../../../../../hoc/Aux/Aux';
+import ImageFantasTechPresentation from '../../../../../assets/images/squad/david/edtech/fantastech.png';
+import ImagePortfolioPresentation from '../../../../../assets/images/squad/david/edtech/portfolio-presentation.png';
 import DavidNavigation from '../../../../Navigation/SubNavigation/DavidNavigation';
 import S1aImage from '../../../../../assets/images/squad/david/edtech/S1.735.png';
 import S1bImage from '../../../../../assets/images/squad/david/edtech/S1.652.jpg';
@@ -15,7 +17,6 @@ import S3bImage from '../../../../../assets/images/squad/david/edtech/S3.755.png
 import S4bImage from '../../../../../assets/images/squad/david/edtech/S4.Pres.png';
 import S5aImage from '../../../../../assets/images/squad/david/edtech/S5.709.png';
 import S5bImage from '../../../../../assets/images/squad/david/edtech/S5.780.png';
-import ScrollArrow from '../../../../UI/ScrollArrow/ScrollArrow';
 import StandardsSection from './StandardsSection/StandardsSection';
 
 const EdTech = () => (
@@ -93,10 +94,15 @@ const EdTech = () => (
                                     eventKey="104"
                                     title="Portfolio Presentation"
                                 >
-                                    {/* <YouTube
-                                        videoId={'coWT7nFjNaM'}
-                                    /> */}
-                                    <p>YouTube Link TBD</p>
+                                    <Image
+                                        className="youtube-poster"
+                                        src={ImagePortfolioPresentation}
+                                        fluid
+                                    />
+                                    <br />
+                                    <a className="primary-link" href="https://www.youtube.com/watch?v=coWT7nFjNaM" alt="EDET 793 Portfolio Presentation">
+                                        EDET 793 Portfolio Presentation
+                                    </a>
                                 </AccordionCard>
                                 <AccordionCard
                                     eventKey="105"
@@ -109,7 +115,7 @@ const EdTech = () => (
                                         id="standards-1a"
                                         title="Artifact - Accessibility Project 2.0 for EDET 735"
                                         image={S1aImage}
-                                        imageLink="https://www.holisticgaming.com/ET735/"
+                                        imageLink="/ET735/"
                                         linkText="Link to Accessibility Project 2.0 for EDET 735"
                                         context="I created this webpage in the Spring of 2014 for EDET 735 - Technology for Diverse Populations. This project advocates the relationship between Universal Design for Learning (UDL) and video games, and how this relationship facilitates learning complex content, such as immunology."
                                         conditions="Over the course of 6 weeks, I researched UDL and video game play, designed a website, and developed my HTML, CSS, and Javascript skills."
@@ -136,7 +142,7 @@ const EdTech = () => (
                                         id="standards-1b"
                                         title="Artifact - Hearthstone (COTS Game) for EDET 652"
                                         image={S1bImage}
-                                        imageLink="https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html"
+                                        imageLink="/ET652/COTSHearthstone/cotsHearthstone.html"
                                         linkText="Link to Hearthstone (COTS Game) for EDET 652"
                                         context="I created this training course in the Spring of 2015 for EDET 652 - Design and Evaluation of Games and Simulations. For this project, I used a commercial-off-the-shelf (COTS) game to facilitate educational content—specifically metacognitive learning."
                                         conditions="Over the course of 2 weeks, I analyzed, designed, and created an integration plan that incorporated Hearthstone into classrooms. The biggest constraint has been the time needed to create the additional lessons and media."
@@ -449,7 +455,7 @@ const EdTech = () => (
                                     Class Website: http://corso793.wikispaces.com/home [<a className="primary-link" href="https://www.wikispaces.com/" alt="WikiSpaces Closed">RETIRED</a>]
                                 </p>
                                 <p>
-                                    Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET793/ReviewActivity.html" alt="ET793">https://www.holisticgaming.com/ET793/ReviewActivity.html</a>
+                                    Class Project: <a className="primary-link" href="/ET793/ReviewActivity.html" alt="ET793">https://www.holisticgaming.com/ET793/ReviewActivity.html</a>
                                 </p>
                             </Accordion>
                         </AccordionCard>
@@ -458,10 +464,16 @@ const EdTech = () => (
                             eventKey="2"
                             title="FantasTech 2015 - Using Games in the Classroom &amp; Life"
                         >
-                            {/* <YouTube
-                                videoId={'Brf_buWDLDE'}
-                            /> */}
-                            <p>YouTube Link TBD</p>
+                            <a className="" href="https://www.youtube.com/watch?v=Brf_buWDLDE" alt="FantasTech 2015 Presentation">
+                                <Image
+                                    className="youtube-poster"
+                                    src={ImageFantasTechPresentation}
+                                />
+                            </a>
+                            <br />
+                            <a className="primary-link" href="https://www.youtube.com/watch?v=Brf_buWDLDE" alt="FantasTech 2015 Presentation">
+                                FantasTech 2015 Presentation
+                            </a>
                         </AccordionCard>
                         <AccordionCard
                             eventKey="3"
@@ -479,10 +491,10 @@ const EdTech = () => (
                                 Class projects: <a className="primary-link" href="http://immunisgame.weebly.com/et652.html" alt="EDET 652 Class Projects">http://immunisgame.weebly.com/et652.html</a>
                             </p>
                             <p>
-                                Class project: <a className="primary-link" href="https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html" alt="EDET 652 Class Project">https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html</a>
+                                Class project: <a className="primary-link" href="/ET652/COTSHearthstone/cotsHearthstone.html" alt="EDET 652 Class Project">https://www.holisticgaming.com/ET652/COTSHearthstone/cotsHearthstone.html</a>
                             </p>
                             <p>
-                                Class project: <a className="primary-link" href="https://www.holisticgaming.com/ET652/gamerInterview.html" alt="EDET 652 Class Project">https://www.holisticgaming.com/ET652/gamerInterview.html</a>
+                                Class project: <a className="primary-link" href="/ET652/gamerInterview.html" alt="EDET 652 Class Project">https://www.holisticgaming.com/ET652/gamerInterview.html</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard
@@ -525,13 +537,13 @@ const EdTech = () => (
                                 Class Projects: <a className="primary-link" href="http://immunisgame.weebly.com/et735.html" alt="ET735 Class Projects">http://www.immunisgame.weebly.com/et735.html</a>
                             </p>
                             <p>
-                                Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET735/" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/</a>
+                                Class Project: <a className="primary-link" href="/ET735/" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/</a>
                             </p>
                             <p>
-                                Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET735/newsletter.html" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/newsletter.html</a>
+                                Class Project: <a className="primary-link" href="/ET735/newsletter.html" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/newsletter.html</a>
                             </p>
                             <p>
-                                Class Project: <a className="primary-link" href="https://www.holisticgaming.com/ET735/overview.html" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/overview.html</a>
+                                Class Project: <a className="primary-link" href="/ET735/overview.html" alt="ET735 Class Project">https://www.holisticgaming.com/ET735/overview.html</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard
@@ -539,7 +551,7 @@ const EdTech = () => (
                             title="EDET 703 - Design and Development Tools (II)"
                         >
                             <p>
-                                Class Website: <a className="primary-link" href="https://www.holisticgaming.com/ET703/" alt="ET703 Class Website">https://www.holisticgaming.com/ET703/</a>
+                                Class Website: <a className="primary-link" href="/ET703/" alt="ET703 Class Website">https://www.holisticgaming.com/ET703/</a>
                             </p>
                         </AccordionCard>
                         <AccordionCard
@@ -573,7 +585,6 @@ const EdTech = () => (
                 </Col>
             </Row>
         </Container>
-        <ScrollArrow />
     </Aux>
 );
 

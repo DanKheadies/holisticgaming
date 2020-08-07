@@ -16,7 +16,7 @@ const BadNews = props => (
             Posted: Jul 2019
         </p>
         <p>
-            <a href="https://www.nature.com/articles/s41599-019-0279-9" alt="Bad News Effect on Psychological Resistance" class="primary-link">
+            <a href="https://www.nature.com/articles/s41599-019-0279-9" alt="Bad News Effect on Psychological Resistance" className="primary-link">
                 Fake news game confers psychological resistance against online misinformation
             </a>
             <br />
@@ -51,7 +51,7 @@ const BadNews = props => (
         <p>
             Using a novel psychological intervention designed to instill cognitive resistance to fake news, players attempt to attract followers and maximize credibility in the game Bad News. As players move from social media noobies to fake news empires, the game focuses on 6 strategies commonly used to spread misinformation: impersonating people online, using emotional language, group polarization, floating conspiracy theories and building echo chambers, discrediting opponents, and trolling people online and false amplification. Using convenience sampling, i.e. anyone with internet connectivity and could reach the game website, the researchers recruited over 43,000 responses with 14,266 pre-post responses, i.e. the driver of their results below.
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Bad News's Effect on Psychological Resistance Figure 1"
                 fluid
@@ -61,7 +61,7 @@ const BadNews = props => (
                 Bad News Game.
             </div>
         </div>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Bad News's Effect on Psychological Resistance Figure 2"
                 fluid
@@ -74,7 +74,7 @@ const BadNews = props => (
         <p>
             The research shows that the gameplay activates inoculation toward online misinformation strategies.
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Bad News's Effect on Psychological Resistance Figure 3"
                 fluid
@@ -84,7 +84,7 @@ const BadNews = props => (
                 Average player reported reliability towards tweets with no misinformation techniques (i.e. Control 1 &amp; 2) vs. techniques (i.e. impersonation, conspiracy, deflection).
             </div>
         </div>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Bad News's Effect on Psychological Resistance Figure 4"
                 fluid

@@ -17,7 +17,7 @@ export const QUOTES = [
     "\"Play properly: you want to play so people keep inviting you to play.\"",
     "\"You win by being invited to play the largest possible array of games, and the way you do that is by manifesting the fact that you can play in a reciprocal manner, every time you play, even if there's victory at stake. And thats what makes you successful across time.\"",
     "\"We're not adapting ourselves to the game and victory in the game. We're adapting ourselves to the meta-game, and victory across the set of all possible games.\"",
-    "\"The person who is the master at being invited to play the largest number of games is also the person that goes out forthrightly to conquer the uknonwn before it presents itself as the enemy at the door.\"",
+    "\"The person who is the master at being invited to play the largest number of games is also the person that goes out forthrightly to conquer the unknown before it presents itself as the enemy at the door.\"",
     "\"What's the pattern that works? It's the game that you can play with everybody else&mdash;day after day&mdash;with no degeneration.\"",
     "\"In games, the hero is an archetype that must wander lost in the wilderness to find the knowledge necessary for his or her quest.\""
 ];

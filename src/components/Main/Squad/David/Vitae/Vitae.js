@@ -5,7 +5,6 @@ import './Vitae.scss';
 import Aux from '../../../../../hoc/Aux/Aux';
 import DavidNavigation from '../../../../Navigation/SubNavigation/DavidNavigation';
 import EmploymentRow from './EmploymentRow/EmploymentRow';
-import ScrollArrow from '../../../../UI/ScrollArrow/ScrollArrow';
 import Section from '../../../../Section/Section';
 
 const Vitae = () => (
@@ -414,7 +413,6 @@ const Vitae = () => (
                 <Col lg={1} md={0}></Col>
             </Row>
         </Container>
-        <ScrollArrow />
     </Aux>
 );
 

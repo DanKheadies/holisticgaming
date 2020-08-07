@@ -11,7 +11,7 @@ const AntiInflammatoryAgents = props => (
             Posted: Nov 2019
         </p>
         <p>
-            <a href="https://jnnp.bmj.com/content/early/2019/08/29/jnnp-2019-320912" alt="Anti-inflammatory Agents on Major Depressive Disorder" class="primary-link">
+            <a href="https://jnnp.bmj.com/content/early/2019/08/29/jnnp-2019-320912" alt="Anti-inflammatory Agents on Major Depressive Disorder" className="primary-link">
             Efficacy and safety of anti-inflammatory agents for the treatment of major depressive disorder: a systematic review and meta-analysis of randomised controlled trials
             </a>
             <br />

@@ -12,8 +12,8 @@ import TDSBFImage2 from '../../../../assets/images/games/TDSBFImage2.png';
 import Windows from '../../../../assets/images/games/windows.png';
 
 const TDSBF = () => {
-    const downloadMacHandler = () => { window.open('https://immunisgame.com', "_blank"); };
-    const downloadWindowsHandler = () => { window.open('https://immunisgame.com', "_blank"); };
+    const downloadMacHandler = () => { window.open('/games/tdsbf.1.0.mac.zip', "download"); };
+    const downloadWindowsHandler = () => { window.open('/games/tdsbf.1.0.windows.zip', "download"); };
     const playBrowserHandler = () => { window.open('/games/uwebgl_tdsbf/index.html', "_blank"); };
 
     return (

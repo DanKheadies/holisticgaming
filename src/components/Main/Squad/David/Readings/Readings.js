@@ -5,7 +5,6 @@ import './Readings.scss';
 import { READINGSLIST } from '../../../../../data/readings-list';
 import Aux from '../../../../../hoc/Aux/Aux';
 import DavidNavigation from '../../../../Navigation/SubNavigation/DavidNavigation';
-import ScrollArrow from '../../../../UI/ScrollArrow/ScrollArrow';
 
 const Readings = () => {
     const listHandler = (readings) => {
@@ -42,7 +41,6 @@ const Readings = () => {
                     </ul>
                 </Row>
             </Container>
-            <ScrollArrow />
         </Aux>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Logo.scss';
-import hgLogo from '../../assets/images/hg-logo-3.png';
+import hgLogo from '../../assets/images/hg-logo.png';
 
 const logo = () => (
     <div className="logo">

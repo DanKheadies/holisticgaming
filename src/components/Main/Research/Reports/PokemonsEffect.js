@@ -16,7 +16,7 @@ const PokemonsEffect = props => (
             Posted: Jul 2019
         </p>
         <p>
-            <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortex" class="primary-link">
+            <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortex" className="primary-link">
             Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex
             </a>
             <br />
@@ -48,7 +48,7 @@ const PokemonsEffect = props => (
         <p>
             These researchers showed that novel stimuli, like Pokemon, make meaningful and impactful changes on the human brain. In other words, sustained focus and attention on certain attributes pairs with neural networks and localized regions of activity within the brain. Twenty two adults&mdash;half experienced with the Nintendo Gameboy game Pokemon and half novices&mdash;were tested via fMRI: shown 8 types of images while the researchers mapped neural activity.
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Pokemon's Effect on the Visual Cortex Figure 1"
                 fluid
@@ -56,7 +56,7 @@ const PokemonsEffect = props => (
             />
             <div className="image-notes">
                 <div className="figure-credits">
-                    Reprinted by permission from CCC RightsLink: Springer Nature, Nature Human Behavior, <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortext" class="primary-link"> Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex </a>, J. Gomez, M. Barnett &amp; K. Grill-Spector, 2019.
+                    Reprinted by permission from CCC RightsLink: Springer Nature, Nature Human Behavior, <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortext" className="primary-link"> Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex </a>, J. Gomez, M. Barnett &amp; K. Grill-Spector, 2019.
                 </div>
                 Example stimuli from each of the categories used in the fMRI experiment.
             </div>
@@ -64,7 +64,7 @@ const PokemonsEffect = props => (
         <p>
             The researchers used [sophisticated science] to make [meaningful charts] as well as provide [insightful insight].
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Pokemon's Effect on the Visual Cortex Figure 2"
                 fluid
@@ -72,12 +72,12 @@ const PokemonsEffect = props => (
             />
             <div className="image-notes">
                 <div className="figure-credits">
-                    Reprinted by permission from CCC RightsLink: Springer Nature, Nature Human Behavior, <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortext" class="primary-link"> Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex </a>, J. Gomez, M. Barnett &amp; K. Grill-Spector, 2019.
+                    Reprinted by permission from CCC RightsLink: Springer Nature, Nature Human Behavior, <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortext" className="primary-link"> Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex </a>, J. Gomez, M. Barnett &amp; K. Grill-Spector, 2019.
                 </div>
                 ANOVA quantified brain response activity in experienced and novel Pokemon players across stimuli groups.
             </div>
         </div>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Pokemon's Effect on the Visual Cortex Figure 3"
                 fluid
@@ -85,7 +85,7 @@ const PokemonsEffect = props => (
             />
             <div className="image-notes">
                 <div className="figure-credits">
-                    Reprinted by permission from CCC RightsLink: Springer Nature, Nature Human Behavior, <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortext" class="primary-link"> Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex </a>, J. Gomez, M. Barnett &amp; K. Grill-Spector, 2019.
+                    Reprinted by permission from CCC RightsLink: Springer Nature, Nature Human Behavior, <a href="https://doi.org/10.1038/s41562-019-0592-8" alt="Pokemon's Effect on the Visual Cortext" className="primary-link"> Extensive childhood experience with Pokémon suggests eccentricity drives organization of visual cortex </a>, J. Gomez, M. Barnett &amp; K. Grill-Spector, 2019.
                 </div>
                 Neuronal activity in the ventral temporal cortex (VTC), occipito-temporal sulcus (OTS), fusiform gyrus (FG), and collateral sulcus (CoS). Group A (top) reflects activity in novice Pokemon players, and Group B (bottom) is experienced players.
             </div>

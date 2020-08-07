@@ -13,7 +13,7 @@ const PhysicalFitness = props => (
             Posted: Sep 2019
         </p>
         <p>
-            <a href="https://www.nature.com/articles/s41598-019-49301-y" alt="Physical Fitness's Effect on White Matter Microstructures" class="primary-link">
+            <a href="https://www.nature.com/articles/s41598-019-49301-y" alt="Physical Fitness's Effect on White Matter Microstructures" className="primary-link">
                 White matter microstructure mediates the association between physical fitness and cognition in healthy, young adults
             </a>
             <br />
@@ -46,9 +46,9 @@ const PhysicalFitness = props => (
             A number of studies have looked at the relationship between physical fitness and brain physiology, e.g. white matter structure and gray matter volume; however, less is known about physical fitness’s effect on white matter microstructure, i.e. the diffusion or alignment of myelinated neurons along one axis and restricted along other directions. Through the open-access brain imaging data from the Human Connectome Project (HCP), these researchers analyzed the data available on 1200 individuals&mdash;55.5% female with an average age of 28.8 and an ‘overweight' BMI. This dataset contained an extensive breakdown of tests and scores, which included the NIH Cognition Total Composite Score (i.e. “global condition score”) from subtests in the NIH Toolbox Cognition Battery, as well as physical tests and measurements, such as a walking endurance test.
         </p>
         <p>
-            Through the HPC, the data had been collected and processed for easy access and research (<a href="https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release" class="primary-link" alt="HPC">https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release</a>). This included processing such as with their MR Diffusion Pipeline to normalize parts of the images, remove distortions, and mask the data amongst other techniques. The researchers followed suit by performing hierarchical linear regressions using a statistical software program from IMB (SPSS), and from the dataset, they created a baseline of all 1200 individuals and a complete, i.e. “full,” model to account for covariates such as sex, age, years of completed formal education, BMI, HbA1c (i.e. diabetes), and systolic blood pressure, which consisted of 800 individuals. Additionally, the researchers carried out a mediation analysis for walking endurance, white matter microstructure, and global cognitive performance using the SPSS macro PROCESS.
+            Through the HPC, the data had been collected and processed for easy access and research (<a href="https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release" className="primary-link" alt="HPC">https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release</a>). This included processing such as with their MR Diffusion Pipeline to normalize parts of the images, remove distortions, and mask the data amongst other techniques. The researchers followed suit by performing hierarchical linear regressions using a statistical software program from IMB (SPSS), and from the dataset, they created a baseline of all 1200 individuals and a complete, i.e. “full,” model to account for covariates such as sex, age, years of completed formal education, BMI, HbA1c (i.e. diabetes), and systolic blood pressure, which consisted of 800 individuals. Additionally, the researchers carried out a mediation analysis for walking endurance, white matter microstructure, and global cognitive performance using the SPSS macro PROCESS.
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Physical Fitness's Effect on White Matter Microstructures Figure 1"
                 fluid

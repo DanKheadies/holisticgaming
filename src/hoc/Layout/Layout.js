@@ -4,6 +4,7 @@ import './Layout.scss';
 import Aux from '../Aux/Aux';
 import Footer from '../../components/Footer/Footer';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import ScrollArrow from '../../components/UI/ScrollArrow/ScrollArrow';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 const Layout = props => {
@@ -28,6 +29,7 @@ const Layout = props => {
                 {props.children}
             </main>
             <Footer />
+            <ScrollArrow />
         </Aux>
     );
 };

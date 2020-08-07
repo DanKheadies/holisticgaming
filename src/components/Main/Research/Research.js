@@ -10,7 +10,6 @@ import ReportHealthEffectsCannabis from './Reports/HealthEffectsCannabis';
 import ReportPhysicalFitness from './Reports/PhysicalFitness';
 import ReportPokemonEffects from './Reports/PokemonsEffect';
 import ReportVGExpertise from './Reports/VGExpertise';
-import ScrollArrow from '../../UI/ScrollArrow/ScrollArrow';
 
 const Research = () => {
     return (
@@ -77,7 +76,6 @@ const Research = () => {
                     </Row>
                 </Tab.Container>
             </Container>
-            <ScrollArrow />
         </Aux>
     );
 };

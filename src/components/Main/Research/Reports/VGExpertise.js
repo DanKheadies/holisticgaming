@@ -14,7 +14,7 @@ const VGExpertise = props => (
             Posted: May 2020
         </p>
         <p>
-            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186621" alt="Video Game Expertise and Fluid Intelligence" class="primary-link">
+            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0186621" alt="Video Game Expertise and Fluid Intelligence" className="primary-link">
             Exploring the relationship between video game expertise and fluid intelligence
             </a>
             <br />
@@ -52,7 +52,7 @@ const VGExpertise = props => (
         <p>
             In the second study, the researchers used a larger dataset to see if performance in MOBAs followed age profile maps for fluid intelligence, which follows a similar trajectory in population-level raw IQ where scores peak in the early-to-mid twenties. Using two MOBAs&mdash;LoL &amp; Defense of the Ancients 2 (Dota 2)&mdash;and two FPS&mdash;Destiny &amp; Battlefield 3, the researchers could compare games that prioritized speed and targeting accuracy over memory and multifactorial decision making. The researchers gathered ‘Matchmaking Ranking’ (MMR) scores for each game as well as participant age.
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Video Game Expertise and Fluid Intelligence Figure 1"
                 fluid
@@ -65,7 +65,7 @@ const VGExpertise = props => (
         <p>
             The researchers found different age trajectories between rank and game type. Age groups were divided into 3: first being 13-21, second being 22-27, and third being 28-40. Both types showed significant differences between the second and third groups, which indicated that performance, i.e. rank, falls in general after the mid-to-late 20s. However, MOBAs showed a significant increase between first and second age groups, whereas FPS showed more equal performance between first and second. This is consistent with the authors’ hypothesis that performance in MOBAs (and not FPS games) is correlated with fluid intelligence, which also exhibits this age profile.
         </p>
-        <div class="center-content">
+        <div className="center-content">
             <Image 
                 alt="Video Game Expertise and Fluid Intelligence Figure 2"
                 fluid

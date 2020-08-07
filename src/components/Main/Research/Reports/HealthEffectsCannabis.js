@@ -12,7 +12,7 @@ const HealthEffectsCannabis = props => (
             Posted: Apr 2020
         </p>
         <p>
-            <a href="https://doi.org/10.17226/24625" alt="Health Effects of Cannabis and Cannabinoids: The Current State" class="primary-link">
+            <a href="https://doi.org/10.17226/24625" alt="Health Effects of Cannabis and Cannabinoids: The Current State" className="primary-link">
             Efficacy and safety of anti-inflammatory agents for the treatment of major depressive disorder: a systematic review and meta-analysis of randomised controlled trials
             </a>
             <br />

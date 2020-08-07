@@ -12,8 +12,6 @@ const Jumbo = props => {
     useEffect(() => {
         const rando = Math.floor(Math.random() * JumboImages.length);
         const image = JumboImages[rando];
-        console.log(rando);
-        console.log(image);
         setJumboImage(image);
     }, [setJumboImage]); //controls how often this runs
 

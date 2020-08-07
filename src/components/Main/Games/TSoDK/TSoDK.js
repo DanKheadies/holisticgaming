@@ -14,8 +14,8 @@ import TSoDKImage2 from '../../../../assets/images/games/TSoDKImage2.png';
 import Windows from '../../../../assets/images/games/windows.png';
 
 const TSoDK = () => {
-    const downloadMacHandler = () => { window.open('https://immunisgame.com', "_blank"); };
-    const downloadWindowsHandler = () => { window.open('https://immunisgame.com', "_blank"); };
+    const downloadMacHandler = () => { window.open('/games/tsodk.4.0.mac.zip', "download"); };
+    const downloadWindowsHandler = () => { window.open('/games/tsodk.4.0.windows.zip', "download"); };
     const goToAppStoreHandler = () => { window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1449564719', "_blank"); };
     const goToGooglePlayHandler = () => { window.open('https://play.google.com/store/apps/details?id=com.HolisticGaming.TheStoryOfDanKheadies', "_blank"); };
     const playBrowserHandler = () => { window.open('/games/uwebgl_tsodk/index.html', "_blank"); };
