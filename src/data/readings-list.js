@@ -61,6 +61,7 @@ import Mueller from '../assets/images/squad/david/books/mueller.jpg';
 import Neighbors from '../assets/images/squad/david/books/neighbors.jpg';
 import Nausea from '../assets/images/squad/david/books/nausea.jpg';
 import Nonzero from '../assets/images/squad/david/books/nonzero.jpg';
+import ObeliskGate from '../assets/images/squad/david/books/obeliskGate.jpg';
 import OmnivoreDilemma from '../assets/images/squad/david/books/omnivoreDilemma.jpg';
 import OneHundredTwentyYear from '../assets/images/squad/david/books/120year.jpg';
 import OneSecond from '../assets/images/squad/david/books/oneSecond.jpg';
@@ -100,8 +101,15 @@ import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
     new Reading (
+        ObeliskGate.toString(), 
+        'The Obelisk Gate',
+        ObeliskGate, 
+        'https://www.amazon.com/Obelisk-Gate-Broken-Earth/dp/0316229261',
+        107
+    ),
+    new Reading (
         FifthSeason.toString(), 
-        'The FifthfSeason',
+        'The Fifth Season',
         FifthSeason, 
         'https://www.amazon.com/Fifth-Season-Broken-Earth/dp/0316229296',
         106

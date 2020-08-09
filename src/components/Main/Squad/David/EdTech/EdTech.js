@@ -94,11 +94,12 @@ const EdTech = () => (
                                     eventKey="104"
                                     title="Portfolio Presentation"
                                 >
-                                    <Image
-                                        className="youtube-poster"
-                                        src={ImagePortfolioPresentation}
-                                        fluid
-                                    />
+                                    <a className="" href="https://www.youtube.com/watch?v=coWT7nFjNaM" alt="EDET 793 Portfolio Presentation">
+                                        <Image
+                                            className="youtube-poster"
+                                            src={ImagePortfolioPresentation}
+                                        />
+                                    </a>
                                     <br />
                                     <a className="primary-link" href="https://www.youtube.com/watch?v=coWT7nFjNaM" alt="EDET 793 Portfolio Presentation">
                                         EDET 793 Portfolio Presentation

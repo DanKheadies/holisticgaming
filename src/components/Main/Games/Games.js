@@ -34,7 +34,7 @@ const Games = () => {
                                 <Link to="/games/tsodk" className="primary-link">Play the ever unfolding story</Link> that is Dan's life.
                             </p>
                             <p>
-                                Now provides controller support. <a href="mailto:support@holisticgaming.com" className="primary-link" alt="Send an email">DTFun LLC</a>
+                                Now provides controller support. <a href="mailto:support@holisticgaming.com" className="primary-link" alt="Send an email">Having problems?</a>
                                 {/* <Link to="/contact" className="primary-link">Have issues?</Link> */}
                             </p>
                         </Carousel.Caption>
