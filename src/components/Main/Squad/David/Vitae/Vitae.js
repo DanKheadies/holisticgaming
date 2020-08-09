@@ -73,9 +73,9 @@ const Vitae = () => (
                             <li>SQL</li>
                             <li>Swift &amp; iOS</li>
                             <li>Typescript</li>
-                            <li>User Experience Design</li>
                             <li>Unity</li>
                             <li>Unreal Engine</li>
+                            <li>User Experience Design</li>
                             <li>Web Development</li>
                         </ul>
                         <div className="spacer"></div>
