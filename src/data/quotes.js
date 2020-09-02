@@ -19,5 +19,6 @@ export const QUOTES = [
     "\"We're not adapting ourselves to the game and victory in the game. We're adapting ourselves to the meta-game, and victory across the set of all possible games.\"",
     "\"The person who is the master at being invited to play the largest number of games is also the person that goes out forthrightly to conquer the unknown before it presents itself as the enemy at the door.\"",
     "\"What's the pattern that works? It's the game that you can play with everybody else&mdash;day after day&mdash;with no degeneration.\"",
-    "\"In games, the hero is an archetype that must wander lost in the wilderness to find the knowledge necessary for his or her quest.\""
+    "\"In games, the hero is an archetype that must wander lost in the wilderness to find the knowledge necessary for his or her quest.\"",
+    "\"You are not the cards you're dealt.\""
 ];

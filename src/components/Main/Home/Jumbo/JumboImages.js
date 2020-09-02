@@ -17,6 +17,7 @@ import hollow from '../../../../assets/images/jumbo/hollow.jpg';
 import hue from '../../../../assets/images/jumbo/hue.jpg';
 import humans from '../../../../assets/images/jumbo/humans.jpg';
 import katana from '../../../../assets/images/jumbo/katana.jpg';
+import legoHarry from '../../../../assets/images/jumbo/legoHarry.jpg';
 import lozla from '../../../../assets/images/jumbo/lozla.jpg';
 import mario from '../../../../assets/images/jumbo/mario.jpg';
 import md from '../../../../assets/images/jumbo/md.jpg';
@@ -27,6 +28,7 @@ import pokemon from '../../../../assets/images/jumbo/pokemon.jpg';
 import rocket from '../../../../assets/images/jumbo/rocket.jpg';
 import smrpg from '../../../../assets/images/jumbo/smrpg.jpg';
 import spfbw from '../../../../assets/images/jumbo/spfbw.jpg';
+import spirit from '../../../../assets/images/jumbo/spirit.jpg';
 import ssbu from '../../../../assets/images/jumbo/ssbu.jpg';
 import terraria from '../../../../assets/images/jumbo/terraria.jpg';
 import valfaris from '../../../../assets/images/jumbo/valfaris.jpg';
@@ -52,6 +54,7 @@ const JUMBOIMAGES = [
     hue,
     humans,
     katana,
+    legoHarry,
     lozla,
     mario,
     md,
@@ -62,6 +65,7 @@ const JUMBOIMAGES = [
     rocket,
     smrpg,
     spfbw,
+    spirit,
     ssbu,
     terraria,
     valfaris,

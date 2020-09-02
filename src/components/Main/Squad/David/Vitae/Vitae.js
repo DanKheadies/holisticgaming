@@ -214,6 +214,16 @@ const Vitae = () => (
                 <Col lg={1} md={0}></Col>
                 <Col>
                     <Section header="Employment and Experience">
+                    <EmploymentRow
+                            company="Imagine Chat! LLC"
+                            dates="June 2020 - Present"
+                            location="Commerce Township, MI"
+                            role="Chief Technology Officer &amp; Owner"
+                            jobs={[
+                                "Empowering the youth.",
+                                "Developing emotional intelligence in young children."
+                            ]}
+                        />
                         <EmploymentRow
                             company="DTFun LLC"
                             dates="April 2019 - Present"
@@ -268,6 +278,67 @@ const Vitae = () => (
                                 "Received an Exploration Scholarship to review the cognitive, psychological, physical, and physiological effects inherent in video games.",
                                 "Received an Exploration Scholarship to help design and develop an immunology game.",
                                 "Received a Magellan Scholarship to analyze the cognitive and metacognitive effects inherent in video games."
+                            ]}
+                        />
+                        <div className="spacer"></div>
+                        <EmploymentRow
+                            company="ACE Mulching"
+                            dates="May 2008 - June 2015"
+                            location="Spartanburg, SC"
+                            role="King"
+                            jobs={[
+                                "Assessing and spreading mulch."
+                            ]}
+                        />
+                        <div className="spacer"></div>
+                        <EmploymentRow
+                            company="Immunis, LLC."
+                            dates="May 2012 - May 2015"
+                            location="Columbia, SC"
+                            role="Founder &amp; Chief Operations Officer"
+                            jobs={[
+                                "Designing, developing, and managing an educational game on immunology."
+                            ]}
+                        />
+                        <div className="spacer"></div>
+                        <EmploymentRow
+                            company="Particle Systems, LLC."
+                            dates="April 2011 - May 2015"
+                            location="Columbia, SC"
+                            role="Founder &amp; Chief Executive Officer"
+                            jobs={[
+                                "Dissecting and organizing educational concepts to create optimal learning experiences.",
+                                "Designing and developing educational games that improve the quality of our lives."
+                            ]}
+                        />
+                        <div className="spacer"></div>
+                        <EmploymentRow
+                            company="Round River Farms"
+                            dates="May 2013 - July 2013"
+                            location="Leesville, SC"
+                            role="Farm Hand"
+                            jobs={[
+                                "Planting, sustaining, harvesting, and delivering CSA produce."
+                            ]}
+                        />
+                        <div className="spacer"></div>
+                        <EmploymentRow
+                            company="University of South Carolina's College of Education"
+                            dates="August 2012 - March 2013"
+                            location="Columbia, SC"
+                            role="Researcher"
+                            jobs={[
+                                "Creating electronic learning modules for EDPY 401 - Learners and Diversity in Learning."
+                            ]}
+                        />
+                        <div className="spacer"></div>
+                        <EmploymentRow
+                            company="Spartanburg Methodist College"
+                            dates="May 2012 - August 2012"
+                            location="Spartanburg, SC"
+                            role="Facility Manager Assistant"
+                            jobs={[
+                                "Helped maintain the school grounds."
                             ]}
                         />
                     </Section>
