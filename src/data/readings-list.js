@@ -84,6 +84,7 @@ import ShadowHegemon from '../assets/images/squad/david/books/shadowHegemon.jpg'
 import ShadowPuppets from '../assets/images/squad/david/books/shadowPuppets.jpg';
 import SpeakerDead from '../assets/images/squad/david/books/speakerDead.jpg';
 import SpontaneousEvolution from '../assets/images/squad/david/books/spontaneousEvolution.jpg';
+import StoneSky from '../assets/images/squad/david/books/stoneSky.jpg';
 import StormSwords from '../assets/images/squad/david/books/stormSwords.jpg';
 import StoryMuhammed from '../assets/images/squad/david/books/storyMuhammed.jpg';
 import StrokeInsight from '../assets/images/squad/david/books/strokeInsight.jpg';
@@ -100,6 +101,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        StoneSky.toString(), 
+        'The Stone Sky',
+        StoneSky, 
+        'https://www.amazon.com/Stone-Sky-Broken-Earth-Book-ebook/dp/B01N7EQOFA',
+        108
+    ),
     new Reading (
         ObeliskGate.toString(), 
         'The Obelisk Gate',

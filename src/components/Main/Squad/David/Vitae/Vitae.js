@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import classNames from 'classnames';
 
 import './Vitae.scss';
 import Aux from '../../../../../hoc/Aux/Aux';
@@ -446,13 +447,13 @@ const Vitae = () => (
                                 Holistic Gaming (<a className="primary-link" href="/" alt="Holistic Gaming">https://holisticgaming.com</a>)
                             </li>
                             <li>
-                                The Story of Dan Kheadies (<a className="primary-link" href="/games/tsodk" alt="The Story of Dan Kheadies">https://holisticgaming.com/games/tsodk</a>)
+                                The Story of Dan Kheadies (<a className={classNames("primary-link", "dont-break-out")} href="/games/tsodk" alt="The Story of Dan Kheadies">https://holisticgaming.com/games/tsodk</a>)
                             </li>
                             <li>
                                 Guess Who Colluded (<a className="primary-link" href="https://guesswhocolluded.com" alt="Guess Who Colluded">https://guesswhocolluded.com</a>)
                             </li>
                             <li>
-                                Explosions In My Pants &mdash; A Gentleman's Game (<a className="primary-link" href="https://explosionsinmypants.com" alt="Explosions In My Pants &mdash; A Gentleman's Game">https://explosionsinmypants.com</a>)
+                                Explosions In My Pants &mdash; A Gentleman's Game (<a className={classNames("primary-link", "dont-break-out")} href="https://explosionsinmypants.com" alt="Explosions In My Pants &mdash; A Gentleman's Game">https://explosionsinmypants.com</a>)
                             </li>
                             <li>
                                 Port Operations - Scheduling and Billing (<a className="primary-link" href="http://portcall.com" alt="Port Operations - Scheduling and Billing">https://portcall.com</a>)
@@ -467,13 +468,13 @@ const Vitae = () => (
                                 Immunis (<a className="primary-link" href="https://immunisgame.com" alt="Immunis">https://immunisgame.com</a>)
                             </li>
                             <li>
-                                Senior Thesis - Holistic Gaming (<a className="primary-link" href="https://www.dropbox.com/s/ehycjvd4dhjeklq/HolisticGaming8.0.pdf?dl=0" alt="Senior Thesis - Holistic Gaming">https://www.dropbox.com/s/ehycjvd4dhjeklq/HolisticGaming8.0.pdf?dl=0</a>)
+                                Senior Thesis - Holistic Gaming (<a className={classNames("primary-link", "dont-break-out")} href="https://www.dropbox.com/s/ehycjvd4dhjeklq/HolisticGaming8.0.pdf?dl=0" alt="Senior Thesis - Holistic Gaming">https://www.dropbox.com/s/ehycjvd4dhjeklq/HolisticGaming8.0.pdf?dl=0</a>)
                             </li>
                             <li>
-                                A Review of Video Game Effects and Uses (<a className="primary-link" href="http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2014/2014-caravel-video-games.php" alt="A Review of Video Game Effects and Uses">http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2014/2014-caravel-video-games.php</a>)
+                                A Review of Video Game Effects and Uses (<a className={classNames("primary-link", "dont-break-out")} href="http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2014/2014-caravel-video-games.php" alt="A Review of Video Game Effects and Uses">http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2014/2014-caravel-video-games.php</a>)
                             </li>
                             <li>
-                                Learning About Learning: Cognitive Gaming as a Technology of the Self (<a className="primary-link" href="http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2012/2012-caravel-learning-about-learning.php" alt="Learning About Learning: Cognitive Gaming as a Technology of the Self">http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2012/2012-caravel-learning-about-learning.php</a>)
+                                Learning About Learning: Cognitive Gaming as a Technology of the Self (<a className={classNames("primary-link", "dont-break-out")} href="http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2012/2012-caravel-learning-about-learning.php" alt="Learning About Learning: Cognitive Gaming as a Technology of the Self">http://sc.edu/about/offices_and_divisions/research/news_and_pubs/caravel/archive/2012/2012-caravel-learning-about-learning.php</a>)
                             </li>
                             <li>
                                 Psychological Assessment Training and Certification (www.bendergestalt.com) [RETIRED] 
