@@ -24,7 +24,7 @@ const Vitae = () => (
                                     davidwcorso@gmail.com
                                 </a>
                             </li>
-                            <li>April, 19 1990</li>
+                            <li>April 19, 1990</li>
                             <li>Do good, die great.</li>
                         </ul>
                     </Section>
@@ -231,7 +231,7 @@ const Vitae = () => (
                             location="Durham, NC"
                             role="Chief Executive Officer &amp; Owner"
                             jobs={[
-                                "Creating holistic games."
+                                "Creating games to learn everything by learning everything about games."
                             ]}
                         />
                         <div className="spacer"></div>
@@ -382,9 +382,11 @@ const Vitae = () => (
                                 <li>HTML</li>
                                 <li>Javascript</li>
                                 <li>jQuery</li>
+                                <li>LESS</li>
                                 <li>PHP</li>
                                 <li>React</li>
                                 <li>ReactNative</li>
+                                <li>SCSS</li>
                             </ul>
                             <li>
                                 Database Management
