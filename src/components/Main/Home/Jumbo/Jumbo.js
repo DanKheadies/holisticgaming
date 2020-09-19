@@ -7,13 +7,11 @@ import JumboImages from './JumboImages';
 const Jumbo = props => {
     const [jumboImage, setJumboImage] = useState();
 
-    // executed right after every component render cycle
-    // after component rendered the first time, this runs
     useEffect(() => {
         const rando = Math.floor(Math.random() * JumboImages.length);
         const image = JumboImages[rando];
         setJumboImage(image);
-    }, [setJumboImage]); //controls how often this runs
+    }, []);
 
     return (
         <div className="jumbotron-container">

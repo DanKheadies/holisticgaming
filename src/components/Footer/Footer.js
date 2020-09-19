@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './Footer.scss';
 import Aux from '../../hoc/Aux/Aux';
@@ -16,8 +17,7 @@ const footer = () => {
                     NonCommerical
                 </li>
                 <li>
-                    {/* Attribution&mdash;<Link to="/contact" className="footer-link">DTFun LLC</Link> */}
-                    Attribution&mdash;<a href="mailto:support@holisticgaming.com" className="footer-link" alt="Send an email">DTFun LLC</a>
+                    Attribution&mdash;<Link to="/contact" className="footer-link">DTFun LLC</Link>
                 </li>
             </ul>
         </Tooltip>
@@ -35,8 +35,7 @@ const footer = () => {
                         >
                             <a href="https://creativecommons.org/licenses/" alt="CC Attribution" className="footer-link">CC SA NC BY</a>
                         </OverlayTrigger> &nbsp;
-                        {/* <Link to="/contact" className="footer-link">DTFun LLC</Link> */}
-                        <a href="mailto:support@holisticgaming.com" className="footer-link" alt="Send an email">DTFun LLC</a>
+                        <Link to="/contact" className="footer-link">DTFun LLC</Link>
                     </Col>
                     <Col className="footer-right">
                         Powered by love and <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P8HU4RD3W2XQY&source=url" alt="Support HG" className="footer-link">support</a>.

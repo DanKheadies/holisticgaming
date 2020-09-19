@@ -34,8 +34,7 @@ const Games = () => {
                                 <Link to="/games/tsodk" className="primary-link">Play the ever unfolding story</Link> that is Dan's life.
                             </p>
                             <p>
-                                Now provides controller support. <a href="mailto:support@holisticgaming.com" className="primary-link" alt="Send an email">Having problems?</a>
-                                {/* <Link to="/contact" className="primary-link">Have issues?</Link> */}
+                                <Link to="/contact" className="primary-link">Have issues?</Link>
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -119,49 +118,6 @@ const Games = () => {
                             </div>
                         </Col>
                     </Row>
-                </Row>
-            </Container> */}
-            {/* <Container>
-                <Row>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={ImmunisImage} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={ImmunisImage} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col xs>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={ImmunisImage} />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
                 </Row>
             </Container> */}
         </Aux>

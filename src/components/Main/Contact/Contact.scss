@@ -1,7 +1,13 @@
-.recaptcha-container {
-    margin-bottom: 25px;
-    
-    div > div > div { 
-        margin: 0 auto;
+@import '../../../constants/Sizes.scss';
+
+.contact {
+    margin-top: 15px;
+
+    .contact-header {
+        margin-bottom: 50px;
+    }
+
+    .form-button {
+        margin-top: 25px;
     }
 }
