@@ -7,8 +7,7 @@ export const sendContactEmail = (emailContent) => {
             errors: []
         };
 
-        await fetch('https://holisticgaming.com/api/contact-form/index.php', {
-        // await fetch('https://explosionsinmypants.com/api/index.php', {
+        await fetch('https://truthorelaboratelie.com/api/holisticgaming/contact-form.php', {
             method: "POST",
             body: JSON.stringify(emailContent),
             headers: {

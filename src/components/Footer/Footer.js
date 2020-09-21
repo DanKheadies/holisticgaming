@@ -1,11 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import './Footer.scss';
 import Aux from '../../hoc/Aux/Aux';
 
-const footer = () => {
+const Footer = () => {
+    const [currentLocation, setCurrentLocation] = useState('');
+    const [prevLocation, setPrevLocation] = useState('');
+    const [showFooter, setShowFooter] = useState(false);
+
+    const location = useLocation();
+
+    const checkForBottom = () => {
+        // Need +2
+        if ((window.innerHeight + window.scrollY) + 2 >= document.body.offsetHeight) {
+            setShowFooter(true);
+        }
+        else {
+            setShowFooter(false);
+        }
+    };
+
+    const delayCheckForBottom = () => {
+        if (currentLocation !== prevLocation) {
+            setPrevLocation(currentLocation);
+            setTimeout(() => {
+                checkForBottom();
+            }, 300);
+        }
+    };
+
     const renderTooltip = (props) => (
         <Tooltip id="cc-tooltip" {...props}>
             Except where noted, all content on this site is licensed under a <a href="https://creativecommons.org/licenses/" alt="CC Attribution" className="footer-link">CC Attribution 4.0 International License</a>: 
@@ -23,9 +48,23 @@ const footer = () => {
         </Tooltip>
     );
 
+    useEffect(() => {
+        checkForBottom();
+        setCurrentLocation(location.pathname);
+    }, [location]);
+
+    window.addEventListener('scroll', checkForBottom);
+    // window.addEventListener('mouseup', delayCheckForBottom);
+    window.addEventListener('pointerup', delayCheckForBottom);
+
     return (
         <Aux>
-            <Container className="footer-container">
+            <Container 
+                className="footer-container"
+                style={{
+                    display: showFooter ? 'block' : 'none'
+                }}
+            >
                 <div className="custom-row">
                     <Col>
                         <OverlayTrigger
@@ -46,4 +85,4 @@ const footer = () => {
     );
 };
 
-export default footer;
+export default Footer;

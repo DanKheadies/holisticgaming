@@ -11,7 +11,10 @@ const David = () => (
     <Aux>
         <DavidNavigation />
         <Container className="david">
-            <Row sm={1}>
+            <Row 
+                className="row-spacing" 
+                sm={1}
+            >
                 <Col md={1}></Col>
                 <Col md={5}>
                     <Section header="David W Corso">

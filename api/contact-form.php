@@ -38,9 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 <html lang=\"en\">
     <head><meta charset=\"utf-8\">
         <style>
-            a:hover {
-                color: #00CCBE;
-            }
             body {
                 background: #edecef;
                 margin: 0px;
@@ -53,14 +50,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             div, p, span, table {
                 display: inline-block;
             }
-            .green {
-                color: #00a195 !important;
-            }
             .grey {
                 color: #999;
-            }
-            .italic {
-                font-style: italic;
             }
             .main {
                 background: #fafafa;
@@ -74,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 margin: 25px 0px;
                 padding: 20px 40px 25px;
                 text-align: left;
-                width: 50vw;
+                width: 80vw;
             }
             .small {
                 font-size: 12px;
@@ -84,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 border-radius: 3px;
                 padding: 15px;
                 text-align: left;
-                width: 40vw;
+                width: 75vw;
             }
             td {
                 padding: 6px 10px;
@@ -99,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         <div class=\"main\">
             <p>$name submitted a Holistic Gaming help request.</p>
             <br />
-            <p class=\"bold\">Details for this Request</p>
+            <p class=\"bold\">Details:</p>
             <div class=\"table-shell\">
                 <table>
                     <tr>
@@ -114,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                         <td class=\"grey small\">
                             Email:
                         </td>
-                        <td class=\"bold green\">
+                        <td class=\"bold\">
                             $email
                         </td>
                     </tr>
