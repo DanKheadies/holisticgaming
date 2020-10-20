@@ -11,6 +11,7 @@ import Beyond from '../assets/images/squad/david/books/beyond.jpg';
 import Blink from '../assets/images/squad/david/books/blink.jpg';
 import BoysBoat from '../assets/images/squad/david/books/boysBoat.jpg';
 import Calories from '../assets/images/squad/david/books/calories.jpg';
+import Change from '../assets/images/squad/david/books/change.jpg';
 import ChildrenMind from '../assets/images/squad/david/books/childrenMind.jpg';
 import ClashKings from '../assets/images/squad/david/books/clashKings.jpg';
 import Code from '../assets/images/squad/david/books/code.jpg';
@@ -102,6 +103,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Change.toString(), 
+        'Change Agent',
+        Change, 
+        'https://www.amazon.com/Change-Agent-Daniel-Suarez/dp/110198466X',
+        110
+    ),
     new Reading (
         Calories.toString(), 
         'Good Calories, Bad Calories',
