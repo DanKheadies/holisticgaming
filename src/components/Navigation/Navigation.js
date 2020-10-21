@@ -1,8 +1,10 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Redirect, Switch } from 'react-router-dom';
 
 import './Navigation.scss';
 import Aux from '../../hoc/Aux/Aux';
+import TrackedRoute from '../TrackedRoute/TrackedRoute';
+
 import Contact from '../../components/Main/Contact/Contact';
 import David from '../../components/Main/Squad/David/David';
 import EdTech from '../../components/Main/Squad/David/EdTech/EdTech';
@@ -22,20 +24,20 @@ const Navigation = () => {
     return (
         <Aux>
             <Switch>
-                <Route path="/contact" component={Contact} />
-                <Route path="/games/tdsbf" component={TDSBF} />
-                <Route path="/games/tsodk" component={TSoDK} />
-                <Route path="/games" component={Games} />
-                <Route path="/pixatool" component={PixaTool} />
-                <Route path="/research" component={Research} />
-                <Route path="/squad/david/edtech" component={EdTech} />
-                <Route path="/squad/david/readings" component={Readings} />
-                <Route path="/squad/david/vitae" component={Vitae} />
-                <Route path="/squad/david" component={David} />
-                <Route path="/squad" component={Squad} />
-                <Route path="/thanks" component={Thanks} />
-                <Route path="/thanks-kinda" component={ThanksKinda} />
-                <Route path="/" exact component={Home} />
+                <TrackedRoute path="/contact" component={Contact} />
+                <TrackedRoute path="/games/tdsbf" component={TDSBF} />
+                <TrackedRoute path="/games/tsodk" component={TSoDK} />
+                <TrackedRoute path="/games" component={Games} />
+                <TrackedRoute path="/pixatool" component={PixaTool} />
+                <TrackedRoute path="/research" component={Research} />
+                <TrackedRoute path="/squad/david/edtech" component={EdTech} />
+                <TrackedRoute path="/squad/david/readings" component={Readings} />
+                <TrackedRoute path="/squad/david/vitae" component={Vitae} />
+                <TrackedRoute path="/squad/david" component={David} />
+                <TrackedRoute path="/squad" component={Squad} />
+                <TrackedRoute path="/thanks" component={Thanks} />
+                <TrackedRoute path="/thanks-kinda" component={ThanksKinda} />
+                <TrackedRoute path="/" exact component={Home} />
                 <Redirect to="/" />
             </Switch>
         </Aux>

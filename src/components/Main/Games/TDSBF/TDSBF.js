@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './TDSBF.scss';
 import Aux from '../../../../hoc/Aux/Aux';
 import Browser from '../../../../assets/images/games/browsers.png';
+import { Event } from '../../../Tracking/Tracking';
 import GameCard from '../GameCard/GameCard';
 import ImageFader from '../../../UI/ImageFader/ImageFader';
 import Mac from '../../../../assets/images/games/mac.png';
@@ -12,9 +13,18 @@ import TDSBFImage2 from '../../../../assets/images/games/TDSBFImage2.png';
 import Windows from '../../../../assets/images/games/windows.png';
 
 const TDSBF = () => {
-    const downloadMacHandler = () => { window.open('/games/tdsbf.1.0.mac.zip', "download"); };
-    const downloadWindowsHandler = () => { window.open('/games/tdsbf.1.0.windows.zip', "download"); };
-    const playBrowserHandler = () => { window.open('/games/uwebgl_tdsbf/index.html', "_blank"); };
+    const downloadMacHandler = () => { 
+        Event("PLAY", "TDSBF Mac Download", "TDSBF");
+        window.open('/games/tdsbf.1.0.mac.zip', "download"); 
+    };
+    const downloadWindowsHandler = () => { 
+        Event("PLAY", "TDSBF Windows Download", "TDSBF");
+        window.open('/games/tdsbf.1.0.windows.zip', "download"); 
+    };
+    const playBrowserHandler = () => { 
+        Event("PLAY", "TDSBF Browser Download", "TDSBF");
+        window.open('/games/uwebgl_tdsbf/index.html', "_blank"); 
+    };
 
     return (
         <Aux>

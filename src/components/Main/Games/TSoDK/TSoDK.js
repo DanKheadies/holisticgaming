@@ -5,6 +5,7 @@ import './TSoDK.scss';
 import Android from '../../../../assets/images/games/android.png';
 import Aux from '../../../../hoc/Aux/Aux';
 import Browser from '../../../../assets/images/games/browsers.png';
+import { Event } from '../../../Tracking/Tracking';
 import GameCard from '../GameCard/GameCard';
 import ImageFader from '../../../UI/ImageFader/ImageFader';
 import iOS from '../../../../assets/images/games/ios.png';
@@ -14,11 +15,26 @@ import TSoDKImage2 from '../../../../assets/images/games/TSoDKImage2.png';
 import Windows from '../../../../assets/images/games/windows.png';
 
 const TSoDK = () => {
-    const downloadMacHandler = () => { window.open('/games/tsodk.4.0.mac.zip', "download"); };
-    const downloadWindowsHandler = () => { window.open('/games/tsodk.4.0.windows.zip', "download"); };
-    const goToAppStoreHandler = () => { window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1449564719', "_blank"); };
-    const goToGooglePlayHandler = () => { window.open('https://play.google.com/store/apps/details?id=com.HolisticGaming.TheStoryOfDanKheadies', "_blank"); };
-    const playBrowserHandler = () => { window.open('/games/uwebgl_tsodk/index.html', "_blank"); };
+    const downloadMacHandler = () => { 
+        Event("PLAY", "TSoDK Mac Download", "TSoDK");
+        window.open('/games/tsodk.4.0.mac.zip', "download"); 
+    };
+    const downloadWindowsHandler = () => { 
+        Event("PLAY", "TSoDK Windows Download", "TSoDK");
+        window.open('/games/tsodk.4.0.windows.zip', "download"); 
+    };
+    const goToAppStoreHandler = () => { 
+        Event("PLAY", "TSoDK iOS Link", "TSoDK");
+        window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1449564719', "_blank"); 
+    };
+    const goToGooglePlayHandler = () => { 
+        Event("PLAY", "TSoDK Android Link", "TSoDK");
+        window.open('https://play.google.com/store/apps/details?id=com.HolisticGaming.TheStoryOfDanKheadies', "_blank"); 
+    };
+    const playBrowserHandler = () => { 
+        Event("PLAY", "TSoDK Browser Download", "TSoDK");
+        window.open('/games/uwebgl_tsodk/index.html', "_blank"); 
+    };
 
     return (
         <Aux>

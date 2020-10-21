@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-// import ReactGA from 'react-ga';
 
 import './Layout.scss';
-// import * as env from '../../env';
 import Aux from '../Aux/Aux';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
@@ -20,14 +18,6 @@ const Layout = () => {
     const sideDrawerToggleHandler = () => {
         setShowSideDrawer(!showSideDrawer);
     }
-
-    // useEffect(() => {
-    //     // ReactGA.initialize(env.GOOG_ANA);
-    //     ReactGA.initialize('UA-104097928-1');
-    //     ReactGA.pageview(window.location.pathname);
-    //     console.log(ReactGA.initialize('UA-104097928-1'));
-    //     console.log(ReactGA.pageview(window.location.pathname));
-    // }, []);
 
     return (
         <Aux>
