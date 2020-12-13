@@ -1,6 +1,7 @@
 import Reading from '../models/reading';
 
 import Alchemist from '../assets/images/squad/david/books/alchemist.jpg';
+import AllWorlds from '../assets/images/squad/david/books/allWorlds.jpg';
 import America from '../assets/images/squad/david/books/america.jpg';
 import Animal from '../assets/images/squad/david/books/animal.jpg';
 import ArtHappiness from '../assets/images/squad/david/books/artHappiness.jpg';
@@ -98,11 +99,34 @@ import Thinking from '../assets/images/squad/david/books/thinking.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
 import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
+import WeBob from '../assets/images/squad/david/books/weBob.jpg';
+import WeMany from '../assets/images/squad/david/books/weMany.jpg';
 import Wisdom from '../assets/images/squad/david/books/wisdom.jpg';
 import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        AllWorlds.toString(), 
+        'All These Worlds',
+        AllWorlds, 
+        'https://www.amazon.com/All-These-Worlds-Bobiverse-Book-ebook/dp/B0736185ZL',
+        113
+    ),
+    new Reading (
+        WeMany.toString(), 
+        'For We Are Many',
+        WeMany, 
+        'https://www.amazon.com/We-Are-Many-Bobiverse-Book-ebook/dp/B01MZI77C0',
+        112
+    ),
+    new Reading (
+        WeBob.toString(), 
+        'We Are Legion (We Are Bob)',
+        WeBob, 
+        'https://www.amazon.com/Are-Legion-Bob-Bobiverse-Book-ebook/dp/B01LWAESYQ',
+        111
+    ),
     new Reading (
         Change.toString(), 
         'Change Agent',
