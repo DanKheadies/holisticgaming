@@ -46,9 +46,10 @@ import GameThrones from '../assets/images/squad/david/books/gameThrones.jpg';
 import GamificationLearning from '../assets/images/squad/david/books/gamificationLearning.jpg';
 import GenerationKill from '../assets/images/squad/david/books/generationKill.jpg';
 import GunsGerms from '../assets/images/squad/david/books/gunsGerms.jpg';
-import Healthy from '../assets/images/squad/david/books/healthy.jpg';
 import Habit from '../assets/images/squad/david/books/habit.jpg';
+import Healthy from '../assets/images/squad/david/books/healthy.jpg';
 import HeavenReal from '../assets/images/squad/david/books/heavenReal.jpg';
+import HeavensRiver from '../assets/images/squad/david/books/HeavensRiver.jpg';
 import HistoryTime from '../assets/images/squad/david/books/historyTime.jpg';
 import Hokkaido from '../assets/images/squad/david/books/hokkaido.jpg';
 import IceFire from '../assets/images/squad/david/books/iceFire.jpg';
@@ -106,6 +107,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        HeavensRiver.toString(), 
+        'Heaven\'s River',
+        HeavensRiver, 
+        'https://www.amazon.com/Heavens-River-Bobiverse-Book-4/dp/B088C51F5H',
+        114
+    ),
     new Reading (
         AllWorlds.toString(), 
         'All These Worlds',
