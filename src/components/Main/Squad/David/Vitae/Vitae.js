@@ -64,6 +64,7 @@ const Vitae = () => (
                             <li>C++</li>
                             <li>D3.js</li>
                             <li>Expo</li>
+                            <li>Flutter/Dart</li>
                             <li>Node.js</li>
                             <li>PHP</li>
                             <li>Progressive Web Apps</li>
@@ -219,7 +220,7 @@ const Vitae = () => (
                             company="Imagine Chat! LLC"
                             dates="June 2020 - Present"
                             location="Commerce Township, MI"
-                            role="Chief Technology Officer &amp; Owner"
+                            role="Chief Technology Officer &amp; Founder"
                             jobs={[
                                 "Empowering the youth.",
                                 "Developing emotional intelligence in young children."
@@ -379,6 +380,7 @@ const Vitae = () => (
                                 <li>C++</li>
                                 <li>C#</li>
                                 <li>CSS</li>
+                                <li>Dart</li>
                                 <li>HTML</li>
                                 <li>Javascript</li>
                                 <li>jQuery</li>
