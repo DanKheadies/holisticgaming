@@ -61,4 +61,4 @@ const DysregulatedGaming = props => (
     </AccordionCard>
 );
 
-export default AntiInflammatoryAgents;
+export default DysregulatedGaming;
