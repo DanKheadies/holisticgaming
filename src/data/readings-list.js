@@ -57,6 +57,7 @@ import Imagine from '../assets/images/squad/david/books/imagine.jpg';
 import Incognito from '../assets/images/squad/david/books/incognito.jpg';
 import IntelNature from '../assets/images/squad/david/books/intelNature.jpg';
 import KillingKennedy from '../assets/images/squad/david/books/killingKennedy.jpg';
+import LeanStartup from '../assets/images/squad/david/books/leanStartup.jpg';
 import ManPlay from '../assets/images/squad/david/books/manPlay.jpg';
 import Martian from '../assets/images/squad/david/books/martian.jpg';
 import Mindsight from '../assets/images/squad/david/books/mindsight.jpg';
@@ -107,6 +108,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        LeanStartup.toString(), 
+        'The Lean Startup',
+        LeanStartup, 
+        'https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898',
+        115
+    ),
     new Reading (
         HeavensRiver.toString(), 
         'Heaven\'s River',
