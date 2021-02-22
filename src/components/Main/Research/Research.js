@@ -6,6 +6,7 @@ import Aux from '../../../hoc/Aux/Aux';
 import QuotesBar from '../../UI/QuotesBar/QuotesBar';
 import ReportAntiInflammatoryAgents from './Reports/AntiInflammatoryAgents';
 import ReportBadNews from './Reports/BadNews';
+import ReportDysregulatedGaming from './Reports/DysregulatedGaming';
 import ReportHealthEffectsCannabis from './Reports/HealthEffectsCannabis';
 import ReportPhysicalFitness from './Reports/PhysicalFitness';
 import ReportPokemonEffects from './Reports/PokemonsEffect';
@@ -48,7 +49,8 @@ const Research = () => {
                                     <Accordion>
                                         <ReportBadNews eventKey="0" />
                                         <ReportPokemonEffects eventKey="1" />
-                                        <ReportVGExpertise eventKey="2" />
+                                        <ReportDysregulatedGaming eventKey="2" />
+                                        <ReportVGExpertise eventKey="3" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="dankheadies">
@@ -65,10 +67,11 @@ const Research = () => {
                                     <Accordion>
                                         <ReportAntiInflammatoryAgents eventKey="0" />
                                         <ReportBadNews eventKey="1" />
-                                        <ReportHealthEffectsCannabis eventKey="2" />
-                                        <ReportPhysicalFitness eventKey="3" />
-                                        <ReportPokemonEffects eventKey="4" />
-                                        <ReportVGExpertise eventKey="5" />
+                                        <ReportDysregulatedGaming eventKey="2" />
+                                        <ReportHealthEffectsCannabis eventKey="3" />
+                                        <ReportPhysicalFitness eventKey="4" />
+                                        <ReportPokemonEffects eventKey="5" />
+                                        <ReportVGExpertise eventKey="6" />
                                     </Accordion>
                                 </Tab.Pane>
                             </Tab.Content>
