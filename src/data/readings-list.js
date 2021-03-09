@@ -49,7 +49,7 @@ import GunsGerms from '../assets/images/squad/david/books/gunsGerms.jpg';
 import Habit from '../assets/images/squad/david/books/habit.jpg';
 import Healthy from '../assets/images/squad/david/books/healthy.jpg';
 import HeavenReal from '../assets/images/squad/david/books/heavenReal.jpg';
-import HeavensRiver from '../assets/images/squad/david/books/HeavensRiver.jpg';
+import HeavensRiver from '../assets/images/squad/david/books/heavensRiver.jpg';
 import HistoryTime from '../assets/images/squad/david/books/historyTime.jpg';
 import Hokkaido from '../assets/images/squad/david/books/hokkaido.jpg';
 import IceFire from '../assets/images/squad/david/books/iceFire.jpg';
