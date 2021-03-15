@@ -4,6 +4,7 @@ import { Accordion, Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import './Research.scss';
 import Aux from '../../../hoc/Aux/Aux';
 import QuotesBar from '../../UI/QuotesBar/QuotesBar';
+import ReportAdolescentsLootBoxes from './Reports/AdolescentsLootBoxes';
 import ReportAntiInflammatoryAgents from './Reports/AntiInflammatoryAgents';
 import ReportBadNews from './Reports/BadNews';
 import ReportDysregulatedGaming from './Reports/DysregulatedGaming';
@@ -48,11 +49,12 @@ const Research = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="gaming">
                                     <Accordion>
-                                        <ReportBadNews eventKey="0" />
-                                        <ReportDysregulatedGaming eventKey="1" />
-                                        <ReportPokemonEffects eventKey="2" />
-                                        <ReportSweetCareGame eventKey="3" />
-                                        <ReportVGExpertise eventKey="4" />
+                                        <ReportAdolescentsLootBoxes eventKey="0" />
+                                        <ReportBadNews eventKey="1" />
+                                        <ReportDysregulatedGaming eventKey="2" />
+                                        <ReportPokemonEffects eventKey="3" />
+                                        <ReportSweetCareGame eventKey="4" />
+                                        <ReportVGExpertise eventKey="5" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="dankheadies">
@@ -67,14 +69,15 @@ const Research = () => {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="all">
                                     <Accordion>
-                                        <ReportAntiInflammatoryAgents eventKey="0" />
-                                        <ReportBadNews eventKey="1" />
-                                        <ReportDysregulatedGaming eventKey="2" />
-                                        <ReportHealthEffectsCannabis eventKey="3" />
-                                        <ReportPhysicalFitness eventKey="4" />
-                                        <ReportPokemonEffects eventKey="5" />
-                                        <ReportSweetCareGame eventKey="6" />
-                                        <ReportVGExpertise eventKey="7" />
+                                        <ReportAdolescentsLootBoxes eventKey="0" />
+                                        <ReportAntiInflammatoryAgents eventKey="1" />
+                                        <ReportBadNews eventKey="2" />
+                                        <ReportDysregulatedGaming eventKey="3" />
+                                        <ReportHealthEffectsCannabis eventKey="4" />
+                                        <ReportPhysicalFitness eventKey="5" />
+                                        <ReportPokemonEffects eventKey="6" />
+                                        <ReportSweetCareGame eventKey="7" />
+                                        <ReportVGExpertise eventKey="8" />
                                     </Accordion>
                                 </Tab.Pane>
                             </Tab.Content>
