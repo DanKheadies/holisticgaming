@@ -73,6 +73,7 @@ import OneSecond from '../assets/images/squad/david/books/oneSecond.jpg';
 import Outliers from '../assets/images/squad/david/books/outliers.jpg';
 import ProdigalGod from '../assets/images/squad/david/books/prodigalGod.jpg';
 import ProgramProgrammed from '../assets/images/squad/david/books/programProgrammed.jpg';
+import PsychZelda from '../assets/images/squad/david/books/psychZelda.jpg';
 import ReadyPlayer from '../assets/images/squad/david/books/readyPlayer.jpg';
 import RealFood from '../assets/images/squad/david/books/realFood.jpg';
 import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg';
@@ -108,6 +109,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        PsychZelda.toString(), 
+        'The Psychology of Zelda',
+        PsychZelda, 
+        'https://www.amazon.com/Psychology-Zelda-Linking-World-Legend/dp/1946885347',
+        116
+    ),
     new Reading (
         LeanStartup.toString(), 
         'The Lean Startup',
