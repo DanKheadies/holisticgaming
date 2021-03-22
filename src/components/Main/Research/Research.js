@@ -12,6 +12,7 @@ import ReportHealthEffectsCannabis from './Reports/HealthEffectsCannabis';
 import ReportPhysicalFitness from './Reports/PhysicalFitness';
 import ReportPokemonEffects from './Reports/PokemonsEffect';
 import ReportSweetCareGame from './Reports/SweetCareGame';
+import ReportTraumaTetris from './Reports/TraumaTetris';
 import ReportVGExpertise from './Reports/VGExpertise';
 
 const Research = () => {
@@ -54,7 +55,8 @@ const Research = () => {
                                         <ReportDysregulatedGaming eventKey="2" />
                                         <ReportPokemonEffects eventKey="3" />
                                         <ReportSweetCareGame eventKey="4" />
-                                        <ReportVGExpertise eventKey="5" />
+                                        <ReportTraumaTetris eventKey="5" />
+                                        <ReportVGExpertise eventKey="6" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="dankheadies">
@@ -77,7 +79,8 @@ const Research = () => {
                                         <ReportPhysicalFitness eventKey="5" />
                                         <ReportPokemonEffects eventKey="6" />
                                         <ReportSweetCareGame eventKey="7" />
-                                        <ReportVGExpertise eventKey="8" />
+                                        <ReportTraumaTetris eventKey="8" />
+                                        <ReportVGExpertise eventKey="9" />
                                     </Accordion>
                                 </Tab.Pane>
                             </Tab.Content>
