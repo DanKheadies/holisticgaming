@@ -12,6 +12,7 @@ import ReportHealthEffectsCannabis from './Reports/HealthEffectsCannabis';
 import ReportPhysicalFitness from './Reports/PhysicalFitness';
 import ReportPokemonEffects from './Reports/PokemonsEffect';
 import ReportSweetCareGame from './Reports/SweetCareGame';
+import ReportSystematicExploration from './Reports/SystematicExploration';
 import ReportTraumaTetris from './Reports/TraumaTetris';
 import ReportVGExpertise from './Reports/VGExpertise';
 
@@ -79,8 +80,9 @@ const Research = () => {
                                         <ReportPhysicalFitness eventKey="5" />
                                         <ReportPokemonEffects eventKey="6" />
                                         <ReportSweetCareGame eventKey="7" />
-                                        <ReportTraumaTetris eventKey="8" />
-                                        <ReportVGExpertise eventKey="9" />
+                                        <ReportSystematicExploration eventKey="8" />
+                                        <ReportTraumaTetris eventKey="9" />
+                                        <ReportVGExpertise eventKey="10" />
                                     </Accordion>
                                 </Tab.Pane>
                             </Tab.Content>

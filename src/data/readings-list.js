@@ -58,6 +58,7 @@ import Incognito from '../assets/images/squad/david/books/incognito.jpg';
 import IntelNature from '../assets/images/squad/david/books/intelNature.jpg';
 import KillingKennedy from '../assets/images/squad/david/books/killingKennedy.jpg';
 import LeanStartup from '../assets/images/squad/david/books/leanStartup.jpg';
+import LordsSith from '../assets/images/squad/david/books/lordsSith.jpg';
 import ManPlay from '../assets/images/squad/david/books/manPlay.jpg';
 import Martian from '../assets/images/squad/david/books/martian.jpg';
 import Mindsight from '../assets/images/squad/david/books/mindsight.jpg';
@@ -65,6 +66,7 @@ import MindsOnline from '../assets/images/squad/david/books/mindsOnline.jpg';
 import Mueller from '../assets/images/squad/david/books/mueller.jpg';
 import Neighbors from '../assets/images/squad/david/books/neighbors.jpg';
 import Nausea from '../assets/images/squad/david/books/nausea.jpg';
+import NeverSplit from '../assets/images/squad/david/books/neverSplit.jpg';
 import Nonzero from '../assets/images/squad/david/books/nonzero.jpg';
 import ObeliskGate from '../assets/images/squad/david/books/obeliskGate.jpg';
 import OmnivoreDilemma from '../assets/images/squad/david/books/omnivoreDilemma.jpg';
@@ -109,6 +111,20 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        NeverSplit.toString(), 
+        'Never Split the Difference',
+        NeverSplit, 
+        'https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805',
+        118
+    ),
+    new Reading (
+        LordsSith.toString(), 
+        'Lords of the Sith',
+        LordsSith, 
+        'https://www.amazon.com/Lords-of-Sith-Star-Wars-audiobook/dp/B00VRSEEAG/',
+        117
+    ),
     new Reading (
         PsychZelda.toString(), 
         'The Psychology of Zelda',
