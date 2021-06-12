@@ -47,6 +47,7 @@ import GamificationLearning from '../assets/images/squad/david/books/gamificatio
 import GenerationKill from '../assets/images/squad/david/books/generationKill.jpg';
 import GunsGerms from '../assets/images/squad/david/books/gunsGerms.jpg';
 import Habit from '../assets/images/squad/david/books/habit.jpg';
+import HailMary from '../assets/images/squad/david/books/hailMary.jpg';
 import Healthy from '../assets/images/squad/david/books/healthy.jpg';
 import HeavenReal from '../assets/images/squad/david/books/heavenReal.jpg';
 import HeavensRiver from '../assets/images/squad/david/books/heavensRiver.jpg';
@@ -111,6 +112,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        HailMary.toString(), 
+        'Hail Mary',
+        HailMary, 
+        'https://www.audible.com/pd/Project-Hail-Mary-Audiobook/B08G9PRS1K',
+        119
+    ),
     new Reading (
         NeverSplit.toString(), 
         'Never Split the Difference',
