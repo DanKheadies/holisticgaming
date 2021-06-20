@@ -78,6 +78,7 @@ import ProdigalGod from '../assets/images/squad/david/books/prodigalGod.jpg';
 import ProgramProgrammed from '../assets/images/squad/david/books/programProgrammed.jpg';
 import PsychZelda from '../assets/images/squad/david/books/psychZelda.jpg';
 import ReadyPlayer from '../assets/images/squad/david/books/readyPlayer.jpg';
+import ReadyP2 from '../assets/images/squad/david/books/readyP2.jpg';
 import RealFood from '../assets/images/squad/david/books/realFood.jpg';
 import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg';
 import RedNotice from '../assets/images/squad/david/books/redNotice.jpg';
@@ -112,6 +113,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        ReadyP2.toString(), 
+        'Ready Player 2',
+        ReadyP2, 
+        'https://www.amazon.com/Ready-Player-Two-Ernest-Cline/dp/1524761338',
+        120
+    ),
     new Reading (
         HailMary.toString(), 
         'Hail Mary',

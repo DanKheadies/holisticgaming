@@ -61,17 +61,14 @@ import VidPoster2020 from '../../../assets/images/pixatool/video-posters/2020The
 import VidPosterAdventure from '../../../assets/images/pixatool/video-posters/AdventureWave-8bit.png';
 import VidPosterBotw from '../../../assets/images/pixatool/video-posters/botw-8bit.png';
 import VidPosterDragonHouse from '../../../assets/images/pixatool/video-posters/DragonHouse-8bit.png';
-import VidPosterEgg from '../../../assets/images/pixatool/video-posters/TheEgg-8bit.png';
 import VidPosterHalo from '../../../assets/images/pixatool/video-posters/Halo-8bit.png';
 import VidPosterMajora from '../../../assets/images/pixatool/video-posters/MajorasMask-8bit.png';
 import VidPosterMarvel from '../../../assets/images/pixatool/video-posters/MarvelMashup-8bit.png';
 import VidPosterSacrifice from '../../../assets/images/pixatool/video-posters/Sacrifice-8bit.png';
 import VidPosterSmash from '../../../assets/images/pixatool/video-posters/SmashWars-8bit.png';
 import VidPosterSUCCredits from '../../../assets/images/pixatool/video-posters/SUCCredits-8bit.png';
-import VidPosterWaterwave from '../../../assets/images/pixatool/video-posters/Waterwave-8bit.png';
 import VidPosterWest from '../../../assets/images/pixatool/video-posters/WesterosWorld-8bit.png';
 import VidPosterWotLK1 from '../../../assets/images/pixatool/video-posters/WotLK-OG-8bit.png';
-import VidPosterWotLK2 from '../../../assets/images/pixatool/video-posters/wotlk-8bit.png';
 
 const PixaTool = () => (
     <Aux>
@@ -107,15 +104,6 @@ const PixaTool = () => (
                                     playsInline
                                     poster={VidPosterWotLK1}
                                     src="https://firebasestorage.googleapis.com/v0/b/holistic-gaming-dtfun.appspot.com/o/pixatool-videos%2FWotLK-OG-8bit.mp4?alt=media&token=ddb6daf7-32b1-466c-b501-3dee3840a3d9"
-                                />
-                                <a className="primary-link" href="https://www.youtube.com/watch?v=BCr7y4SLhck" alt="World of Warcraft: Wrath of the Lich King">World of Warcraft: Wrath of the Lich King</a>
-                            </div>
-                            <div className="media-container">
-                                <Player
-                                    className="pixatool-media"
-                                    playsInline
-                                    poster={VidPosterWotLK2}
-                                    src="https://firebasestorage.googleapis.com/v0/b/holistic-gaming-dtfun.appspot.com/o/pixatool-videos%2Fwotlk-8bit.mp4?alt=media&token=ac8e5b99-f183-4e36-b2e5-bc2de40e9d8a"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=BCr7y4SLhck" alt="World of Warcraft: Wrath of the Lich King">World of Warcraft: Wrath of the Lich King</a>
                             </div>
@@ -177,15 +165,6 @@ const PixaTool = () => (
                                 <Player
                                     className="pixatool-media"
                                     playsInline
-                                    poster={VidPosterWaterwave}
-                                    src="https://firebasestorage.googleapis.com/v0/b/holistic-gaming-dtfun.appspot.com/o/pixatool-videos%2FWaterwave-8bit.mp4?alt=media&token=65ced0a0-dfa0-43a0-870b-f758b729b60c"
-                                />
-                                <a className="primary-link" href="https://www.youtube.com/watch?v=cZmJalYNLc0" alt="Akira the Don's What the Hell is Water? ft. David Foster Wallace">Akira the Don's What the Hell is Water? ft. David Foster Wallace</a>
-                            </div>
-                            <div className="media-container">
-                                <Player
-                                    className="pixatool-media"
-                                    playsInline
                                     poster={VidPosterAdventure}
                                     src="https://firebasestorage.googleapis.com/v0/b/holistic-gaming-dtfun.appspot.com/o/pixatool-videos%2FAdventureWave-8bit.mp4?alt=media&token=811c70e7-5f7e-4903-9db5-a2fe59b7a3e8"
                                 />
@@ -199,15 +178,6 @@ const PixaTool = () => (
                                     src="https://firebasestorage.googleapis.com/v0/b/holistic-gaming-dtfun.appspot.com/o/pixatool-videos%2FSacrifice-8bit.mp4?alt=media&token=e1654a13-a95a-4b59-bb57-f96b6694010d"
                                 />
                                 <a className="primary-link" href="https://www.youtube.com/watch?v=Ll2gdKHXOYc" alt="Akira the Don's Sacrifice ft. Jordan Peterson">Akira the Don's Sacrifice ft. Jordan Peterson</a>
-                            </div>
-                            <div className="media-container">
-                                <Player
-                                    className="pixatool-media"
-                                    playsInline
-                                    poster={VidPosterEgg}
-                                    src="https://firebasestorage.googleapis.com/v0/b/holistic-gaming-dtfun.appspot.com/o/pixatool-videos%2FTheEgg-8bit.mp4?alt=media&token=db53b7dc-331e-47ba-96ac-377c178ab453"
-                                />
-                                <a className="primary-link" href="https://www.youtube.com/watch?v=h6fcK_fRYaI" alt="Kurzgesagt's The Egg by Andy Weir">Kurzgesagt's The Egg by Andy Weir</a>
                             </div>
                             <div className="media-container">
                                 <Player
