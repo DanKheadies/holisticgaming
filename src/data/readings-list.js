@@ -103,6 +103,7 @@ import SunsetLimited from '../assets/images/squad/david/books/sunsetLimited.jpg'
 import SuperFreak from '../assets/images/squad/david/books/superFreak.jpg';
 import ThinAir from '../assets/images/squad/david/books/thinAir.jpg';
 import Thinking from '../assets/images/squad/david/books/thinking.jpg';
+import Thrawn from '../assets/images/squad/david/books/thrawn.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
 import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
@@ -113,6 +114,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Thrawn.toString(), 
+        'Thrawn',
+        Thrawn, 
+        'https://www.amazon.com/Thrawn-Star-Wars/dp/1101967021',
+        121
+    ),
     new Reading (
         ReadyP2.toString(), 
         'Ready Player 2',
