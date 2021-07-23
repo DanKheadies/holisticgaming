@@ -17,19 +17,19 @@ import Windows from '../../../../assets/images/games/windows.png';
 const TSoDK = () => {
     const downloadMacHandler = () => { 
         Event("PLAY", "TSoDK Mac Download", "TSoDK");
-        window.open('/games/tsodk.4.0.mac.zip', "download"); 
+        window.open('/games/tsodk.mac.zip', "download"); 
     };
     const downloadWindowsHandler = () => { 
         Event("PLAY", "TSoDK Windows Download", "TSoDK");
-        window.open('/games/tsodk.4.0.windows.zip', "download"); 
+        window.open('/games/tsodk.windows.zip', "download"); 
     };
     const goToAppStoreHandler = () => { 
         Event("PLAY", "TSoDK iOS Link", "TSoDK");
-        window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1449564719', "_blank"); 
+        window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1577088555', "_blank"); 
     };
     const goToGooglePlayHandler = () => { 
         Event("PLAY", "TSoDK Android Link", "TSoDK");
-        window.open('https://play.google.com/store/apps/details?id=com.HolisticGaming.TheStoryOfDanKheadies', "_blank"); 
+        window.open('https://play.google.com/store/apps/details?id=com.DTFun.DanKheadies&hl=en_US&gl=US', "_blank"); 
     };
     const playBrowserHandler = () => { 
         Event("PLAY", "TSoDK Browser Download", "TSoDK");
@@ -61,7 +61,7 @@ const TSoDK = () => {
                             image={Browser}
                             styleType="browser"
                             title="Browser"
-                            version="v4.0"
+                            version="v1.0.1"
                         >
                             WebGL is compatible with Firefox, Chrome, Safari and Edge. Chrome &amp; Firefox are recommended. Not compatible with mobile browsers.
                         </GameCard>
@@ -73,7 +73,7 @@ const TSoDK = () => {
                             image={Windows}
                             styleType="windows"
                             title="Windows"
-                            version="v4.0"
+                            version="v1.0.1"
                         >
                             Download this ZIP file.<br /> 
                             Open the ZIP file.<br />
@@ -88,7 +88,7 @@ const TSoDK = () => {
                             image={Mac}
                             styleType="mac"
                             title="Mac"
-                            version="v4.0"
+                            version="v1.0.1"
                         >
                             <a alt="WineBottler" className="primary-link" href="https://winebottler.kronenberg.org/" target="_blank" rel="noopener noreferrer">Download and install WineBottler</a>.<br />
                             Download this ZIP file.<br /> 
@@ -106,7 +106,7 @@ const TSoDK = () => {
                             image={Android}
                             styleType="android"
                             title="Android"
-                            version="v4.0"
+                            version="v1.0.1"
                         >
                             Download from Google Play for a mobile device.
                         </GameCard>
@@ -119,7 +119,7 @@ const TSoDK = () => {
                             image={iOS}
                             styleType="ios"
                             title="iOS"
-                            version="v4.0"
+                            version="v1.0.1"
                         >
                             Download from the App Store for a mobile device.
                         </GameCard>
