@@ -15,6 +15,7 @@ import Calories from '../assets/images/squad/david/books/calories.jpg';
 import Change from '../assets/images/squad/david/books/change.jpg';
 import ChildrenMind from '../assets/images/squad/david/books/childrenMind.jpg';
 import ClashKings from '../assets/images/squad/david/books/clashKings.jpg';
+import Clean from '../assets/images/squad/david/books/clean.jpg';
 import Code from '../assets/images/squad/david/books/code.jpg';
 import Colbert from '../assets/images/squad/david/books/colbert.jpg';
 import Comics from '../assets/images/squad/david/books/comics.jpg';
@@ -115,6 +116,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Clean.toString(), 
+        'Clean: The New Science of Skin',
+        Clean, 
+        'https://www.amazon.com/Clean-New-Science-Skin/dp/B082MTCYYR',
+        123
+    ),
     new Reading (
         ThrawnAscendancy1.toString(), 
         'Thrawn Ascendency: Chaos Rising',
