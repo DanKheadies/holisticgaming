@@ -46,6 +46,7 @@ import GameFrame from '../assets/images/squad/david/books/gameFrame.jpg';
 import GameThrones from '../assets/images/squad/david/books/gameThrones.jpg';
 import GamificationLearning from '../assets/images/squad/david/books/gamificationLearning.jpg';
 import GenerationKill from '../assets/images/squad/david/books/generationKill.jpg';
+import GenghisKhan from '../assets/images/squad/david/books/genghisKhan.jpg';
 import GunsGerms from '../assets/images/squad/david/books/gunsGerms.jpg';
 import Habit from '../assets/images/squad/david/books/habit.jpg';
 import HailMary from '../assets/images/squad/david/books/hailMary.jpg';
@@ -116,6 +117,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        GenghisKhan.toString(), 
+        'Genghis Khan and the Making of the Modern World',
+        GenghisKhan, 
+        'https://www.amazon.com/Genghis-Khan-Making-Modern-World/dp/1491513705',
+        124
+    ),
     new Reading (
         Clean.toString(), 
         'Clean: The New Science of Skin',
