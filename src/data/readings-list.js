@@ -109,6 +109,7 @@ import Thinking from '../assets/images/squad/david/books/thinking.jpg';
 import Thrawn from '../assets/images/squad/david/books/thrawn.jpg';
 import ThrawnAlliances from '../assets/images/squad/david/books/thrawnAlliances.jpg';
 import ThrawnAscendancy1 from '../assets/images/squad/david/books/thrawnAscendancy1.jpg';
+import ThrawnTeason from '../assets/images/squad/david/books/thrawnTreason.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
 import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
@@ -119,6 +120,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        ThrawnTeason.toString(), 
+        'Thrawn Treason',
+        ThrawnTeason, 
+        'https://www.amazon.com/Thrawn-Treason-Star-Wars/dp/1984820982',
+        127
+    ),
     new Reading (
         AmericaAgain.toString(), 
         'America Again: Re-becoming the Greatness We Never Weren\'t',
