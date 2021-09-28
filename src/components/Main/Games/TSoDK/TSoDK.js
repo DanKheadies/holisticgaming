@@ -25,7 +25,7 @@ const TSoDK = () => {
     };
     const goToAppStoreHandler = () => { 
         Event("PLAY", "TSoDK iOS Link", "TSoDK");
-        window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1577088555', "_blank"); 
+        window.open('https://apps.apple.com/us/app/the-story-of-dan-kheadies/id1577088555#?platform=iphone', "_blank"); 
     };
     const goToGooglePlayHandler = () => { 
         Event("PLAY", "TSoDK Android Link", "TSoDK");
@@ -61,7 +61,7 @@ const TSoDK = () => {
                             image={Browser}
                             styleType="browser"
                             title="Browser"
-                            version="v1.0.1"
+                            version="v1.0.3"
                         >
                             WebGL is compatible with Firefox, Chrome, Safari and Edge. Chrome &amp; Firefox are recommended. Not compatible with mobile browsers.
                         </GameCard>
@@ -73,7 +73,7 @@ const TSoDK = () => {
                             image={Windows}
                             styleType="windows"
                             title="Windows"
-                            version="v1.0.1"
+                            version="v1.0.3"
                         >
                             Download this ZIP file.<br /> 
                             Open the ZIP file.<br />
@@ -88,7 +88,7 @@ const TSoDK = () => {
                             image={Mac}
                             styleType="mac"
                             title="Mac"
-                            version="v1.0.1"
+                            version="v1.0.3"
                         >
                             <a alt="WineBottler" className="primary-link" href="https://winebottler.kronenberg.org/" target="_blank" rel="noopener noreferrer">Download and install WineBottler</a>.<br />
                             Download this ZIP file.<br /> 
@@ -106,7 +106,7 @@ const TSoDK = () => {
                             image={Android}
                             styleType="android"
                             title="Android"
-                            version="v1.0.1"
+                            version="v1.0.3"
                         >
                             Download from Google Play for a mobile device.
                         </GameCard>
@@ -119,7 +119,7 @@ const TSoDK = () => {
                             image={iOS}
                             styleType="ios"
                             title="iOS"
-                            version="v1.0.1"
+                            version="v1.0.3"
                         >
                             Download from the App Store for a mobile device.
                         </GameCard>

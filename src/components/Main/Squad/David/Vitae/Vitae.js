@@ -432,6 +432,7 @@ const Vitae = () => (
                                 Multimedia Creation &amp; Manipulation
                             </li>
                             <ul>
+                                <li>Adobe Premiere Pro</li>
                                 <li>iMovie</li>
                                 <li>Final Cut Pro</li>
                                 <li>PixaTool</li>
