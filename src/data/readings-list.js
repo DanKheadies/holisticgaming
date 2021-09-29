@@ -109,6 +109,7 @@ import Thinking from '../assets/images/squad/david/books/thinking.jpg';
 import Thrawn from '../assets/images/squad/david/books/thrawn.jpg';
 import ThrawnAlliances from '../assets/images/squad/david/books/thrawnAlliances.jpg';
 import ThrawnAscendancy1 from '../assets/images/squad/david/books/thrawnAscendancy1.jpg';
+import ThrawnAscendancy2 from '../assets/images/squad/david/books/thrawnAscendancy2.jpg';
 import ThrawnTeason from '../assets/images/squad/david/books/thrawnTreason.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
@@ -120,6 +121,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        ThrawnAscendancy2.toString(), 
+        'Thrawn Ascendency: Greater Good',
+        ThrawnAscendancy2, 
+        'https://www.amazon.com/Star-Wars-Ascendancy-Greater-Trilogy-ebook/dp/B08KPJW7L9/',
+        128
+    ),
     new Reading (
         ThrawnTeason.toString(), 
         'Thrawn Treason',
