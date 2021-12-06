@@ -77,6 +77,7 @@ import OmnivoreDilemma from '../assets/images/squad/david/books/omnivoreDilemma.
 import OneHundredTwentyYear from '../assets/images/squad/david/books/120year.jpg';
 import OneSecond from '../assets/images/squad/david/books/oneSecond.jpg';
 import Outliers from '../assets/images/squad/david/books/outliers.jpg';
+import PeoplesHistory from '../assets/images/squad/david/books/peoplesHistory.jpg';
 import ProdigalGod from '../assets/images/squad/david/books/prodigalGod.jpg';
 import ProgramProgrammed from '../assets/images/squad/david/books/programProgrammed.jpg';
 import PsychZelda from '../assets/images/squad/david/books/psychZelda.jpg';
@@ -110,6 +111,7 @@ import Thrawn from '../assets/images/squad/david/books/thrawn.jpg';
 import ThrawnAlliances from '../assets/images/squad/david/books/thrawnAlliances.jpg';
 import ThrawnAscendancy1 from '../assets/images/squad/david/books/thrawnAscendancy1.jpg';
 import ThrawnAscendancy2 from '../assets/images/squad/david/books/thrawnAscendancy2.jpg';
+import ThrawnAscendancy3 from '../assets/images/squad/david/books/thrawnAscendancy3.jpg';
 import ThrawnTeason from '../assets/images/squad/david/books/thrawnTreason.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
@@ -121,6 +123,20 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        ThrawnAscendancy3.toString(), 
+        'Thrawn Ascendency: Lesser Evil',
+        ThrawnAscendancy3, 
+        'https://www.amazon.com/Star-Wars-Thrawn-Ascendancy-Lesser/dp/B08ZDSJPHZ/',
+        130
+    ),
+    new Reading (
+        PeoplesHistory.toString(), 
+        'A People\'s History of the United States',
+        PeoplesHistory, 
+        'https://www.amazon.com/Peoples-History-United-States/dp/0060838655',
+        129
+    ),
     new Reading (
         ThrawnAscendancy2.toString(), 
         'Thrawn Ascendency: Greater Good',
