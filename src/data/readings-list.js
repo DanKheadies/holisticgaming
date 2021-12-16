@@ -86,6 +86,7 @@ import ReadyP2 from '../assets/images/squad/david/books/readyP2.jpg';
 import RealFood from '../assets/images/squad/david/books/realFood.jpg';
 import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg';
 import RedNotice from '../assets/images/squad/david/books/redNotice.jpg';
+import RedRising from '../assets/images/squad/david/books/redRising.jpg';
 import Sapiens from '../assets/images/squad/david/books/sapiens.jpg';
 import SDVBible from '../assets/images/squad/david/books/sdvBible.jpg';
 import SearchSchrodinger from '../assets/images/squad/david/books/searchSchrodinger.jpg';
@@ -123,6 +124,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        RedRising.toString(), 
+        'Red Rising',
+        RedRising, 
+        'https://www.amazon.com/Red-Rising-Pierce-Brown/dp/034553980X',
+        131
+    ),
     new Reading (
         ThrawnAscendancy3.toString(), 
         'Thrawn Ascendency: Lesser Evil',
