@@ -24,6 +24,7 @@ import CompassPleasure from '../assets/images/squad/david/books/compassPleasure.
 import Cooked from '../assets/images/squad/david/books/cooked.jpg';
 import Daemon from '../assets/images/squad/david/books/daemon.jpg';
 import DanceDragons from '../assets/images/squad/david/books/danceDragons.jpg';
+import DarkAge from '../assets/images/squad/david/books/darkAge.jpg';
 import DavidGoliath from '../assets/images/squad/david/books/davidGoliath.jpg';
 import Decoded from '../assets/images/squad/david/books/decoded.jpg';
 import DesignThings from '../assets/images/squad/david/books/designThings.jpg';
@@ -48,6 +49,7 @@ import GameThrones from '../assets/images/squad/david/books/gameThrones.jpg';
 import GamificationLearning from '../assets/images/squad/david/books/gamificationLearning.jpg';
 import GenerationKill from '../assets/images/squad/david/books/generationKill.jpg';
 import GenghisKhan from '../assets/images/squad/david/books/genghisKhan.jpg';
+import GoldenSun from '../assets/images/squad/david/books/goldenSun.jpg';
 import GunsGerms from '../assets/images/squad/david/books/gunsGerms.jpg';
 import Habit from '../assets/images/squad/david/books/habit.jpg';
 import HailMary from '../assets/images/squad/david/books/hailMary.jpg';
@@ -60,6 +62,7 @@ import IceFire from '../assets/images/squad/david/books/iceFire.jpg';
 import Imagine from '../assets/images/squad/david/books/imagine.jpg';
 import Incognito from '../assets/images/squad/david/books/incognito.jpg';
 import IntelNature from '../assets/images/squad/david/books/intelNature.jpg';
+import IronGold from '../assets/images/squad/david/books/ironGold.jpg';
 import KillingKennedy from '../assets/images/squad/david/books/killingKennedy.jpg';
 import LeanStartup from '../assets/images/squad/david/books/leanStartup.jpg';
 import LordsSith from '../assets/images/squad/david/books/lordsSith.jpg';
@@ -67,6 +70,7 @@ import ManPlay from '../assets/images/squad/david/books/manPlay.jpg';
 import Martian from '../assets/images/squad/david/books/martian.jpg';
 import Mindsight from '../assets/images/squad/david/books/mindsight.jpg';
 import MindsOnline from '../assets/images/squad/david/books/mindsOnline.jpg';
+import MorningStar from '../assets/images/squad/david/books/morningStar.jpg';
 import Mueller from '../assets/images/squad/david/books/mueller.jpg';
 import Neighbors from '../assets/images/squad/david/books/neighbors.jpg';
 import Nausea from '../assets/images/squad/david/books/nausea.jpg';
@@ -124,6 +128,34 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        DarkAge.toString(), 
+        'Dark Age',
+        DarkAge, 
+        'https://www.amazon.com/Dark-Age-Book-Rising-Saga/dp/0425285944',
+        135
+    ),
+    new Reading (
+        IronGold.toString(), 
+        'Iron Gold',
+        IronGold, 
+        'https://www.amazon.com/Iron-Gold-explosive-novel-Rising/dp/147364657X',
+        134
+    ),
+    new Reading (
+        MorningStar.toString(), 
+        'Morning Star',
+        MorningStar, 
+        'https://www.amazon.com/Morning-Star-Book-Rising-Saga/dp/0345539842',
+        133
+    ),
+    new Reading (
+        GoldenSun.toString(), 
+        'Golden Sun',
+        GoldenSun, 
+        'https://www.amazon.com/Golden-Son-Book-Rising-Saga/dp/0345539834',
+        132
+    ),
     new Reading (
         RedRising.toString(), 
         'Red Rising',
