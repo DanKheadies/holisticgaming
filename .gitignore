@@ -20,7 +20,7 @@
 
 # dc
 /public/games
-/public/videos
+# /public/videos
 src/env.js
 
 npm-debug.log*
