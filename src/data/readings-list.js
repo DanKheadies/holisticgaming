@@ -91,6 +91,7 @@ import RealFood from '../assets/images/squad/david/books/realFood.jpg';
 import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg';
 import RedNotice from '../assets/images/squad/david/books/redNotice.jpg';
 import RedRising from '../assets/images/squad/david/books/redRising.jpg';
+import Sandman from '../assets/images/squad/david/books/sandman.jpg';
 import Sapiens from '../assets/images/squad/david/books/sapiens.jpg';
 import SDVBible from '../assets/images/squad/david/books/sdvBible.jpg';
 import SearchSchrodinger from '../assets/images/squad/david/books/searchSchrodinger.jpg';
@@ -103,6 +104,7 @@ import ShadowHegemon from '../assets/images/squad/david/books/shadowHegemon.jpg'
 import ShadowPuppets from '../assets/images/squad/david/books/shadowPuppets.jpg';
 import SpeakerDead from '../assets/images/squad/david/books/speakerDead.jpg';
 import SpontaneousEvolution from '../assets/images/squad/david/books/spontaneousEvolution.jpg';
+import Stillness from '../assets/images/squad/david/books/stillness.jpg';
 import StoneSky from '../assets/images/squad/david/books/stoneSky.jpg';
 import StormSwords from '../assets/images/squad/david/books/stormSwords.jpg';
 import StoryMuhammed from '../assets/images/squad/david/books/storyMuhammed.jpg';
@@ -128,6 +130,20 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Sandman.toString(), 
+        'The Sandman',
+        Sandman, 
+        'https://www.amazon.com/The-Sandman/dp/B086WQ7J62',
+        137
+    ),
+    new Reading (
+        Stillness.toString(), 
+        'Stillness is the Key',
+        Stillness, 
+        'https://www.amazon.com/Stillness-Key-Ryan-Holiday/dp/0525538585',
+        136
+    ),
     new Reading (
         DarkAge.toString(), 
         'Dark Age',
