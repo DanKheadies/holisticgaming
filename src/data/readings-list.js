@@ -7,6 +7,7 @@ import AmericaAgain from '../assets/images/squad/david/books/americaAgain.jpg';
 import Animal from '../assets/images/squad/david/books/animal.jpg';
 import ArtHappiness from '../assets/images/squad/david/books/artHappiness.jpg';
 import ArtWar from '../assets/images/squad/david/books/artWar.jpg';
+import Bakemonogatari1 from '../assets/images/squad/david/books/bakemonogatari1.jpg';
 import BeakFinch from '../assets/images/squad/david/books/beakFinch.jpg';
 import BeerHell from '../assets/images/squad/david/books/beerHell.jpg';
 import Beyond from '../assets/images/squad/david/books/beyond.jpg';
@@ -36,6 +37,7 @@ import Einstein from '../assets/images/squad/david/books/einstein.jpg';
 import EndersGame from '../assets/images/squad/david/books/endersGame.jpg';
 import EnderShadow from '../assets/images/squad/david/books/enderShadow.jpg';
 import EngineeringPlay from '../assets/images/squad/david/books/engineeringPlay.jpg';
+import Exp1Leviathan from '../assets/images/squad/david/books/exp1Leviathan.jpg';
 import FeastCrows from '../assets/images/squad/david/books/feastCrows.jpg';
 import FifthSeason from '../assets/images/squad/david/books/fifthSeason.jpg';
 import Flow from '../assets/images/squad/david/books/flow.jpg';
@@ -60,6 +62,7 @@ import HistoryTime from '../assets/images/squad/david/books/historyTime.jpg';
 import Hokkaido from '../assets/images/squad/david/books/hokkaido.jpg';
 import IceFire from '../assets/images/squad/david/books/iceFire.jpg';
 import Imagine from '../assets/images/squad/david/books/imagine.jpg';
+import Immune from '../assets/images/squad/david/books/immune.jpg';
 import Incognito from '../assets/images/squad/david/books/incognito.jpg';
 import IntelNature from '../assets/images/squad/david/books/intelNature.jpg';
 import IronGold from '../assets/images/squad/david/books/ironGold.jpg';
@@ -76,6 +79,7 @@ import Neighbors from '../assets/images/squad/david/books/neighbors.jpg';
 import Nausea from '../assets/images/squad/david/books/nausea.jpg';
 import NeverSplit from '../assets/images/squad/david/books/neverSplit.jpg';
 import Nonzero from '../assets/images/squad/david/books/nonzero.jpg';
+import Oathbringer from '../assets/images/squad/david/books/oathbringer.jpg';
 import ObeliskGate from '../assets/images/squad/david/books/obeliskGate.jpg';
 import OmnivoreDilemma from '../assets/images/squad/david/books/omnivoreDilemma.jpg';
 import OneHundredTwentyYear from '../assets/images/squad/david/books/120year.jpg';
@@ -92,6 +96,7 @@ import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg'
 import RedNotice from '../assets/images/squad/david/books/redNotice.jpg';
 import RedRising from '../assets/images/squad/david/books/redRising.jpg';
 import Sandman from '../assets/images/squad/david/books/sandman.jpg';
+import Sandman2 from '../assets/images/squad/david/books/sandman2.jpg';
 import Sapiens from '../assets/images/squad/david/books/sapiens.jpg';
 import SDVBible from '../assets/images/squad/david/books/sdvBible.jpg';
 import SearchSchrodinger from '../assets/images/squad/david/books/searchSchrodinger.jpg';
@@ -123,13 +128,64 @@ import ThrawnTeason from '../assets/images/squad/david/books/thrawnTreason.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
 import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
+import WayOfKings from '../assets/images/squad/david/books/wayOfKings.jpg';
 import WeBob from '../assets/images/squad/david/books/weBob.jpg';
 import WeMany from '../assets/images/squad/david/books/weMany.jpg';
 import Wisdom from '../assets/images/squad/david/books/wisdom.jpg';
+import WordsRadiance from '../assets/images/squad/david/books/wordsRadiance.jpg';
 import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Immune.toString(), 
+        'Immune',
+        Immune, 
+        'https://www.amazon.com/Immune-Journey-Mysterious-System-Keeps/dp/0593241312',
+        144
+    ),
+    new Reading (
+        Oathbringer.toString(), 
+        'Oathbringer',
+        Oathbringer, 
+        'https://www.amazon.com/Oathbringer-Book-Three-Stormlight-Archive/dp/076532637X',
+        143
+    ),
+    new Reading (
+        WordsRadiance.toString(), 
+        'Words of Radiance',
+        WordsRadiance, 
+        'https://www.amazon.com/Words-Radiance-Stormlight-Archive-Book/dp/0765326361',
+        142
+    ),
+    new Reading (
+        Exp1Leviathan.toString(), 
+        'Leviathan Wakes (The Expanse 1)',
+        Exp1Leviathan, 
+        'https://www.amazon.com/Leviathan-Wakes-Expanse-Book-1-ebook/dp/B0047Y171G',
+        141
+    ),
+    new Reading (
+        Bakemonogatari1.toString(), 
+        'Bakemonogatari 1',
+        Bakemonogatari1, 
+        'https://www.amazon.com/BAKEMONOGATARI-1-Illustrated-VOFAN-NISIOISIN-ebook/dp/B07SGG2ZC4',
+        140
+    ),
+    new Reading (
+        WayOfKings.toString(), 
+        'The Way of Kings',
+        WayOfKings, 
+        'https://www.amazon.com/Way-Kings-Brandon-Sanderson/dp/0765365278',
+        139
+    ),
+    new Reading (
+        Sandman2.toString(), 
+        'The Sandman: Act II',
+        Sandman2, 
+        'https://www.amazon.com/Audible-The-Sandman-Act-II/dp/B098TWBMJ6',
+        138
+    ),
     new Reading (
         Sandman.toString(), 
         'The Sandman',
