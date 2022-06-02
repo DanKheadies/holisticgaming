@@ -8,6 +8,7 @@ import Animal from '../assets/images/squad/david/books/animal.jpg';
 import ArtHappiness from '../assets/images/squad/david/books/artHappiness.jpg';
 import ArtWar from '../assets/images/squad/david/books/artWar.jpg';
 import Bakemonogatari1 from '../assets/images/squad/david/books/bakemonogatari1.jpg';
+import Bakemonogatari2 from '../assets/images/squad/david/books/bakemonogatari2.jpg';
 import BeakFinch from '../assets/images/squad/david/books/beakFinch.jpg';
 import BeerHell from '../assets/images/squad/david/books/beerHell.jpg';
 import Beyond from '../assets/images/squad/david/books/beyond.jpg';
@@ -137,6 +138,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Bakemonogatari2.toString(), 
+        'Bakemonogatari 2',
+        Bakemonogatari2, 
+        'https://www.amazon.com/BAKEMONOGATARI-Part-2-Monster-Tale/dp/1942993897',
+        145
+    ),
     new Reading (
         Immune.toString(), 
         'Immune',
