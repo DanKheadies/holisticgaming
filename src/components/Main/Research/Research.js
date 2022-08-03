@@ -5,6 +5,7 @@ import './Research.scss';
 import Aux from '../../../hoc/Aux/Aux';
 import QuotesBar from '../../UI/QuotesBar/QuotesBar';
 import ReportAdolescentsLootBoxes from './Reports/AdolescentsLootBoxes';
+import ReportAI4Depression from './Reports/AI4Depression';
 import ReportAntiInflammatoryAgents from './Reports/AntiInflammatoryAgents';
 import ReportBadNews from './Reports/BadNews';
 import ReportDysregulatedGaming from './Reports/DysregulatedGaming';
@@ -73,16 +74,17 @@ const Research = () => {
                                 <Tab.Pane eventKey="all">
                                     <Accordion>
                                         <ReportAdolescentsLootBoxes eventKey="0" />
-                                        <ReportAntiInflammatoryAgents eventKey="1" />
-                                        <ReportBadNews eventKey="2" />
-                                        <ReportDysregulatedGaming eventKey="3" />
-                                        <ReportHealthEffectsCannabis eventKey="4" />
-                                        <ReportPhysicalFitness eventKey="5" />
-                                        <ReportPokemonEffects eventKey="6" />
-                                        <ReportSweetCareGame eventKey="7" />
-                                        <ReportSystematicExploration eventKey="8" />
-                                        <ReportTraumaTetris eventKey="9" />
-                                        <ReportVGExpertise eventKey="10" />
+                                        <ReportAI4Depression eventKey="1" />
+                                        <ReportAntiInflammatoryAgents eventKey="2" />
+                                        <ReportBadNews eventKey="3" />
+                                        <ReportDysregulatedGaming eventKey="4" />
+                                        <ReportHealthEffectsCannabis eventKey="5" />
+                                        <ReportPhysicalFitness eventKey="6" />
+                                        <ReportPokemonEffects eventKey="7" />
+                                        <ReportSweetCareGame eventKey="8" />
+                                        <ReportSystematicExploration eventKey="9" />
+                                        <ReportTraumaTetris eventKey="10" />
+                                        <ReportVGExpertise eventKey="11" />
                                     </Accordion>
                                 </Tab.Pane>
                             </Tab.Content>
