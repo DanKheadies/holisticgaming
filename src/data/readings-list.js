@@ -6,6 +6,7 @@ import America from '../assets/images/squad/david/books/america.jpg';
 import AmericaAgain from '../assets/images/squad/david/books/americaAgain.jpg';
 import Animal from '../assets/images/squad/david/books/animal.jpg';
 import ArtHappiness from '../assets/images/squad/david/books/artHappiness.jpg';
+import Arthas from '../assets/images/squad/david/books/arthas.jpg';
 import ArtWar from '../assets/images/squad/david/books/artWar.jpg';
 import Bakemonogatari1 from '../assets/images/squad/david/books/bakemonogatari1.jpg';
 import Bakemonogatari2 from '../assets/images/squad/david/books/bakemonogatari2.jpg';
@@ -28,6 +29,7 @@ import Daemon from '../assets/images/squad/david/books/daemon.jpg';
 import DanceDragons from '../assets/images/squad/david/books/danceDragons.jpg';
 import DarkAge from '../assets/images/squad/david/books/darkAge.jpg';
 import DavidGoliath from '../assets/images/squad/david/books/davidGoliath.jpg';
+import Dawnshard from '../assets/images/squad/david/books/dawnshard.jpg';
 import Decoded from '../assets/images/squad/david/books/decoded.jpg';
 import DesignThings from '../assets/images/squad/david/books/designThings.jpg';
 import DoubleHelix from '../assets/images/squad/david/books/doubleHelix.jpg';
@@ -39,6 +41,7 @@ import EndersGame from '../assets/images/squad/david/books/endersGame.jpg';
 import EnderShadow from '../assets/images/squad/david/books/enderShadow.jpg';
 import EngineeringPlay from '../assets/images/squad/david/books/engineeringPlay.jpg';
 import Exp1Leviathan from '../assets/images/squad/david/books/exp1Leviathan.jpg';
+import Exp2Caliban from '../assets/images/squad/david/books/exp2Caliban.jpg';
 import FeastCrows from '../assets/images/squad/david/books/feastCrows.jpg';
 import FifthSeason from '../assets/images/squad/david/books/fifthSeason.jpg';
 import Flow from '../assets/images/squad/david/books/flow.jpg';
@@ -96,6 +99,7 @@ import RealFood from '../assets/images/squad/david/books/realFood.jpg';
 import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg';
 import RedNotice from '../assets/images/squad/david/books/redNotice.jpg';
 import RedRising from '../assets/images/squad/david/books/redRising.jpg';
+import RhythmWar from '../assets/images/squad/david/books/rhythmWar.jpg';
 import Sandman from '../assets/images/squad/david/books/sandman.jpg';
 import Sandman2 from '../assets/images/squad/david/books/sandman2.jpg';
 import Sapiens from '../assets/images/squad/david/books/sapiens.jpg';
@@ -132,12 +136,48 @@ import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
 import WayOfKings from '../assets/images/squad/david/books/wayOfKings.jpg';
 import WeBob from '../assets/images/squad/david/books/weBob.jpg';
 import WeMany from '../assets/images/squad/david/books/weMany.jpg';
+import WhySleep from '../assets/images/squad/david/books/whySleep.jpg';
 import Wisdom from '../assets/images/squad/david/books/wisdom.jpg';
 import WordsRadiance from '../assets/images/squad/david/books/wordsRadiance.jpg';
 import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        WhySleep.toString(), 
+        'Why We Sleep',
+        WhySleep, 
+        'https://www.amazon.com/Why-We-Sleep-Matthew-Walker-audiobook/dp/B0752XRB5F',
+        150
+    ),
+    new Reading (
+        Exp2Caliban.toString(), 
+        'Caliban\'s War (The Expanse 2)',
+        Exp2Caliban, 
+        'https://www.amazon.com/Calibans-War-Expanse-James-Corey/dp/0316129062',
+        149
+    ),
+    new Reading (
+        Arthas.toString(), 
+        'World of Warcraft: Arthas - Rise of the Lich King',
+        Arthas, 
+        'https://www.amazon.com/World-Warcraft-Arthas-Blizzard-Legends/dp/B07P1B1RBP',
+        148
+    ),
+    new Reading (
+        RhythmWar.toString(), 
+        'Rhythm of War',
+        RhythmWar, 
+        'https://www.amazon.com/Rhythm-of-War/dp/B082FQRWWR',
+        147
+    ),
+    new Reading (
+        Dawnshard.toString(), 
+        'Dawnshard',
+        Dawnshard, 
+        'https://www.amazon.com/Dawnshard-Stormlight-Archive-Brandon-Sanderson-ebook/dp/B08MXXWYT7',
+        146
+    ),
     new Reading (
         Bakemonogatari2.toString(), 
         'Bakemonogatari 2',

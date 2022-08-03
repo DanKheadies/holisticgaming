@@ -12,10 +12,13 @@ import civ from '../../../../assets/images/jumbo/civ.jpg';
 import crossing1 from '../../../../assets/images/jumbo/crossing1.jpg';
 import crossing2 from '../../../../assets/images/jumbo/crossing2.jpg';
 import deadCells from '../../../../assets/images/jumbo/deadCells.jpg';
+import diablo from '../../../../assets/images/jumbo/diablo.jpg';
 import dQ from '../../../../assets/images/jumbo/dQ.jpg';
+import elden from '../../../../assets/images/jumbo/elden.jpg';
 import escapist from '../../../../assets/images/jumbo/escapist.jpg';
 import evoland from '../../../../assets/images/jumbo/evoland.jpg';
 import fez from '../../../../assets/images/jumbo/fez.jpg';
+import gaia from '../../../../assets/images/jumbo/gaia.jpg';
 import gungeon1 from '../../../../assets/images/jumbo/gungeon1.jpg';
 import gungeon2 from '../../../../assets/images/jumbo/gungeon2.jpg';
 import hades1 from '../../../../assets/images/jumbo/hades1.jpg';
@@ -55,6 +58,7 @@ import terraria from '../../../../assets/images/jumbo/terraria.jpg';
 import valfaris from '../../../../assets/images/jumbo/valfaris.jpg';
 import whatGolf from '../../../../assets/images/jumbo/whatGolf.jpg';
 import worms from '../../../../assets/images/jumbo/worms.jpg';
+import wow from '../../../../assets/images/jumbo/wow.jpg';
 
 const JUMBOIMAGES = [
     acnh1,
@@ -71,10 +75,13 @@ const JUMBOIMAGES = [
     crossing1,
     crossing2,
     deadCells,
+    diablo,
     dQ,
+    elden,
     escapist,
     evoland,
     fez,
+    gaia,
     gungeon1,
     gungeon2,
     hades1,
@@ -113,7 +120,8 @@ const JUMBOIMAGES = [
     terraria,
     valfaris,
     whatGolf,
-    worms
+    worms,
+    wow
 ];
 
 export default JUMBOIMAGES;
