@@ -22,13 +22,13 @@ const Research = () => {
         <Aux>
             <QuotesBar />
             <Container className="research-container">
-                <Tab.Container id="left-tabs-example" defaultActiveKey="gaming">
+                <Tab.Container id="left-tabs-example" defaultActiveKey="all">
                     <Row>
                         <Col md={3}>
                             <Nav variant="pills" className="flex-column">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="gaming">
-                                        Gaming
+                                    <Nav.Link eventKey="all">
+                                        All
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
@@ -37,41 +37,20 @@ const Research = () => {
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="immunis">
-                                        Immunis
+                                    <Nav.Link eventKey="gaming">
+                                        Gaming
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="all">
-                                        All
+                                    <Nav.Link eventKey="immunis">
+                                        Immunis
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </Col>
                         <Col md={9}>
                             <Tab.Content>
-                                <Tab.Pane eventKey="gaming">
-                                    <Accordion>
-                                        <ReportAdolescentsLootBoxes eventKey="0" />
-                                        <ReportBadNews eventKey="1" />
-                                        <ReportDysregulatedGaming eventKey="2" />
-                                        <ReportPokemonEffects eventKey="3" />
-                                        <ReportSweetCareGame eventKey="4" />
-                                        <ReportTraumaTetris eventKey="5" />
-                                        <ReportVGExpertise eventKey="6" />
-                                    </Accordion>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="dankheadies">
-                                    <Accordion>
-                                        <ReportHealthEffectsCannabis eventKey="0" />
-                                    </Accordion>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="immunis">
-                                    <Accordion>
-                                        <ReportAntiInflammatoryAgents eventKey="0" />
-                                    </Accordion>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="all">
+                            <Tab.Pane eventKey="all">
                                     <Accordion>
                                         <ReportAdolescentsLootBoxes eventKey="0" />
                                         <ReportAI4Depression eventKey="1" />
@@ -85,6 +64,27 @@ const Research = () => {
                                         <ReportSystematicExploration eventKey="9" />
                                         <ReportTraumaTetris eventKey="10" />
                                         <ReportVGExpertise eventKey="11" />
+                                    </Accordion>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="dankheadies">
+                                    <Accordion>
+                                        <ReportHealthEffectsCannabis eventKey="0" />
+                                    </Accordion>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="gaming">
+                                    <Accordion>
+                                        <ReportAdolescentsLootBoxes eventKey="0" />
+                                        <ReportBadNews eventKey="1" />
+                                        <ReportDysregulatedGaming eventKey="2" />
+                                        <ReportPokemonEffects eventKey="3" />
+                                        <ReportSweetCareGame eventKey="4" />
+                                        <ReportTraumaTetris eventKey="5" />
+                                        <ReportVGExpertise eventKey="6" />
+                                    </Accordion>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="immunis">
+                                    <Accordion>
+                                        <ReportAntiInflammatoryAgents eventKey="0" />
                                     </Accordion>
                                 </Tab.Pane>
                             </Tab.Content>

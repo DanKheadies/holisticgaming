@@ -1,6 +1,7 @@
 import acnh1 from '../../../../assets/images/jumbo/acnh1.jpg';
 import acnh2 from '../../../../assets/images/jumbo/acnh2.jpg';
 import acnh3 from '../../../../assets/images/jumbo/acnh3.jpg';
+import atomic from '../../../../assets/images/jumbo/atomic.jpg';
 import botw1 from '../../../../assets/images/jumbo/botw1.jpg';
 import botw2 from '../../../../assets/images/jumbo/botw2.jpg';
 import broforce from '../../../../assets/images/jumbo/broforce.jpg';
@@ -48,8 +49,10 @@ import podRacer1 from '../../../../assets/images/jumbo/podRacer1.jpg';
 import podRacer2 from '../../../../assets/images/jumbo/podRacer2.jpg';
 import pokeArc from '../../../../assets/images/jumbo/pokeArc.jpg';
 import pokemon from '../../../../assets/images/jumbo/pokemon.jpg';
+import pokemon2 from '../../../../assets/images/jumbo/pokemon2.jpg';
 import rocket from '../../../../assets/images/jumbo/rocket.jpg';
 import smrpg from '../../../../assets/images/jumbo/smrpg.jpg';
+import smrpg2 from '../../../../assets/images/jumbo/smrpg2.jpg';
 import spfbw from '../../../../assets/images/jumbo/spfbw.jpg';
 import spirit1 from '../../../../assets/images/jumbo/spirit1.jpg';
 import spirit2 from '../../../../assets/images/jumbo/spirit2.jpg';
@@ -64,6 +67,7 @@ const JUMBOIMAGES = [
     acnh1,
     acnh2,
     acnh3,
+    atomic,
     botw1,
     botw2,
     broforce,
@@ -111,8 +115,10 @@ const JUMBOIMAGES = [
     podRacer2,
     pokeArc,
     pokemon,
+    pokemon2,
     rocket,
     smrpg,
+    smrpg2,
     spfbw,
     spirit1,
     spirit2,
