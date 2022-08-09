@@ -12,6 +12,7 @@ import ReportDysregulatedGaming from './Reports/DysregulatedGaming';
 import ReportHealthEffectsCannabis from './Reports/HealthEffectsCannabis';
 import ReportPhysicalFitness from './Reports/PhysicalFitness';
 import ReportPokemonEffects from './Reports/PokemonsEffect';
+import ReportPokemonGoPhysical from './Reports/PokemonGoPhysical';
 import ReportSweetCareGame from './Reports/SweetCareGame';
 import ReportSystematicExploration from './Reports/SystematicExploration';
 import ReportTraumaTetris from './Reports/TraumaTetris';
@@ -60,10 +61,11 @@ const Research = () => {
                                         <ReportHealthEffectsCannabis eventKey="5" />
                                         <ReportPhysicalFitness eventKey="6" />
                                         <ReportPokemonEffects eventKey="7" />
-                                        <ReportSweetCareGame eventKey="8" />
-                                        <ReportSystematicExploration eventKey="9" />
-                                        <ReportTraumaTetris eventKey="10" />
-                                        <ReportVGExpertise eventKey="11" />
+                                        <ReportPokemonGoPhysical eventKey="8" />
+                                        <ReportSweetCareGame eventKey="9" />
+                                        <ReportSystematicExploration eventKey="10" />
+                                        <ReportTraumaTetris eventKey="11" />
+                                        <ReportVGExpertise eventKey="12" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="dankheadies">
@@ -77,9 +79,10 @@ const Research = () => {
                                         <ReportBadNews eventKey="1" />
                                         <ReportDysregulatedGaming eventKey="2" />
                                         <ReportPokemonEffects eventKey="3" />
-                                        <ReportSweetCareGame eventKey="4" />
-                                        <ReportTraumaTetris eventKey="5" />
-                                        <ReportVGExpertise eventKey="6" />
+                                        <ReportPokemonGoPhysical eventKey="4" />
+                                        <ReportSweetCareGame eventKey="5" />
+                                        <ReportTraumaTetris eventKey="6" />
+                                        <ReportVGExpertise eventKey="7" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="immunis">
