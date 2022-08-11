@@ -85,6 +85,7 @@ import NeverSplit from '../assets/images/squad/david/books/neverSplit.jpg';
 import Nonzero from '../assets/images/squad/david/books/nonzero.jpg';
 import Oathbringer from '../assets/images/squad/david/books/oathbringer.jpg';
 import ObeliskGate from '../assets/images/squad/david/books/obeliskGate.jpg';
+import OldManWar from '../assets/images/squad/david/books/oldManWar.jpg';
 import OmnivoreDilemma from '../assets/images/squad/david/books/omnivoreDilemma.jpg';
 import OneHundredTwentyYear from '../assets/images/squad/david/books/120year.jpg';
 import OneSecond from '../assets/images/squad/david/books/oneSecond.jpg';
@@ -143,6 +144,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        OldManWar.toString(), 
+        'Old Man\'s War',
+        OldManWar, 
+        'https://www.amazon.com/Old-Mans-War-John-Scalzi/dp/0765348276',
+        151
+    ),
     new Reading (
         WhySleep.toString(), 
         'Why We Sleep',
