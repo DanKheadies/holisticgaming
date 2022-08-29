@@ -36,12 +36,14 @@ import DoubleHelix from '../assets/images/squad/david/books/doubleHelix.jpg';
 import Drive from '../assets/images/squad/david/books/drive.jpg';
 import Dune from '../assets/images/squad/david/books/dune.jpg';
 import Earth from '../assets/images/squad/david/books/earth.jpg';
+import Edgedancer from '../assets/images/squad/david/books/edgedancer.jpg';
 import Einstein from '../assets/images/squad/david/books/einstein.jpg';
 import EndersGame from '../assets/images/squad/david/books/endersGame.jpg';
 import EnderShadow from '../assets/images/squad/david/books/enderShadow.jpg';
 import EngineeringPlay from '../assets/images/squad/david/books/engineeringPlay.jpg';
 import Exp1Leviathan from '../assets/images/squad/david/books/exp1Leviathan.jpg';
 import Exp2Caliban from '../assets/images/squad/david/books/exp2Caliban.jpg';
+import Exp3Abaddon from '../assets/images/squad/david/books/exp3Abaddon.jpg';
 import FeastCrows from '../assets/images/squad/david/books/feastCrows.jpg';
 import FifthSeason from '../assets/images/squad/david/books/fifthSeason.jpg';
 import Flow from '../assets/images/squad/david/books/flow.jpg';
@@ -144,6 +146,20 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Edgedancer.toString(), 
+        'Edgedancer',
+        Edgedancer, 
+        'https://www.amazon.com/Edgedancer-Stormlight-Archive-Brandon-Sanderson-ebook/dp/B06XRHRHPH',
+        153
+    ),
+    new Reading (
+        Exp3Abaddon.toString(), 
+        'Abaddon\'s Gate (The Expanse 3)',
+        Exp3Abaddon, 
+        'https://www.amazon.com/Abaddons-Gate-Expanse-James-Corey/dp/0316129070',
+        152
+    ),
     new Reading (
         OldManWar.toString(), 
         'Old Man\'s War',
