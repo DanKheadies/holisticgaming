@@ -125,6 +125,7 @@ import StrokeInsight from '../assets/images/squad/david/books/strokeInsight.jpg'
 import Subliminal from '../assets/images/squad/david/books/subliminal.jpg';
 import SunsetLimited from '../assets/images/squad/david/books/sunsetLimited.jpg';
 import SuperFreak from '../assets/images/squad/david/books/superFreak.jpg';
+import Superman from '../assets/images/squad/david/books/superman.jpg';
 import ThinAir from '../assets/images/squad/david/books/thinAir.jpg';
 import Thinking from '../assets/images/squad/david/books/thinking.jpg';
 import Thrawn from '../assets/images/squad/david/books/thrawn.jpg';
@@ -146,6 +147,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Superman.toString(), 
+        'The Rise of Superman',
+        Superman, 
+        'https://www.amazon.com/Rise-Superman-Decoding-Ultimate-Performance-ebook/dp/B00BW54XVO',
+        154
+    ),
     new Reading (
         Edgedancer.toString(), 
         'Edgedancer',
