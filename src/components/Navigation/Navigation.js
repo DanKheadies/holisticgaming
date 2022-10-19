@@ -6,6 +6,7 @@ import Aux from '../../hoc/Aux/Aux';
 import TrackedRoute from '../TrackedRoute/TrackedRoute';
 
 import Contact from '../../components/Main/Contact/Contact';
+import Corso from '../Main/Games/Corso/Corso';
 import David from '../../components/Main/Squad/David/David';
 import EdTech from '../../components/Main/Squad/David/EdTech/EdTech';
 import Games from '../../components/Main/Games/Games';
@@ -25,6 +26,7 @@ const Navigation = () => {
         <Aux>
             <Switch>
                 <TrackedRoute path="/contact" component={Contact} />
+                <TrackedRoute path="/games/corso" component={Corso} />
                 <TrackedRoute path="/games/tdsbf" component={TDSBF} />
                 <TrackedRoute path="/games/tsodk" component={TSoDK} />
                 <TrackedRoute path="/games" component={Games} />

@@ -79,6 +79,9 @@ import ManPlay from '../assets/images/squad/david/books/manPlay.jpg';
 import Martian from '../assets/images/squad/david/books/martian.jpg';
 import Mindsight from '../assets/images/squad/david/books/mindsight.jpg';
 import MindsOnline from '../assets/images/squad/david/books/mindsOnline.jpg';
+import Mistborn1 from '../assets/images/squad/david/books/mistborn1.jpg';
+import Mistborn2 from '../assets/images/squad/david/books/mistborn2.jpg';
+import Mistborn3 from '../assets/images/squad/david/books/mistborn3.jpg';
 import MorningStar from '../assets/images/squad/david/books/morningStar.jpg';
 import Mueller from '../assets/images/squad/david/books/mueller.jpg';
 import Neighbors from '../assets/images/squad/david/books/neighbors.jpg';
@@ -147,6 +150,27 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Mistborn3.toString(), 
+        'Mistborn: The Hero of Ages',
+        Mistborn3, 
+        'https://www.amazon.com/Hero-Ages-Book-Three-Mistborn-ebook/dp/B002LC8HF0',
+        157
+    ),
+    new Reading (
+        Mistborn2.toString(), 
+        'Mistborn: The Well of Ascension',
+        Mistborn2, 
+        'https://www.amazon.com/Well-Ascension-Book-Two-Mistborn-ebook/dp/B000UZQI0Q',
+        156
+    ),
+    new Reading (
+        Mistborn1.toString(), 
+        'Mistborn: The Final Empire',
+        Mistborn1, 
+        'https://www.amazon.com/Mistborn-Final-Empire-Book-No/dp/0765350386',
+        155
+    ),
     new Reading (
         Superman.toString(), 
         'The Rise of Superman',

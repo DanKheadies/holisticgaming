@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import './Games.scss';
 import Aux from '../../../hoc/Aux/Aux';
 
+import CorsoGamesImage from '../../../assets/images/games/corso.png';
 import GuessWhoImage from '../../../assets/images/games/gwc.png';
 import ImmunisImage from '../../../assets/images/games/immunis.png';
 import TD_SBF_Image from '../../../assets/images/games/td_sbf_td.png';
@@ -98,6 +99,22 @@ const Games = () => {
                             </p>
                             <p>
                                 <a href="https://guesswhocolluded.com" alt="Guess Who Colluded" className="primary-link">Guess Who Colluded</a> while you still can...
+                            </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            src={CorsoGamesImage}
+                            alt="Corso Games"
+                        />
+                        <Carousel.Caption>
+                            <h3>Corso Games</h3>
+                            <div className="games-spacer"></div>
+                            <p>
+                                Care to play a game? Or 2? Treat yourself to the simple fun of Corso Games!
+                            </p>
+                            <p>
+                                We got <Link to="/games/corso" className="primary-link">Minesweeper, Puzzle sliders, and more.</Link>
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
