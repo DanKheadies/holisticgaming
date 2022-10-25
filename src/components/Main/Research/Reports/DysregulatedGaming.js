@@ -6,6 +6,7 @@ const DysregulatedGaming = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Dysregulated Gaming's Emotional and Psychosocial Effects"
+        param={props.param}
     >
         <p>
             Posted: Feb 2021
@@ -57,6 +58,13 @@ const DysregulatedGaming = props => (
         </p>
         <p>
             Limitations for this research include the correlational and self-reported data along with the smaller, localized dataset. Future research should explore which factors of specific games or gamers might affect psychological-need satisfaction through gameplay as well as daily need frustrations amongst a larger pool of participants (i.e. multinational).
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

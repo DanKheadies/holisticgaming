@@ -6,6 +6,7 @@ const SystematicExploration = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Systematic Exploration and Uncertainty"
+        param={props.param}
     >
         <p>
             Posted: May 2021
@@ -56,6 +57,13 @@ const SystematicExploration = props => (
             It’s worth noting that some children did follow “adult-like” reward-based strategies, i.e. min-max’d well, and this could be due to early academic instruction or maturation to brain areas involved in decision-making. More research would be valuable. The main takeaway as noted by the researchers is that: 
             <br/>
             “This research demonstrates that systematic exploratory behavior can stem from other mechanisms than top-down cognitive control, and that these mechanisms may be specifically tuned to achieve broad information gathering in young children. If this is the case, some of the early immaturities of top-down control (e.g. distributed attention) may be advantageous for children: these immaturities may optimize learning (rather than performance) by sub-serving broad information gathering.”
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

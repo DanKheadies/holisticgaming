@@ -8,6 +8,7 @@ const PhysicalFitness = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Physical Fitness's Effect on White Matter Microstructures"
+        param={props.param}
     >
         <p>
             Posted: Sep 2019
@@ -63,6 +64,13 @@ const PhysicalFitness = props => (
         </p>
         <p>
             Further research would investigate the effects of physical fitness on brain physiology and mental abilities over longitudinal and interventional studies.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

@@ -8,6 +8,7 @@ const TraumaTetris = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Trauma and Tetris"
+        param={props.param}
     >
         <p>
             Posted: Mar 2021
@@ -63,6 +64,13 @@ const TraumaTetris = props => (
         </div>
         <p>
             After analyzing participant background information and relevant traumatic event data, the researchers plotted intrusive memory occurrence over the first week, and they found that participants who played Tetris recorded significantly fewer intrusive memories, i.e. a 62% reduction, as well as overall less distress from the intrusion symptoms than the control group. These results are consistent with previous laboratory-based trauma simulation studies, and they suggest that a larger trial is warranted. Participants were more willing to engage in this brief, ’therapist-free’ technological intervention, and no adverse effects were observed or reported. This intervention is brief, low cost, simple to train and deliver, and flexible, all of which make it a successful prevention strategy toward intrusive memories after an accident. This type of cognitive ’therapeutic vaccine’ could help with other traumatic events, but further research is needed on the exact mechanisms as to how it blocks intrusive memories, i.e. high visuospatial demands coupled with memory reminder of the incident, as well as the temporal constraints this type of intervention may have, i.e. extending to 1 month or having more / multiple ‘doses’ of game play.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

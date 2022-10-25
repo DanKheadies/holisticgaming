@@ -11,6 +11,7 @@ const BadNews = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Bad News's Effect on Psychological Resistance"
+        param={props.param}
     >
         <p>
             Posted: Jul 2019
@@ -99,6 +100,13 @@ const BadNews = props => (
         </p>
         <p>
             Further research would investigate other gaming possibilities as an inoculating therapy, such as an immunology game improving awareness and decision-making for health and health-care.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

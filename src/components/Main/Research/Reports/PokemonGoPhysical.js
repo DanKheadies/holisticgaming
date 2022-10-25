@@ -8,6 +8,7 @@ const PokemonGoPhysical = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Pokemon Go's Impact on Physical Activity"
+        param={props.param}
     >
         <p>
             Posted: August 2022
@@ -69,6 +70,13 @@ const PokemonGoPhysical = props => (
         </p>
         <p>
             Future research should examine player retention and the long-term effects of Pokemon Go along with other augmented reality games. Aspects, like in-app events, affected player attrition rate, engagement, re-engagement, and overall time spent with the app, and these aspects, along with other characteristics of the experience, would be helpful in identifying and crafting more enduring, interventions.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

@@ -6,6 +6,7 @@ const AI4Depression = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="AI to Relieve Symptoms of Depresssion and Anxiety"
+        param={props.param}
     >
         <p>
             Posted: August 2022
@@ -63,6 +64,13 @@ const AI4Depression = props => (
         </p>
         <p>
             Overall, this study reveals that AI offers a cost-effective and accessible mental health solution that could scale as a complementary tool to traditional treatment methods. 
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

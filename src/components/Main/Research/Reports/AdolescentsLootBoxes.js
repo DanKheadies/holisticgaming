@@ -9,6 +9,7 @@ const AdolescentsLootBoxes = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Adolescents and Loot Boxes"
+        param={props.param}
     >
         <p>
             Posted: Mar 2021
@@ -80,6 +81,13 @@ const AdolescentsLootBoxes = props => (
         </div>
         <p>
             The evidence establishes a link between loot box spending and problem gambling in older adolescents. While these results are statistically significant, their true importance lies in the effect size associated with them, i.e. the relationship between loot box spending and problem gambling is of moderate-to-large magnitude which is an order of magnitude larger than the relationship between problem gambling and risk factors such as alcohol dependence. The effect size is what commonly indicates practical, real-world significance. The researchers also point out that the severity of this relationship appears larger than in adult populations. Ultimately, this is correlational analysis, and experimental and longitudinal work is needed to understand the ‘chicken-or-the-egg’ relationship between spending on loot boxes and problem gambling behaviors. The researchers also suggest ways to mitigate problem gambling risks, such as through rating agency restrictions or national and federal authorities placing regulations on loot boxes.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

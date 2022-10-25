@@ -7,10 +7,16 @@ import classNames from 'classnames';
 
 import './AccordionCard.scss';
 
-const MyCustomToggle = ({children, eventKey}) => {
+const MyCustomToggle = ({children, eventKey, param}) => {
     const currentEventKey = useContext(AccordionContext);
-    const toggleOnClick = useAccordionToggle(eventKey, () => {});
-    const isCurrentEventKey = currentEventKey === eventKey;
+    var toggleOnClick = useAccordionToggle(eventKey, () => {});
+    var isCurrentEventKey = currentEventKey === eventKey;
+    if (param) {
+        var modParam = param.replace('?','');
+        if (modParam === eventKey) {
+            isCurrentEventKey = true;
+        }
+    }
   
     return (
             <Accordion.Toggle 
@@ -28,17 +34,29 @@ const MyCustomToggle = ({children, eventKey}) => {
     );
 }
 
-const AccordionCard = props => (
-    <Card className="accordion-card">
-        <MyCustomToggle eventKey={props.eventKey}>
-            {props.title}
-        </MyCustomToggle>
-        <Accordion.Collapse eventKey={props.eventKey}>
-            <Card.Body className={props.centered ? 'center-content' : ''}>
-                {props.children}
-            </Card.Body>
-        </Accordion.Collapse>
-    </Card>
-);
+const AccordionCard = props => {
+    var paramVis = false;
+    const currentEventKey = useContext(AccordionContext);
+    if (props.param) {
+        var modParam = props.param.replace('?','');
+        if (modParam === props.eventKey &&
+            (currentEventKey === null &&
+             currentEventKey !== props.eventKey)) {
+            paramVis = true;
+        }
+    }
+    return (
+        <Card className="accordion-card">
+            <MyCustomToggle eventKey={props.eventKey} param={props.param}>
+                {props.title}
+            </MyCustomToggle>
+            <Accordion.Collapse eventKey={props.eventKey} className={paramVis ? 'show' : ''}>
+                <Card.Body className={props.centered ? 'center-content' : ''}>
+                    {props.children}
+                </Card.Body>
+            </Accordion.Collapse>
+        </Card>
+    );
+};
 
 export default AccordionCard;

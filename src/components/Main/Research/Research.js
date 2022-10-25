@@ -18,7 +18,9 @@ import ReportSystematicExploration from './Reports/SystematicExploration';
 import ReportTraumaTetris from './Reports/TraumaTetris';
 import ReportVGExpertise from './Reports/VGExpertise';
 
-const Research = () => {
+const Research = props => {
+    var queryString = props.location.search;
+    
     return (
         <Aux>
             <QuotesBar />
@@ -53,19 +55,19 @@ const Research = () => {
                             <Tab.Content>
                             <Tab.Pane eventKey="all">
                                     <Accordion>
-                                        <ReportAdolescentsLootBoxes eventKey="0" />
-                                        <ReportAI4Depression eventKey="1" />
-                                        <ReportAntiInflammatoryAgents eventKey="2" />
-                                        <ReportBadNews eventKey="3" />
-                                        <ReportDysregulatedGaming eventKey="4" />
-                                        <ReportHealthEffectsCannabis eventKey="5" />
-                                        <ReportPhysicalFitness eventKey="6" />
-                                        <ReportPokemonEffects eventKey="7" />
-                                        <ReportPokemonGoPhysical eventKey="8" />
-                                        <ReportSweetCareGame eventKey="9" />
-                                        <ReportSystematicExploration eventKey="10" />
-                                        <ReportTraumaTetris eventKey="11" />
-                                        <ReportVGExpertise eventKey="12" />
+                                        <ReportAdolescentsLootBoxes eventKey="0" param={queryString} />
+                                        <ReportAI4Depression eventKey="1" param={queryString} />
+                                        <ReportAntiInflammatoryAgents eventKey="2" param={queryString} />
+                                        <ReportBadNews eventKey="3" param={queryString} />
+                                        <ReportDysregulatedGaming eventKey="4" param={queryString} />
+                                        <ReportHealthEffectsCannabis eventKey="5" param={queryString} />
+                                        <ReportPhysicalFitness eventKey="6" param={queryString} />
+                                        <ReportPokemonEffects eventKey="7" param={queryString} />
+                                        <ReportPokemonGoPhysical eventKey="8" param={queryString} />
+                                        <ReportSweetCareGame eventKey="9" param={queryString} />
+                                        <ReportSystematicExploration eventKey="10" param={queryString} />
+                                        <ReportTraumaTetris eventKey="11" param={queryString} />
+                                        <ReportVGExpertise eventKey="12" param={queryString} />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="dankheadies">

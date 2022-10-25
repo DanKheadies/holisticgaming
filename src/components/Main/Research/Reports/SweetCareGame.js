@@ -8,6 +8,7 @@ const SweetCareGame = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Sweet Care &mdash; Designing a health-based electronic game"
+        param={props.param}
     >
         <p>
             Posted: Mar 2021
@@ -66,6 +67,13 @@ const SweetCareGame = props => (
         </p>
         <p>
             This study provides an in-depth look into creating health-based games, and while it creates a game following the criteria it identified for such games, it does not provide any research on the implementation of the created game; however, it mentions that “[i]n future research, this work is carried out.” As with most serious games, more research is required to determine the overall efficacy of such a health-based game.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

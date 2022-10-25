@@ -7,6 +7,7 @@ const HealthEffectsCannabis = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Health Effects of Cannabis and Cannabinoids: The Current State"
+        param={props.param}
     >
         <p>
             Posted: Apr 2020
@@ -609,6 +610,13 @@ const HealthEffectsCannabis = props => (
                 </ul>
             </AccordionCard>
         </Accordion>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
+        </p>
     </AccordionCard>
 );
 

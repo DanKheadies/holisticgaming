@@ -11,6 +11,7 @@ const PokemonsEffect = props => (
         id="derp"
         eventKey={props.eventKey}
         title="Pokemon's Effect on the Visual Cortex"
+        param={props.param}
     >
         <p>
             Posted: Jul 2019
@@ -92,6 +93,13 @@ const PokemonsEffect = props => (
         </div>
         <p>
             A continuation of this research would investigate how 21st century tools, such as user interfaces and virtual environments, are shaping our minds today.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

@@ -6,6 +6,7 @@ const AntiInflammatoryAgents = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Anti-inflammatory Agents on Major Depressive Disorder"
+        param={props.param}
     >
         <p>
             Posted: Nov 2019
@@ -54,6 +55,13 @@ const AntiInflammatoryAgents = props => (
         </p>
         <p>
             Conclusions: Results of this systematic review suggest that anti-inflammatory agents play an antidepressant role in patients with MDD and are reasonably safe.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );

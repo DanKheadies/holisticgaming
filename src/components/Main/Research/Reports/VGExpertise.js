@@ -9,6 +9,7 @@ const VGExpertise = props => (
     <AccordionCard
         eventKey={props.eventKey}
         title="Video Game Expertise and Fluid Intelligence"
+        param={props.param}
     >
         <p>
             Posted: May 2020
@@ -77,6 +78,13 @@ const VGExpertise = props => (
         </div>
         <p>
             While the data indicates a link between intelligence and video game performance, the authors point out that the relationship is correlational with unclear causality. Similar results have been noted by other researchers, but the study’s authors point out that factors such as age and adult responsibilities, MMR being tied to team performance, and a mildred of underlying cognitive factors as being points of contention and concern. However, if video games&mdash;MOBAs in particular&mdash;offer a robust insight into cognitive function, they may be used to study cognitive epidemiology at a massive scale&mdash;instantly overcoming existing issues with small sample sizes and potentially allowing researchers to examine dynamic changes in performance at a population level in almost real time.
+        </p>
+        <br/>
+        <p>
+            Thanks for your time! Feel free to&nbsp;
+            <a href={'/research?' + props.eventKey} alt="Share this Review" className="primary-link">
+                share this review.
+            </a>
         </p>
     </AccordionCard>
 );
