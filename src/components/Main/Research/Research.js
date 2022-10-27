@@ -7,6 +7,7 @@ import QuotesBar from '../../UI/QuotesBar/QuotesBar';
 import ReportAdolescentsLootBoxes from './Reports/AdolescentsLootBoxes';
 import ReportAI4Depression from './Reports/AI4Depression';
 import ReportAntiInflammatoryAgents from './Reports/AntiInflammatoryAgents';
+import ReportAssociationVGsCog from './Reports/AssociationVGsCog';
 import ReportBadNews from './Reports/BadNews';
 import ReportDysregulatedGaming from './Reports/DysregulatedGaming';
 import ReportHealthEffectsCannabis from './Reports/HealthEffectsCannabis';
@@ -55,36 +56,62 @@ const Research = props => {
                             <Tab.Content>
                             <Tab.Pane eventKey="all">
                                     <Accordion>
-                                        <ReportAdolescentsLootBoxes eventKey="0" param={queryString} />
-                                        <ReportAI4Depression eventKey="1" param={queryString} />
-                                        <ReportAntiInflammatoryAgents eventKey="2" param={queryString} />
-                                        <ReportBadNews eventKey="3" param={queryString} />
-                                        <ReportDysregulatedGaming eventKey="4" param={queryString} />
-                                        <ReportHealthEffectsCannabis eventKey="5" param={queryString} />
-                                        <ReportPhysicalFitness eventKey="6" param={queryString} />
-                                        <ReportPokemonEffects eventKey="7" param={queryString} />
-                                        <ReportPokemonGoPhysical eventKey="8" param={queryString} />
-                                        <ReportSweetCareGame eventKey="9" param={queryString} />
-                                        <ReportSystematicExploration eventKey="10" param={queryString} />
-                                        <ReportTraumaTetris eventKey="11" param={queryString} />
-                                        <ReportVGExpertise eventKey="12" param={queryString} />
+                                        <ReportAdolescentsLootBoxes 
+                                            eventKey="0" param={queryString} />
+                                        <ReportAI4Depression 
+                                            eventKey="1" param={queryString} />
+                                        <ReportAntiInflammatoryAgents 
+                                            eventKey="2" param={queryString} />
+                                        <ReportAssociationVGsCog 
+                                            eventKey="3" param={queryString} />
+                                        <ReportBadNews 
+                                            eventKey="4" param={queryString} />
+                                        <ReportDysregulatedGaming 
+                                            eventKey="5" param={queryString} />
+                                        <ReportHealthEffectsCannabis 
+                                            eventKey="6" param={queryString} />
+                                        <ReportPhysicalFitness 
+                                            eventKey="7" param={queryString} />
+                                        <ReportPokemonEffects 
+                                            eventKey="8" param={queryString} />
+                                        <ReportPokemonGoPhysical 
+                                            eventKey="9" param={queryString} />
+                                        <ReportSweetCareGame 
+                                            eventKey="10" param={queryString} />
+                                        <ReportSystematicExploration 
+                                            eventKey="11" param={queryString} />
+                                        <ReportTraumaTetris 
+                                            eventKey="12" param={queryString} />
+                                        <ReportVGExpertise 
+                                            eventKey="13" param={queryString} />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="dankheadies">
                                     <Accordion>
-                                        <ReportHealthEffectsCannabis eventKey="0" />
+                                        <ReportHealthEffectsCannabis
+                                            eventKey="0" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="gaming">
                                     <Accordion>
-                                        <ReportAdolescentsLootBoxes eventKey="0" />
-                                        <ReportBadNews eventKey="1" />
-                                        <ReportDysregulatedGaming eventKey="2" />
-                                        <ReportPokemonEffects eventKey="3" />
-                                        <ReportPokemonGoPhysical eventKey="4" />
-                                        <ReportSweetCareGame eventKey="5" />
-                                        <ReportTraumaTetris eventKey="6" />
-                                        <ReportVGExpertise eventKey="7" />
+                                        <ReportAdolescentsLootBoxes 
+                                            eventKey="0" />
+                                        <ReportAssociationVGsCog 
+                                            eventKey="1" />
+                                        <ReportBadNews 
+                                            eventKey="2" />
+                                        <ReportDysregulatedGaming 
+                                            eventKey="3" />
+                                        <ReportPokemonEffects 
+                                            eventKey="4" />
+                                        <ReportPokemonGoPhysical 
+                                            eventKey="5" />
+                                        <ReportSweetCareGame 
+                                            eventKey="6" />
+                                        <ReportTraumaTetris 
+                                            eventKey="7" />
+                                        <ReportVGExpertise 
+                                            eventKey="8" />
                                     </Accordion>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="immunis">

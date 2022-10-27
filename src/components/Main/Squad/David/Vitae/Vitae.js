@@ -449,6 +449,9 @@ const Vitae = () => (
                     <Section header="Projects, Publications &amp; Presentations">
                         <ul>
                             <li>
+                                GitHub (<a className="primary-link" href="/" alt="GitHub">https://github.com/DanKheadies</a>)
+                            </li>
+                            <li>
                                 Holistic Gaming (<a className="primary-link" href="/" alt="Holistic Gaming">https://holisticgaming.com</a>)
                             </li>
                             <li>
