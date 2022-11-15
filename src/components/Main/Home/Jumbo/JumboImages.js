@@ -57,6 +57,7 @@ import spfbw from '../../../../assets/images/jumbo/spfbw.jpg';
 import spirit1 from '../../../../assets/images/jumbo/spirit1.jpg';
 import spirit2 from '../../../../assets/images/jumbo/spirit2.jpg';
 import ssbu from '../../../../assets/images/jumbo/ssbu.jpg';
+import takes2 from '../../../../assets/images/jumbo/takes2.jpg';
 import terraria from '../../../../assets/images/jumbo/terraria.jpg';
 import valfaris from '../../../../assets/images/jumbo/valfaris.jpg';
 import whatGolf from '../../../../assets/images/jumbo/whatGolf.jpg';
@@ -123,6 +124,7 @@ const JUMBOIMAGES = [
     spirit1,
     spirit2,
     ssbu,
+    takes2,
     terraria,
     valfaris,
     whatGolf,

@@ -32,6 +32,7 @@ import DavidGoliath from '../assets/images/squad/david/books/davidGoliath.jpg';
 import Dawnshard from '../assets/images/squad/david/books/dawnshard.jpg';
 import Decoded from '../assets/images/squad/david/books/decoded.jpg';
 import DesignThings from '../assets/images/squad/david/books/designThings.jpg';
+import DevOps from '../assets/images/squad/david/books/devOps.jpg';
 import DoubleHelix from '../assets/images/squad/david/books/doubleHelix.jpg';
 import Drive from '../assets/images/squad/david/books/drive.jpg';
 import Dune from '../assets/images/squad/david/books/dune.jpg';
@@ -44,6 +45,7 @@ import EngineeringPlay from '../assets/images/squad/david/books/engineeringPlay.
 import Exp1Leviathan from '../assets/images/squad/david/books/exp1Leviathan.jpg';
 import Exp2Caliban from '../assets/images/squad/david/books/exp2Caliban.jpg';
 import Exp3Abaddon from '../assets/images/squad/david/books/exp3Abaddon.jpg';
+import Exp4Cibola from '../assets/images/squad/david/books/exp4Cibola.jpg';
 import FeastCrows from '../assets/images/squad/david/books/feastCrows.jpg';
 import FifthSeason from '../assets/images/squad/david/books/fifthSeason.jpg';
 import Flow from '../assets/images/squad/david/books/flow.jpg';
@@ -57,6 +59,7 @@ import GameThrones from '../assets/images/squad/david/books/gameThrones.jpg';
 import GamificationLearning from '../assets/images/squad/david/books/gamificationLearning.jpg';
 import GenerationKill from '../assets/images/squad/david/books/generationKill.jpg';
 import GenghisKhan from '../assets/images/squad/david/books/genghisKhan.jpg';
+import GhostBrigades from '../assets/images/squad/david/books/ghostBrigades.jpg';
 import GoldenSun from '../assets/images/squad/david/books/goldenSun.jpg';
 import GunsGerms from '../assets/images/squad/david/books/gunsGerms.jpg';
 import Habit from '../assets/images/squad/david/books/habit.jpg';
@@ -108,6 +111,7 @@ import RedRising from '../assets/images/squad/david/books/redRising.jpg';
 import RhythmWar from '../assets/images/squad/david/books/rhythmWar.jpg';
 import Sandman from '../assets/images/squad/david/books/sandman.jpg';
 import Sandman2 from '../assets/images/squad/david/books/sandman2.jpg';
+import Sandman3 from '../assets/images/squad/david/books/sandman3.jpg';
 import Sapiens from '../assets/images/squad/david/books/sapiens.jpg';
 import SDVBible from '../assets/images/squad/david/books/sdvBible.jpg';
 import SearchSchrodinger from '../assets/images/squad/david/books/searchSchrodinger.jpg';
@@ -150,6 +154,34 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Exp4Cibola.toString(), 
+        'Expanse 4',
+        Exp4Cibola, 
+        'https://www.amazon.com/Cibola-Burn-Expanse-Book-4-ebook/dp/B00FPQA4F0',
+        161
+    ),
+    new Reading (
+        DevOps.toString(), 
+        'The DevOps Handbook, 2nd Ed.',
+        DevOps, 
+        'https://www.amazon.com/DevOps-Handbook-Second-World-Class-Organizations/dp/B09L56CT6N',
+        160
+    ),
+    new Reading (
+        Sandman3.toString(), 
+        'The Sandman: Act III',
+        Sandman3, 
+        'https://www.audible.com/pd/The-Sandman-Act-III-Audiobook/B0BFK1K36D',
+        159
+    ),
+    new Reading (
+        GhostBrigades.toString(), 
+        'The Ghost Brigades',
+        GhostBrigades, 
+        'https://www.amazon.com/Ghost-Brigades-Old-Mans-War/dp/0765354063',
+        158
+    ),
     new Reading (
         Mistborn3.toString(), 
         'Mistborn: The Hero of Ages',
