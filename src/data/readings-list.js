@@ -144,6 +144,7 @@ import ThrawnTeason from '../assets/images/squad/david/books/thrawnTreason.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
 import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
+import Warbreaker from '../assets/images/squad/david/books/warbreaker.jpg';
 import WayOfKings from '../assets/images/squad/david/books/wayOfKings.jpg';
 import WeBob from '../assets/images/squad/david/books/weBob.jpg';
 import WeMany from '../assets/images/squad/david/books/weMany.jpg';
@@ -154,6 +155,13 @@ import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        Warbreaker.toString(), 
+        'Warbreaker',
+        Warbreaker, 
+        'https://www.amazon.com/Warbreaker-Brandon-Sanderson/dp/0765360039',
+        162
+    ),
     new Reading (
         Exp4Cibola.toString(), 
         'Expanse 4',
