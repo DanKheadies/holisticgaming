@@ -1,6 +1,8 @@
 import Reading from '../models/reading';
 
+import ArcanumUnbounded from '../assets/images/squad/david/books/arcanumUnbounded.jpg';
 import Alchemist from '../assets/images/squad/david/books/alchemist.jpg';
+import AlloyLaw from '../assets/images/squad/david/books/alloyLaw.jpg';
 import AllWorlds from '../assets/images/squad/david/books/allWorlds.jpg';
 import America from '../assets/images/squad/david/books/america.jpg';
 import AmericaAgain from '../assets/images/squad/david/books/americaAgain.jpg';
@@ -10,6 +12,7 @@ import Arthas from '../assets/images/squad/david/books/arthas.jpg';
 import ArtWar from '../assets/images/squad/david/books/artWar.jpg';
 import Bakemonogatari1 from '../assets/images/squad/david/books/bakemonogatari1.jpg';
 import Bakemonogatari2 from '../assets/images/squad/david/books/bakemonogatari2.jpg';
+import BandsMourning from '../assets/images/squad/david/books/bandsMourning.jpg';
 import BeakFinch from '../assets/images/squad/david/books/beakFinch.jpg';
 import BeerHell from '../assets/images/squad/david/books/beerHell.jpg';
 import Beyond from '../assets/images/squad/david/books/beyond.jpg';
@@ -40,13 +43,17 @@ import Dune from '../assets/images/squad/david/books/dune.jpg';
 import Earth from '../assets/images/squad/david/books/earth.jpg';
 import Edgedancer from '../assets/images/squad/david/books/edgedancer.jpg';
 import Einstein from '../assets/images/squad/david/books/einstein.jpg';
+import Elantris from '../assets/images/squad/david/books/elantris.jpg';
 import EndersGame from '../assets/images/squad/david/books/endersGame.jpg';
 import EnderShadow from '../assets/images/squad/david/books/enderShadow.jpg';
+import EndThings from '../assets/images/squad/david/books/endThings.jpg';
 import EngineeringPlay from '../assets/images/squad/david/books/engineeringPlay.jpg';
 import Exp1Leviathan from '../assets/images/squad/david/books/exp1Leviathan.jpg';
 import Exp2Caliban from '../assets/images/squad/david/books/exp2Caliban.jpg';
 import Exp3Abaddon from '../assets/images/squad/david/books/exp3Abaddon.jpg';
 import Exp4Cibola from '../assets/images/squad/david/books/exp4Cibola.jpg';
+import Exp5Nemesis from '../assets/images/squad/david/books/exp5Nemesis.jpg';
+import Exp6Babylons from '../assets/images/squad/david/books/exp6Babylons.jpg';
 import FeastCrows from '../assets/images/squad/david/books/feastCrows.jpg';
 import FifthSeason from '../assets/images/squad/david/books/fifthSeason.jpg';
 import Flow from '../assets/images/squad/david/books/flow.jpg';
@@ -70,15 +77,19 @@ import HeavenReal from '../assets/images/squad/david/books/heavenReal.jpg';
 import HeavensRiver from '../assets/images/squad/david/books/heavensRiver.jpg';
 import HistoryTime from '../assets/images/squad/david/books/historyTime.jpg';
 import Hokkaido from '../assets/images/squad/david/books/hokkaido.jpg';
+import HumanDivision from '../assets/images/squad/david/books/humanDivision.jpg';
 import IceFire from '../assets/images/squad/david/books/iceFire.jpg';
+import Illidan from '../assets/images/squad/david/books/illidan.jpg';
 import Imagine from '../assets/images/squad/david/books/imagine.jpg';
 import Immune from '../assets/images/squad/david/books/immune.jpg';
 import Incognito from '../assets/images/squad/david/books/incognito.jpg';
 import IntelNature from '../assets/images/squad/david/books/intelNature.jpg';
 import IronGold from '../assets/images/squad/david/books/ironGold.jpg';
 import KillingKennedy from '../assets/images/squad/david/books/killingKennedy.jpg';
+import LastColony from '../assets/images/squad/david/books/lastColony.jpg';
 import LeanStartup from '../assets/images/squad/david/books/leanStartup.jpg';
 import LordsSith from '../assets/images/squad/david/books/lordsSith.jpg';
+import LostMetal from '../assets/images/squad/david/books/lostMetal.jpg';
 import ManPlay from '../assets/images/squad/david/books/manPlay.jpg';
 import Martian from '../assets/images/squad/david/books/martian.jpg';
 import Mindsight from '../assets/images/squad/david/books/mindsight.jpg';
@@ -110,6 +121,7 @@ import RealityBroken from '../assets/images/squad/david/books/realityBroken.jpg'
 import RedNotice from '../assets/images/squad/david/books/redNotice.jpg';
 import RedRising from '../assets/images/squad/david/books/redRising.jpg';
 import RhythmWar from '../assets/images/squad/david/books/rhythmWar.jpg';
+import Roadkill from '../assets/images/squad/david/books/roadkill.jpg';
 import Sandman from '../assets/images/squad/david/books/sandman.jpg';
 import Sandman2 from '../assets/images/squad/david/books/sandman2.jpg';
 import Sandman3 from '../assets/images/squad/david/books/sandman3.jpg';
@@ -123,6 +135,7 @@ import SeventeenSevenitySix from '../assets/images/squad/david/books/1776.jpg';
 import ShadowGiant from '../assets/images/squad/david/books/shadowGiant.jpg';
 import ShadowHegemon from '../assets/images/squad/david/books/shadowHegemon.jpg';
 import ShadowPuppets from '../assets/images/squad/david/books/shadowPuppets.jpg';
+import ShadowsSelf from '../assets/images/squad/david/books/shadowsSelf.jpg';
 import SpeakerDead from '../assets/images/squad/david/books/speakerDead.jpg';
 import SpontaneousEvolution from '../assets/images/squad/david/books/spontaneousEvolution.jpg';
 import Stillness from '../assets/images/squad/david/books/stillness.jpg';
@@ -154,8 +167,107 @@ import Wisdom from '../assets/images/squad/david/books/wisdom.jpg';
 import WordsRadiance from '../assets/images/squad/david/books/wordsRadiance.jpg';
 import WorldFat from '../assets/images/squad/david/books/worldFat.jpg';
 import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
+import ZoesTale from '../assets/images/squad/david/books/zoesTale.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        EndThings.toString(), 
+        'The End of All Things',
+        EndThings, 
+        'https://www.amazon.com/End-All-Things-Old-Mans/dp/0765376105',
+        177
+    ),
+    new Reading (
+        ArcanumUnbounded.toString(), 
+        'Arcanum Unbounded',
+        ArcanumUnbounded, 
+        'https://www.amazon.com/Arcanum-Unbounded-Collection-Brandon-Sanderson/dp/0765391163',
+        176
+    ),
+    new Reading (
+        HumanDivision.toString(), 
+        'The Human Division',
+        HumanDivision, 
+        'https://www.amazon.com/Human-Division-Old-Mans-War/dp/0765369559',
+        175
+    ),
+    new Reading (
+        Illidan.toString(), 
+        'Illidan: World of Warcraft (A Novel)',
+        Illidan, 
+        'https://www.amazon.com/Illidan-World-Warcraft-William-King/dp/0399177574',
+        174
+    ),
+    new Reading (
+        LostMetal.toString(), 
+        'The Lost Metal',
+        LostMetal, 
+        'https://www.amazon.com/Lost-Metal-Mistborn-Novel-Saga/dp/0765391198',
+        173
+    ),
+    new Reading (
+        BandsMourning.toString(), 
+        'The Bands of Mourning',
+        BandsMourning, 
+        'https://www.amazon.com/Bands-Mourning-Mistborn-Novel-ebook/dp/B00R697BC8',
+        172
+    ),
+    new Reading (
+        Exp6Babylons.toString(), 
+        'Babylon\'s Ashes (The Expanse 6)',
+        Exp6Babylons, 
+        'https://www.amazon.com/Babylons-Ashes-Expanse-James-Corey/dp/031633474X',
+        171
+    ),
+    new Reading (
+        ShadowsSelf.toString(), 
+        'Shadows of Self',
+        ShadowsSelf, 
+        'https://www.amazon.com/Shadows-Self-Mistborn-Brandon-Sanderson/dp/0765378566',
+        170
+    ),
+    new Reading (
+        AlloyLaw.toString(), 
+        'The Alloy of Law',
+        AlloyLaw, 
+        'https://www.amazon.com/Alloy-Law-Mistborn-Novel/dp/0765368544',
+        169
+    ),
+    new Reading (
+        ZoesTale.toString(), 
+        'Zoe\'s Tale',
+        ZoesTale, 
+        'https://www.amazon.com/Zoes-Tale-Old-Mans-Novel/dp/0765356198',
+        168
+    ),
+    new Reading (
+        Exp5Nemesis.toString(), 
+        'Nemesis Games (The Expanse 5)',
+        Exp5Nemesis, 
+        'https://www.amazon.com/Nemesis-Games-Expanse-James-Corey/dp/0316334715',
+        167
+    ),
+    new Reading (
+        LastColony.toString(), 
+        'The Last Colony',
+        LastColony, 
+        'https://www.amazon.com/Last-Colony-Old-Mans-War/dp/076535618X',
+        166
+    ),
+    new Reading (
+        Roadkill.toString(), 
+        'Roadkill',
+        Roadkill, 
+        'https://www.amazon.com/Audible-Roadkill/dp/B0B6Q8TW1Y',
+        165
+    ),
+    new Reading (
+        Elantris.toString(), 
+        'Elantris',
+        Elantris, 
+        'https://www.amazon.com/Elantris-Brandon-Sanderson/dp/0765350378',
+        164
+    ),
     new Reading (
         BrainMythNeuro.toString(), 
         'Brain Myths Exploded: Lessons from Neuroscience',
@@ -172,7 +284,7 @@ export const READINGSLIST = [
     ),
     new Reading (
         Exp4Cibola.toString(), 
-        'Expanse 4',
+        'Cibola Burn (The Expanse 4)',
         Exp4Cibola, 
         'https://www.amazon.com/Cibola-Burn-Expanse-Book-4-ebook/dp/B00FPQA4F0',
         161
