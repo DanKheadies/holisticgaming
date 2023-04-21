@@ -32,6 +32,7 @@ import Cooked from '../assets/images/squad/david/books/cooked.jpg';
 import Daemon from '../assets/images/squad/david/books/daemon.jpg';
 import DanceDragons from '../assets/images/squad/david/books/danceDragons.jpg';
 import DarkAge from '../assets/images/squad/david/books/darkAge.jpg';
+import DarkMatter from '../assets/images/squad/david/books/darkMatter.jpg';
 import DavidGoliath from '../assets/images/squad/david/books/davidGoliath.jpg';
 import Dawnshard from '../assets/images/squad/david/books/dawnshard.jpg';
 import Decoded from '../assets/images/squad/david/books/decoded.jpg';
@@ -156,6 +157,7 @@ import ThrawnAscendancy2 from '../assets/images/squad/david/books/thrawnAscendan
 import ThrawnAscendancy3 from '../assets/images/squad/david/books/thrawnAscendancy3.jpg';
 import ThrawnTeason from '../assets/images/squad/david/books/thrawnTreason.jpg';
 import TippingPoint from '../assets/images/squad/david/books/tippingPoint.jpg';
+import Tress from '../assets/images/squad/david/books/tress.jpg';
 import Vehicles from '../assets/images/squad/david/books/vehicles.jpg';
 import Watchmen from '../assets/images/squad/david/books/watchmen.jpg';
 import Warbreaker from '../assets/images/squad/david/books/warbreaker.jpg';
@@ -170,6 +172,20 @@ import Xenocide from '../assets/images/squad/david/books/xenocide.jpg';
 import ZoesTale from '../assets/images/squad/david/books/zoesTale.jpg';
 
 export const READINGSLIST = [
+    new Reading (
+        DarkMatter.toString(), 
+        'Dark Matter',
+        DarkMatter, 
+        'https://www.amazon.com/Dark-Matter-Novel-Blake-Crouch/dp/1101904240',
+        179
+    ),
+    new Reading (
+        Tress.toString(), 
+        'Tres of the Emerald Sea',
+        Tress, 
+        'https://www.amazon.com/Tress-Emerald-Sea-Brandon-Sanderson/dp/1250899656',
+        178
+    ),
     new Reading (
         EndThings.toString(), 
         'The End of All Things',
