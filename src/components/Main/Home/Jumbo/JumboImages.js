@@ -24,6 +24,7 @@ import gungeon1 from '../../../../assets/images/jumbo/gungeon1.jpg';
 import gungeon2 from '../../../../assets/images/jumbo/gungeon2.jpg';
 import hades1 from '../../../../assets/images/jumbo/hades1.jpg';
 import hades2 from '../../../../assets/images/jumbo/hades2.jpg';
+import halo from '../../../../assets/images/jumbo/halo.jpg';
 import hld from '../../../../assets/images/jumbo/hld.jpg';
 import hollow from '../../../../assets/images/jumbo/hollow.jpg';
 import hue from '../../../../assets/images/jumbo/hue.jpg';
@@ -60,6 +61,7 @@ import ssbu from '../../../../assets/images/jumbo/ssbu.jpg';
 import takes2 from '../../../../assets/images/jumbo/takes2.jpg';
 import terraria from '../../../../assets/images/jumbo/terraria.jpg';
 import valfaris from '../../../../assets/images/jumbo/valfaris.jpg';
+import vampire from '../../../../assets/images/jumbo/vampire.jpg';
 import whatGolf from '../../../../assets/images/jumbo/whatGolf.jpg';
 import worms from '../../../../assets/images/jumbo/worms.jpg';
 import wow from '../../../../assets/images/jumbo/wow.jpg';
@@ -91,6 +93,7 @@ const JUMBOIMAGES = [
     gungeon2,
     hades1,
     hades2,
+    halo,
     hld,
     hollow,
     hue,
@@ -127,6 +130,7 @@ const JUMBOIMAGES = [
     takes2,
     terraria,
     valfaris,
+    vampire,
     whatGolf,
     worms,
     wow
